@@ -1,0 +1,54 @@
+{
+  "name": "retail-sales-management",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Hybrid offline/online retail management system for Haitian stores - Bati yon biznis ki ap siviv ou",
+  "workspaces": [
+    "packages/*",
+    "backend",
+    "middleware",
+    "mobile-app",
+    "web-app",
+    "sales-site"
+  ],
+  "scripts": {
+    "postinstall": "node scripts/patch-expo-sqlite.js || true",
+    "dev": "concurrently \"npm run dev:middleware\" \"npm run dev:web\"",
+    "dev:all": "concurrently \"npm run dev:middleware\" \"npm run dev:web\" \"npm run dev:mobile\"",
+    "dev:middleware": "npm run dev --workspace=middleware",
+    "dev:web": "npm run dev --workspace=web-app",
+    "dev:mobile": "npm run dev --workspace=mobile-app",
+    "build": "npm run build --workspaces --if-present",
+    "lint": "npm run lint --workspaces --if-present",
+    "typecheck": "tsc --noEmit --workspaces --if-present",
+    "db:migrate": "npm run migrate --workspace=backend",
+    "db:seed": "npm run seed --workspace=backend",
+    "android": "expo run:android",
+    "ios": "expo run:ios"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
+  },
+  "keywords": [
+    "retail",
+    "pos",
+    "offline-first",
+    "haiti",
+    "creole",
+    "supabase"
+  ],
+  "author": "Retail Sales Management",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^10.0.5",
+    "eventemitter3": "^5.0.4",
+    "fast-equals": "^6.0.2",
+    "react-router": "^6.30.6",
+    "tiny-invariant": "^1.3.3",
+    "victory-vendor": "^37.3.6",
+    "expo": "~51.0.28",
+    "react": "18.2.0",
+    "react-native": "0.74.5"
+  }
+}

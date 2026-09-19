@@ -1,0 +1,23 @@
+node_modules/
+dist/
+.expo/
+.expo-shared/
+*.log
+.DS_Store
+.env
+.env.local
+.env.production
+coverage/
+build/
+.next/
+out/
+.supabase/
+redis-data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Local apps (untracked)
+/sales-site/
+/web-app/
+/mobile-app/

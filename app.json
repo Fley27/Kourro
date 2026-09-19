@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "retail-sales-management",
+    "slug": "retail-sales-management",
+    "version": "1.0.0",
+    "description": "Hybrid offline/online retail management system for Haitian stores - Bati yon biznis ki ap siviv ou",
+    "sdkVersion": "51.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.anonymous.retail-sales-management"
+    }
+  }
+}
