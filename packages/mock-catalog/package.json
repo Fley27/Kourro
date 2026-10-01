@@ -1,0 +1,10 @@
+{
+  "name": "@retail/mock-catalog",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Single-source dev mock catalog: Haitian best-sellers, categories (polyhierarchy), suppliers, tiers",
+  "type": "module",
+  "scripts": {
+    "generate": "node generate.mjs"
+  }
+}

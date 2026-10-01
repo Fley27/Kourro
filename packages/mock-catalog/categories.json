@@ -1,0 +1,225 @@
+[
+  {
+    "id": "cat-drinks",
+    "key": "drinks",
+    "name": "Bwason",
+    "icon": "🥤",
+    "color": "#0f172a",
+    "sort_order": 1,
+    "parents": []
+  },
+  {
+    "id": "cat-beer",
+    "key": "beer",
+    "name": "Byè",
+    "icon": "🍺",
+    "color": "#0f172a",
+    "sort_order": 2,
+    "parents": [
+      "cat-drinks",
+      "cat-alcohol"
+    ]
+  },
+  {
+    "id": "cat-alcohol",
+    "key": "alcohol",
+    "name": "Alkòl",
+    "icon": "🥃",
+    "color": "#0f172a",
+    "sort_order": 3,
+    "parents": [
+      "cat-drinks"
+    ]
+  },
+  {
+    "id": "cat-liquor",
+    "key": "liquor",
+    "name": "Like",
+    "icon": "🍾",
+    "color": "#0f172a",
+    "sort_order": 4,
+    "parents": [
+      "cat-alcohol"
+    ]
+  },
+  {
+    "id": "cat-soft",
+    "key": "soft",
+    "name": "Bwason dous",
+    "icon": "🧋",
+    "color": "#0f172a",
+    "sort_order": 5,
+    "parents": [
+      "cat-drinks"
+    ]
+  },
+  {
+    "id": "cat-water",
+    "key": "water",
+    "name": "Dlo",
+    "icon": "💧",
+    "color": "#0f172a",
+    "sort_order": 6,
+    "parents": [
+      "cat-drinks"
+    ]
+  },
+  {
+    "id": "cat-juice",
+    "key": "juice",
+    "name": "Ji",
+    "icon": "🧃",
+    "color": "#0f172a",
+    "sort_order": 7,
+    "parents": [
+      "cat-drinks"
+    ]
+  },
+  {
+    "id": "cat-energy",
+    "key": "energy",
+    "name": "Enèji",
+    "icon": "⚡",
+    "color": "#0f172a",
+    "sort_order": 8,
+    "parents": [
+      "cat-soft"
+    ]
+  },
+  {
+    "id": "cat-food",
+    "key": "food",
+    "name": "Manje",
+    "icon": "🍚",
+    "color": "#0f172a",
+    "sort_order": 10,
+    "parents": []
+  },
+  {
+    "id": "cat-staples",
+    "key": "staples",
+    "name": "Baz",
+    "icon": "🌾",
+    "color": "#0f172a",
+    "sort_order": 11,
+    "parents": [
+      "cat-food"
+    ]
+  },
+  {
+    "id": "cat-beans",
+    "key": "beans",
+    "name": "Pwa",
+    "icon": "🫘",
+    "color": "#0f172a",
+    "sort_order": 12,
+    "parents": [
+      "cat-food",
+      "cat-staples"
+    ]
+  },
+  {
+    "id": "cat-dairy",
+    "key": "dairy",
+    "name": "Letye",
+    "icon": "🥛",
+    "color": "#0f172a",
+    "sort_order": 13,
+    "parents": [
+      "cat-food"
+    ]
+  },
+  {
+    "id": "cat-bakery",
+    "key": "bakery",
+    "name": "Boulanjri",
+    "icon": "🥐",
+    "color": "#0f172a",
+    "sort_order": 14,
+    "parents": [
+      "cat-food"
+    ]
+  },
+  {
+    "id": "cat-snacks",
+    "key": "snacks",
+    "name": "Goute",
+    "icon": "🍪",
+    "color": "#0f172a",
+    "sort_order": 15,
+    "parents": [
+      "cat-food",
+      "cat-bakery"
+    ]
+  },
+  {
+    "id": "cat-produce",
+    "key": "produce",
+    "name": "Lejume",
+    "icon": "🥬",
+    "color": "#0f172a",
+    "sort_order": 16,
+    "parents": [
+      "cat-food"
+    ]
+  },
+  {
+    "id": "cat-frozen",
+    "key": "frozen",
+    "name": "Vyann",
+    "icon": "🍗",
+    "color": "#0f172a",
+    "sort_order": 17,
+    "parents": [
+      "cat-food"
+    ]
+  },
+  {
+    "id": "cat-canned",
+    "key": "canned",
+    "name": "Konsèv",
+    "icon": "🥫",
+    "color": "#0f172a",
+    "sort_order": 18,
+    "parents": [
+      "cat-food",
+      "cat-staples"
+    ]
+  },
+  {
+    "id": "cat-household",
+    "key": "household",
+    "name": "Kay",
+    "icon": "🧴",
+    "color": "#0f172a",
+    "sort_order": 20,
+    "parents": []
+  },
+  {
+    "id": "cat-care",
+    "key": "care",
+    "name": "Swen",
+    "icon": "🧼",
+    "color": "#0f172a",
+    "sort_order": 21,
+    "parents": []
+  },
+  {
+    "id": "cat-baby",
+    "key": "baby",
+    "name": "Bebe",
+    "icon": "🍼",
+    "color": "#0f172a",
+    "sort_order": 22,
+    "parents": []
+  },
+  {
+    "id": "cat-tob",
+    "key": "tob",
+    "name": "Tabak",
+    "icon": "🚬",
+    "color": "#0f172a",
+    "sort_order": 23,
+    "parents": []
+  }
+]

@@ -3,6 +3,47 @@ import { supabase, isMockMode } from "../index.js";
 import { requireAuth } from "../auth.js";
 import { mockSales, mockCustomers, mockProducts } from "../mocks.js";
 
+// Complimentary/promo rules (mirror of the mobile checkout rules):
+// - flag lives on the transaction, never on catalog tables
+// - gratis lines deduct stock normally but record zero revenue
+// - whole-sale gratis = zero-total cash only, never credit, manager+ approval
+const GRATIS_ROLES = ["owner", "admin", "manager"];
+
+function normalizeGratis(body: any, authRole: string): { error?: string; saleGratis: boolean } {
+  const items = body.items ?? [];
+  const saleGratis = body.is_complimentary === true;
+  const anyLineGratis = items.some((it: any) => it.is_complimentary === true);
+  if ((saleGratis || anyLineGratis) && !GRATIS_ROLES.includes(authRole)) {
+    return { error: "Complimentary sales require manager approval (owner/admin/manager).", saleGratis };
+  }
+  if (saleGratis) {
+    if (!body.complimentary_reason || !String(body.complimentary_reason).trim()) {
+      return { error: "Complimentary sales require a reason.", saleGratis };
+    }
+    if (body.payment_method && body.payment_method !== "cash") {
+      return { error: "Complimentary sales must be cash/zero-total (no credit).", saleGratis };
+    }
+    if (Number(body.amount_paid ?? 0) !== 0) {
+      return { error: "Complimentary sales must have amount_paid = 0.", saleGratis };
+    }
+    // Whole-sale gratis forces every line gratis: zero revenue, stock still deducts.
+    for (const it of items) it.is_complimentary = true;
+    body.payment_method = "cash";
+  }
+  // Gratis lines record zero revenue (unit_price kept as reference).
+  for (const it of items) {
+    if (it.is_complimentary === true) it.line_total = 0;
+    else it.line_total = Number(it.quantity) * Number(it.unit_price);
+  }
+  return { saleGratis };
+}
+
+function billableSubtotal(items: any[]): number {
+  return (items ?? [])
+    .filter((it: any) => it.is_complimentary !== true)
+    .reduce((s: number, it: any) => s + Number(it.quantity) * Number(it.unit_price), 0);
+}
+
 export default async function salesRoutes(app: FastifyInstance) {
   app.get("/", async (req, reply) => {
     const { store_id, limit = "50", offset = "0" } = req.query as any;
@@ -36,6 +77,8 @@ export default async function salesRoutes(app: FastifyInstance) {
     if (!auth) return;
     const storeId = auth.storeId;
     if (isMockMode) {
+      const g = normalizeGratis(body, auth.role);
+      if (g.error) return reply.status(403).send({ error: g.error });
       if (body.payment_method === "credit" && body.customer_id) {
         const cust = mockCustomers.find(c => c.id === body.customer_id) as any;
         if (!cust) return reply.status(404).send({ error: "Customer not found" });
@@ -51,17 +94,21 @@ export default async function salesRoutes(app: FastifyInstance) {
         cust.is_high_risk = true;
       }
       const saleNumber = `VTE-${Date.now().toString().slice(-6)}`;
-      const subtotal = (body.items ?? []).reduce((s: number, it: any) => s + it.quantity * it.unit_price, 0);
-      const total = subtotal - (body.discount ?? 0);
-      const amountPaid = body.amount_paid ?? (body.payment_method === "credit" ? 0 : total);
-      const amountDue = Math.max(0, total - amountPaid);
+      const subtotal = billableSubtotal(body.items);
+      const total = g.saleGratis ? 0 : subtotal - (body.discount ?? 0);
+      const amountPaid = g.saleGratis ? 0 : body.amount_paid ?? (body.payment_method === "credit" ? 0 : total);
+      const amountDue = g.saleGratis ? 0 : Math.max(0, total - amountPaid);
       const sale_items = (body.items ?? []).map((it: any) => ({
         product_id: it.product_id,
         product_name: it.product_name ?? it.product_id,
+        unit_id: it.unit_id ?? null,
+        variant: it.variant ?? null,
         quantity: it.quantity,
         unit_price: it.unit_price,
         cost_price: it.cost_price ?? 0,
-        line_total: it.quantity * it.unit_price,
+        line_total: it.is_complimentary === true ? 0 : it.quantity * it.unit_price,
+        is_complimentary: it.is_complimentary === true,
+        approved_by: it.approved_by ?? body.approved_by ?? null,
       }));
       const sale = {
         id: `sale-${Date.now()}-${Math.random().toString(36).slice(2,4)}`,
@@ -75,6 +122,9 @@ export default async function salesRoutes(app: FastifyInstance) {
         amount_due: amountDue,
         sale_items,
         items: body.items,
+        is_complimentary: g.saleGratis,
+        complimentary_reason: body.complimentary_reason ?? null,
+        approved_by: body.approved_by ?? auth.userId,
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
         is_deleted: false,
@@ -88,13 +138,16 @@ export default async function salesRoutes(app: FastifyInstance) {
       return sale;
     }
     // Credit must be for registered customer verified by ID card
+    const g = normalizeGratis(body, auth.role);
+    if (g.error) return reply.status(403).send({ error: g.error });
+    if (g.saleGratis) body.discount = 0;
     if ((body.payment_method === "credit" || (body.amount_paid !== undefined && body.amount_paid < (body.items ?? []).reduce((s:number,it:any)=>s+it.quantity*it.unit_price,0))) && !body.customer_id) {
       return reply.status(400).send({ error: "Credit purchase requires registered customer_id (ID card verification)" });
     }
     const saleNumber = `VTE-${Date.now().toString().slice(-6)}-${Math.random().toString(36).slice(2,5).toUpperCase()}`;
-    const subtotal = (body.items ?? []).reduce((s: number, it: any) => s + it.quantity * it.unit_price, 0);
-    const total = subtotal - (body.discount ?? 0);
-    const amountDue = total - (body.amount_paid ?? total);
+    const subtotal = billableSubtotal(body.items);
+    const total = g.saleGratis ? 0 : subtotal - (body.discount ?? 0);
+    const amountDue = g.saleGratis ? 0 : total - (body.amount_paid ?? total);
 
     // Hard-block if credit would exceed limit
     if (amountDue > 0 && body.customer_id) {
@@ -126,9 +179,12 @@ export default async function salesRoutes(app: FastifyInstance) {
       status: amountDue > 0 ? "credit" : "completed",
       payment_method: body.payment_method ?? "cash",
       subtotal, discount: body.discount ?? 0, total,
-      amount_paid: body.amount_paid ?? total,
+      amount_paid: g.saleGratis ? 0 : body.amount_paid ?? total,
       amount_due: Math.max(0, amountDue),
       cashier_id: body.cashier_id ?? auth.userId,
+      is_complimentary: g.saleGratis,
+      complimentary_reason: body.complimentary_reason ?? null,
+      approved_by: body.approved_by ?? auth.userId,
     }).select().single();
     if (error) return reply.status(400).send({ error: error.message });
 
@@ -138,10 +194,14 @@ export default async function salesRoutes(app: FastifyInstance) {
         sale_id: sale.id,
         product_id: it.product_id,
         product_name: it.product_name ?? it.product_id,
+        unit_id: it.unit_id ?? null,
+        variant: it.variant ?? null,
         quantity: it.quantity,
         unit_price: it.unit_price,
         cost_price: it.cost_price ?? 0,
-        line_total: it.quantity * it.unit_price,
+        line_total: it.is_complimentary === true ? 0 : it.quantity * it.unit_price,
+        is_complimentary: it.is_complimentary === true,
+        approved_by: it.approved_by ?? body.approved_by ?? null,
       }));
       await supabase.from("sale_items").insert(items);
       // decrement stock + movements

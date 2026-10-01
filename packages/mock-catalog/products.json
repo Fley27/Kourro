@@ -1,0 +1,4158 @@
+[
+  {
+    "id": "p-prest-12",
+    "sku": "PREST-12",
+    "barcode": "PREST-12",
+    "name": "Prestige 12oz",
+    "name_ht": "Prestige 12oz",
+    "categories": [
+      "cat-drinks",
+      "cat-beer",
+      "cat-alcohol"
+    ],
+    "item_type": "goods",
+    "stock": 240,
+    "low": 48,
+    "tier": "U",
+    "units": [
+      {
+        "id": "unit-p-prest-12-single",
+        "label": "single",
+        "factor": 1,
+        "condition": null,
+        "sell": 150
+      },
+      {
+        "id": "unit-p-prest-12-single-cold",
+        "label": "single",
+        "factor": 1,
+        "condition": "cold",
+        "sell": 175
+      },
+      {
+        "id": "unit-p-prest-12-box-of-24",
+        "label": "box of 24",
+        "factor": 24,
+        "condition": null,
+        "sell": 3300
+      },
+      {
+        "id": "unit-p-prest-12-box-of-24-cold",
+        "label": "box of 24",
+        "factor": 24,
+        "condition": "cold",
+        "sell": 3600
+      }
+    ],
+    "bundles": [
+      {
+        "unitIdx": 1,
+        "variant": "Cold",
+        "minQty": 3,
+        "price": 450,
+        "unit_id": "unit-p-prest-12-single-cold"
+      }
+    ]
+  },
+  {
+    "id": "p-prest-lt-12",
+    "sku": "PREST-LT-12",
+    "barcode": "PREST-LT-12",
+    "name": "Prestige Light 12oz",
+    "name_ht": "Prestige Light 12oz",
+    "categories": [
+      "cat-drinks",
+      "cat-beer",
+      "cat-alcohol"
+    ],
+    "item_type": "goods",
+    "stock": 96,
+    "low": 24,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-prest-lt-12-single",
+        "label": "single",
+        "factor": 1,
+        "condition": null,
+        "sell": 150
+      },
+      {
+        "id": "unit-p-prest-lt-12-single-cold",
+        "label": "single",
+        "factor": 1,
+        "condition": "cold",
+        "sell": 175
+      },
+      {
+        "id": "unit-p-prest-lt-12-box-of-24-cold",
+        "label": "box of 24",
+        "factor": 24,
+        "condition": "cold",
+        "sell": 3600
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-prest-22",
+    "sku": "PREST-22",
+    "barcode": "PREST-22",
+    "name": "Prestige 22oz",
+    "name_ht": "Prestige 22oz",
+    "categories": [
+      "cat-drinks",
+      "cat-beer",
+      "cat-alcohol"
+    ],
+    "item_type": "goods",
+    "stock": 60,
+    "low": 12,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-prest-22-single",
+        "label": "single",
+        "factor": 1,
+        "condition": null,
+        "sell": 250
+      },
+      {
+        "id": "unit-p-prest-22-single-cold",
+        "label": "single",
+        "factor": 1,
+        "condition": "cold",
+        "sell": 275
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-corona-12",
+    "sku": "CORONA-12",
+    "barcode": "CORONA-12",
+    "name": "Corona 12oz",
+    "name_ht": "Corona 12oz",
+    "categories": [
+      "cat-drinks",
+      "cat-beer",
+      "cat-alcohol"
+    ],
+    "item_type": "goods",
+    "stock": 144,
+    "low": 24,
+    "tier": "U",
+    "units": [
+      {
+        "id": "unit-p-corona-12-single-cold",
+        "label": "single",
+        "factor": 1,
+        "condition": "cold",
+        "sell": 225
+      },
+      {
+        "id": "unit-p-corona-12-6-pack",
+        "label": "6-pack",
+        "factor": 6,
+        "condition": null,
+        "sell": 1150
+      },
+      {
+        "id": "unit-p-corona-12-6-pack-cold",
+        "label": "6-pack",
+        "factor": 6,
+        "condition": "cold",
+        "sell": 1250
+      },
+      {
+        "id": "unit-p-corona-12-box-of-24",
+        "label": "box of 24",
+        "factor": 24,
+        "condition": null,
+        "sell": 4400
+      },
+      {
+        "id": "unit-p-corona-12-box-of-24-cold",
+        "label": "box of 24",
+        "factor": 24,
+        "condition": "cold",
+        "sell": 4700
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-hein-12",
+    "sku": "HEIN-12",
+    "barcode": "HEIN-12",
+    "name": "Heineken 12oz",
+    "name_ht": "Heineken 12oz",
+    "categories": [
+      "cat-drinks",
+      "cat-beer",
+      "cat-alcohol"
+    ],
+    "item_type": "goods",
+    "stock": 72,
+    "low": 24,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-hein-12-single",
+        "label": "single",
+        "factor": 1,
+        "condition": null,
+        "sell": 200
+      },
+      {
+        "id": "unit-p-hein-12-single-cold",
+        "label": "single",
+        "factor": 1,
+        "condition": "cold",
+        "sell": 225
+      },
+      {
+        "id": "unit-p-hein-12-6-pack-cold",
+        "label": "6-pack",
+        "factor": 6,
+        "condition": "cold",
+        "sell": 1200
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-guin-12",
+    "sku": "GUIN-12",
+    "barcode": "GUIN-12",
+    "name": "Guinness 12oz",
+    "name_ht": "Guinness 12oz",
+    "categories": [
+      "cat-drinks",
+      "cat-beer",
+      "cat-alcohol"
+    ],
+    "item_type": "goods",
+    "stock": 48,
+    "low": 12,
+    "tier": "N",
+    "units": [
+      {
+        "id": "unit-p-guin-12-single",
+        "label": "single",
+        "factor": 1,
+        "condition": null,
+        "sell": 225
+      },
+      {
+        "id": "unit-p-guin-12-single-cold",
+        "label": "single",
+        "factor": 1,
+        "condition": "cold",
+        "sell": 250
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-amstel-12",
+    "sku": "AMSTEL-12",
+    "barcode": "AMSTEL-12",
+    "name": "Amstel 12oz",
+    "name_ht": "Amstel 12oz",
+    "categories": [
+      "cat-drinks",
+      "cat-beer",
+      "cat-alcohol"
+    ],
+    "item_type": "goods",
+    "stock": 48,
+    "low": 12,
+    "tier": "N",
+    "units": [
+      {
+        "id": "unit-p-amstel-12-single-cold",
+        "label": "single",
+        "factor": 1,
+        "condition": "cold",
+        "sell": 200
+      },
+      {
+        "id": "unit-p-amstel-12-6-pack-cold",
+        "label": "6-pack",
+        "factor": 6,
+        "condition": "cold",
+        "sell": 1050
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-barb-3-750",
+    "sku": "BARB-3-750",
+    "barcode": "BARB-3-750",
+    "name": "Rhum Barbancourt 3-Star 750ml",
+    "name_ht": "Barbancourt 3-Star 750ml",
+    "categories": [
+      "cat-drinks",
+      "cat-alcohol",
+      "cat-liquor"
+    ],
+    "item_type": "goods",
+    "stock": 30,
+    "low": 6,
+    "tier": "U",
+    "units": [
+      {
+        "id": "unit-p-barb-3-750-bottle",
+        "label": "bottle",
+        "factor": 1,
+        "condition": null,
+        "sell": 1450
+      },
+      {
+        "id": "unit-p-barb-3-750-shot",
+        "label": "shot",
+        "factor": 0.04,
+        "condition": null,
+        "sell": 100
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-barb-5-750",
+    "sku": "BARB-5-750",
+    "barcode": "BARB-5-750",
+    "name": "Rhum Barbancourt 5-Star 750ml",
+    "name_ht": "Barbancourt 5-Star 750ml",
+    "categories": [
+      "cat-drinks",
+      "cat-alcohol",
+      "cat-liquor"
+    ],
+    "item_type": "goods",
+    "stock": 18,
+    "low": 4,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-barb-5-750-bottle",
+        "label": "bottle",
+        "factor": 1,
+        "condition": null,
+        "sell": 2400
+      },
+      {
+        "id": "unit-p-barb-5-750-shot",
+        "label": "shot",
+        "factor": 0.04,
+        "condition": null,
+        "sell": 150
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-kleren-750",
+    "sku": "KLEREN-750",
+    "barcode": "KLEREN-750",
+    "name": "Kleren 750ml",
+    "name_ht": "Kleren 750ml",
+    "categories": [
+      "cat-drinks",
+      "cat-alcohol",
+      "cat-liquor"
+    ],
+    "item_type": "goods",
+    "stock": 24,
+    "low": 6,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-kleren-750-bottle",
+        "label": "bottle",
+        "factor": 1,
+        "condition": null,
+        "sell": 650
+      },
+      {
+        "id": "unit-p-kleren-750-shot",
+        "label": "shot",
+        "factor": 0.04,
+        "condition": null,
+        "sell": 50
+      },
+      {
+        "id": "unit-p-kleren-750-gallon",
+        "label": "gallon",
+        "factor": 5,
+        "condition": null,
+        "sell": 2900
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-vieux-labbe",
+    "sku": "VIEUX-LABBE",
+    "barcode": "VIEUX-LABBE",
+    "name": "Rhum Vieux Labbé 750ml",
+    "name_ht": "Vieux Labbé 750ml",
+    "categories": [
+      "cat-drinks",
+      "cat-alcohol",
+      "cat-liquor"
+    ],
+    "item_type": "goods",
+    "stock": 12,
+    "low": 3,
+    "tier": "E",
+    "units": [
+      {
+        "id": "unit-p-vieux-labbe-bottle",
+        "label": "bottle",
+        "factor": 1,
+        "condition": null,
+        "sell": 1800
+      },
+      {
+        "id": "unit-p-vieux-labbe-shot",
+        "label": "shot",
+        "factor": 0.04,
+        "condition": null,
+        "sell": 125
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-bw-750",
+    "sku": "BW-750",
+    "barcode": "BW-750",
+    "name": "Whisky Black & White 750ml",
+    "name_ht": "Whisky 750ml",
+    "categories": [
+      "cat-drinks",
+      "cat-alcohol",
+      "cat-liquor"
+    ],
+    "item_type": "goods",
+    "stock": 8,
+    "low": 2,
+    "tier": "E",
+    "units": [
+      {
+        "id": "unit-p-bw-750-bottle",
+        "label": "bottle",
+        "factor": 1,
+        "condition": null,
+        "sell": 3200
+      },
+      {
+        "id": "unit-p-bw-750-shot",
+        "label": "shot",
+        "factor": 0.04,
+        "condition": null,
+        "sell": 200
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-vodka-750",
+    "sku": "VODKA-750",
+    "barcode": "VODKA-750",
+    "name": "Vodka Nikolai 750ml",
+    "name_ht": "Vodka 750ml",
+    "categories": [
+      "cat-drinks",
+      "cat-alcohol",
+      "cat-liquor"
+    ],
+    "item_type": "goods",
+    "stock": 10,
+    "low": 2,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-vodka-750-bottle",
+        "label": "bottle",
+        "factor": 1,
+        "condition": null,
+        "sell": 1500
+      },
+      {
+        "id": "unit-p-vodka-750-shot",
+        "label": "shot",
+        "factor": 0.04,
+        "condition": null,
+        "sell": 100
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-kremas-750",
+    "sku": "KREMAS-750",
+    "barcode": "KREMAS-750",
+    "name": "Kremas 750ml",
+    "name_ht": "Kremas 750ml",
+    "categories": [
+      "cat-drinks",
+      "cat-alcohol",
+      "cat-liquor"
+    ],
+    "item_type": "goods",
+    "stock": 12,
+    "low": 3,
+    "tier": "E",
+    "units": [
+      {
+        "id": "unit-p-kremas-750-bottle",
+        "label": "bottle",
+        "factor": 1,
+        "condition": null,
+        "sell": 1200
+      },
+      {
+        "id": "unit-p-kremas-750-shot",
+        "label": "shot",
+        "factor": 0.04,
+        "condition": null,
+        "sell": 100
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-malta-350",
+    "sku": "MALTA-350",
+    "barcode": "MALTA-350",
+    "name": "Malta H 350ml",
+    "name_ht": "Malta 350ml",
+    "categories": [
+      "cat-drinks",
+      "cat-soft"
+    ],
+    "item_type": "goods",
+    "stock": 120,
+    "low": 24,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-malta-350-single",
+        "label": "single",
+        "factor": 1,
+        "condition": null,
+        "sell": 100
+      },
+      {
+        "id": "unit-p-malta-350-single-cold",
+        "label": "single",
+        "factor": 1,
+        "condition": "cold",
+        "sell": 125
+      },
+      {
+        "id": "unit-p-malta-350-6-pack",
+        "label": "6-pack",
+        "factor": 6,
+        "condition": null,
+        "sell": 550
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-coca-500",
+    "sku": "COCA-500",
+    "barcode": "COCA-500",
+    "name": "Coca-Cola 500ml",
+    "name_ht": "Coca 500ml",
+    "categories": [
+      "cat-drinks",
+      "cat-soft"
+    ],
+    "item_type": "goods",
+    "stock": 144,
+    "low": 36,
+    "tier": "U",
+    "units": [
+      {
+        "id": "unit-p-coca-500-single",
+        "label": "single",
+        "factor": 1,
+        "condition": null,
+        "sell": 100
+      },
+      {
+        "id": "unit-p-coca-500-single-cold",
+        "label": "single",
+        "factor": 1,
+        "condition": "cold",
+        "sell": 125
+      },
+      {
+        "id": "unit-p-coca-500-3-pack",
+        "label": "3-pack",
+        "factor": 3,
+        "condition": null,
+        "sell": 275
+      },
+      {
+        "id": "unit-p-coca-500-12-pack",
+        "label": "12-pack",
+        "factor": 12,
+        "condition": null,
+        "sell": 1050
+      },
+      {
+        "id": "unit-p-coca-500-12-pack-cold",
+        "label": "12-pack",
+        "factor": 12,
+        "condition": "cold",
+        "sell": 1200
+      },
+      {
+        "id": "unit-p-coca-500-box-of-24",
+        "label": "box of 24",
+        "factor": 24,
+        "condition": null,
+        "sell": 2000
+      }
+    ],
+    "bundles": [
+      {
+        "unitIdx": 2,
+        "variant": "Regular",
+        "minQty": 3,
+        "price": 750,
+        "unit_id": "unit-p-coca-500-3-pack"
+      }
+    ]
+  },
+  {
+    "id": "p-coca-2l",
+    "sku": "COCA-2L",
+    "barcode": "COCA-2L",
+    "name": "Coca-Cola 2L",
+    "name_ht": "Coca 2L",
+    "categories": [
+      "cat-drinks",
+      "cat-soft"
+    ],
+    "item_type": "goods",
+    "stock": 36,
+    "low": 6,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-coca-2l-single",
+        "label": "single",
+        "factor": 1,
+        "condition": null,
+        "sell": 250
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-coca-350",
+    "sku": "COCA-350",
+    "barcode": "COCA-350",
+    "name": "Coca-Cola Can 350ml",
+    "name_ht": "Coca Canette 350ml",
+    "categories": [
+      "cat-drinks",
+      "cat-soft"
+    ],
+    "item_type": "goods",
+    "stock": 72,
+    "low": 12,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-coca-350-single-cold",
+        "label": "single",
+        "factor": 1,
+        "condition": "cold",
+        "sell": 110
+      },
+      {
+        "id": "unit-p-coca-350-6-pack-cold",
+        "label": "6-pack",
+        "factor": 6,
+        "condition": "cold",
+        "sell": 600
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-sprite-500",
+    "sku": "SPRITE-500",
+    "barcode": "SPRITE-500",
+    "name": "Sprite 500ml",
+    "name_ht": "Sprite 500ml",
+    "categories": [
+      "cat-drinks",
+      "cat-soft"
+    ],
+    "item_type": "goods",
+    "stock": 120,
+    "low": 24,
+    "tier": "U",
+    "units": [
+      {
+        "id": "unit-p-sprite-500-single",
+        "label": "single",
+        "factor": 1,
+        "condition": null,
+        "sell": 100
+      },
+      {
+        "id": "unit-p-sprite-500-single-cold",
+        "label": "single",
+        "factor": 1,
+        "condition": "cold",
+        "sell": 125
+      },
+      {
+        "id": "unit-p-sprite-500-12-pack",
+        "label": "12-pack",
+        "factor": 12,
+        "condition": null,
+        "sell": 1050
+      },
+      {
+        "id": "unit-p-sprite-500-box-of-24",
+        "label": "box of 24",
+        "factor": 24,
+        "condition": null,
+        "sell": 2000
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-sprite-2l",
+    "sku": "SPRITE-2L",
+    "barcode": "SPRITE-2L",
+    "name": "Sprite 2L",
+    "name_ht": "Sprite 2L",
+    "categories": [
+      "cat-drinks",
+      "cat-soft"
+    ],
+    "item_type": "goods",
+    "stock": 24,
+    "low": 6,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-sprite-2l-single",
+        "label": "single",
+        "factor": 1,
+        "condition": null,
+        "sell": 250
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-fanta-500",
+    "sku": "FANTA-500",
+    "barcode": "FANTA-500",
+    "name": "Fanta 500ml",
+    "name_ht": "Fanta 500ml",
+    "categories": [
+      "cat-drinks",
+      "cat-soft"
+    ],
+    "item_type": "goods",
+    "stock": 96,
+    "low": 24,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-fanta-500-single",
+        "label": "single",
+        "factor": 1,
+        "condition": null,
+        "sell": 100
+      },
+      {
+        "id": "unit-p-fanta-500-single-cold",
+        "label": "single",
+        "factor": 1,
+        "condition": "cold",
+        "sell": 125
+      },
+      {
+        "id": "unit-p-fanta-500-12-pack",
+        "label": "12-pack",
+        "factor": 12,
+        "condition": null,
+        "sell": 1050
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-crn-champ-500",
+    "sku": "CRN-CHAMP-500",
+    "barcode": "CRN-CHAMP-500",
+    "name": "Couronne Champagne 500ml",
+    "name_ht": "Cola Couronne 500ml",
+    "categories": [
+      "cat-drinks",
+      "cat-soft"
+    ],
+    "item_type": "goods",
+    "stock": 144,
+    "low": 24,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-crn-champ-500-single",
+        "label": "single",
+        "factor": 1,
+        "condition": null,
+        "sell": 75
+      },
+      {
+        "id": "unit-p-crn-champ-500-single-cold",
+        "label": "single",
+        "factor": 1,
+        "condition": "cold",
+        "sell": 100
+      },
+      {
+        "id": "unit-p-crn-champ-500-3-pack",
+        "label": "3-pack",
+        "factor": 3,
+        "condition": null,
+        "sell": 200
+      },
+      {
+        "id": "unit-p-crn-champ-500-12-pack",
+        "label": "12-pack",
+        "factor": 12,
+        "condition": null,
+        "sell": 800
+      },
+      {
+        "id": "unit-p-crn-champ-500-box-of-24",
+        "label": "box of 24",
+        "factor": 24,
+        "condition": null,
+        "sell": 1550
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-crn-or-500",
+    "sku": "CRN-OR-500",
+    "barcode": "CRN-OR-500",
+    "name": "Couronne Orange 500ml",
+    "name_ht": "Couronne Orange 500ml",
+    "categories": [
+      "cat-drinks",
+      "cat-soft"
+    ],
+    "item_type": "goods",
+    "stock": 96,
+    "low": 24,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-crn-or-500-single",
+        "label": "single",
+        "factor": 1,
+        "condition": null,
+        "sell": 75
+      },
+      {
+        "id": "unit-p-crn-or-500-single-cold",
+        "label": "single",
+        "factor": 1,
+        "condition": "cold",
+        "sell": 100
+      },
+      {
+        "id": "unit-p-crn-or-500-12-pack",
+        "label": "12-pack",
+        "factor": 12,
+        "condition": null,
+        "sell": 800
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-crn-cit-500",
+    "sku": "CRN-CIT-500",
+    "barcode": "CRN-CIT-500",
+    "name": "Couronne Citron 500ml",
+    "name_ht": "Couronne Citron 500ml",
+    "categories": [
+      "cat-drinks",
+      "cat-soft"
+    ],
+    "item_type": "goods",
+    "stock": 96,
+    "low": 24,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-crn-cit-500-single",
+        "label": "single",
+        "factor": 1,
+        "condition": null,
+        "sell": 75
+      },
+      {
+        "id": "unit-p-crn-cit-500-single-cold",
+        "label": "single",
+        "factor": 1,
+        "condition": "cold",
+        "sell": 100
+      },
+      {
+        "id": "unit-p-crn-cit-500-12-pack",
+        "label": "12-pack",
+        "factor": 12,
+        "condition": null,
+        "sell": 800
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-crn-framb-500",
+    "sku": "CRN-FRAMB-500",
+    "barcode": "CRN-FRAMB-500",
+    "name": "Couronne Framboise 500ml",
+    "name_ht": "Couronne Framboise 500ml",
+    "categories": [
+      "cat-drinks",
+      "cat-soft"
+    ],
+    "item_type": "goods",
+    "stock": 72,
+    "low": 12,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-crn-framb-500-single",
+        "label": "single",
+        "factor": 1,
+        "condition": null,
+        "sell": 75
+      },
+      {
+        "id": "unit-p-crn-framb-500-single-cold",
+        "label": "single",
+        "factor": 1,
+        "condition": "cold",
+        "sell": 100
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-dlo-5gal",
+    "sku": "DLO-5GAL",
+    "barcode": "DLO-5GAL",
+    "name": "Water 5gal",
+    "name_ht": "Dlo 5 galon",
+    "categories": [
+      "cat-drinks",
+      "cat-water"
+    ],
+    "item_type": "goods",
+    "stock": 40,
+    "low": 8,
+    "tier": "U",
+    "units": [
+      {
+        "id": "unit-p-dlo-5gal-jug",
+        "label": "jug",
+        "factor": 1,
+        "condition": null,
+        "sell": 150
+      },
+      {
+        "id": "unit-p-dlo-5gal-jug-cold",
+        "label": "jug",
+        "factor": 1,
+        "condition": "cold",
+        "sell": 175
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-dlo-1l",
+    "sku": "DLO-1L",
+    "barcode": "DLO-1L",
+    "name": "Water Crystal 1L",
+    "name_ht": "Dlo Cristal 1L",
+    "categories": [
+      "cat-drinks",
+      "cat-water"
+    ],
+    "item_type": "goods",
+    "stock": 96,
+    "low": 24,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-dlo-1l-single",
+        "label": "single",
+        "factor": 1,
+        "condition": null,
+        "sell": 75
+      },
+      {
+        "id": "unit-p-dlo-1l-single-cold",
+        "label": "single",
+        "factor": 1,
+        "condition": "cold",
+        "sell": 100
+      },
+      {
+        "id": "unit-p-dlo-1l-case-of-12",
+        "label": "case of 12",
+        "factor": 12,
+        "condition": null,
+        "sell": 800
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-dlo-sachet",
+    "sku": "DLO-SACHET",
+    "barcode": "DLO-SACHET",
+    "name": "Water Sachet Bag 20x500ml",
+    "name_ht": "Dlo sachet 20",
+    "categories": [
+      "cat-drinks",
+      "cat-water"
+    ],
+    "item_type": "goods",
+    "stock": 40,
+    "low": 8,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-dlo-sachet-bag-of-20",
+        "label": "bag of 20",
+        "factor": 20,
+        "condition": null,
+        "sell": 500
+      },
+      {
+        "id": "unit-p-dlo-sachet-bag-of-20-cold",
+        "label": "bag of 20",
+        "factor": 20,
+        "condition": "cold",
+        "sell": 600
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-dlo-1gal",
+    "sku": "DLO-1GAL",
+    "barcode": "DLO-1GAL",
+    "name": "Dlo Trete 1gal",
+    "name_ht": "Dlo Trete 1 galon",
+    "categories": [
+      "cat-drinks",
+      "cat-water"
+    ],
+    "item_type": "goods",
+    "stock": 24,
+    "low": 6,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-dlo-1gal-gallon",
+        "label": "gallon",
+        "factor": 1,
+        "condition": null,
+        "sell": 125
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-tamp-1l",
+    "sku": "TAMP-1L",
+    "barcode": "TAMP-1L",
+    "name": "Tampico 1L",
+    "name_ht": "Tampico 1L",
+    "categories": [
+      "cat-drinks",
+      "cat-juice"
+    ],
+    "item_type": "goods",
+    "stock": 48,
+    "low": 12,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-tamp-1l-single",
+        "label": "single",
+        "factor": 1,
+        "condition": null,
+        "sell": 150
+      },
+      {
+        "id": "unit-p-tamp-1l-single-cold",
+        "label": "single",
+        "factor": 1,
+        "condition": "cold",
+        "sell": 175
+      },
+      {
+        "id": "unit-p-tamp-1l-gallon",
+        "label": "gallon",
+        "factor": 3.78,
+        "condition": null,
+        "sell": 550
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-juve-mango",
+    "sku": "JUVE-MANGO",
+    "barcode": "JUVE-MANGO",
+    "name": "Juve Mango 500ml",
+    "name_ht": "Ji Mango 500ml",
+    "categories": [
+      "cat-drinks",
+      "cat-juice"
+    ],
+    "item_type": "goods",
+    "stock": 60,
+    "low": 12,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-juve-mango-single",
+        "label": "single",
+        "factor": 1,
+        "condition": null,
+        "sell": 125
+      },
+      {
+        "id": "unit-p-juve-mango-single-cold",
+        "label": "single",
+        "factor": 1,
+        "condition": "cold",
+        "sell": 150
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-toro-250",
+    "sku": "TORO-250",
+    "barcode": "TORO-250",
+    "name": "Toro Energy 250ml",
+    "name_ht": "Toro 250ml",
+    "categories": [
+      "cat-drinks",
+      "cat-soft",
+      "cat-energy"
+    ],
+    "item_type": "goods",
+    "stock": 72,
+    "low": 12,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-toro-250-single-cold",
+        "label": "single",
+        "factor": 1,
+        "condition": "cold",
+        "sell": 150
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-kafe-200",
+    "sku": "KAFE-200",
+    "barcode": "KAFE-200",
+    "name": "Rebo Coffee 200g",
+    "name_ht": "Kafe Rebo 200g",
+    "categories": [
+      "cat-food",
+      "cat-staples"
+    ],
+    "item_type": "goods",
+    "stock": 60,
+    "low": 10,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-kafe-200-pack",
+        "label": "pack",
+        "factor": 1,
+        "condition": null,
+        "sell": 450
+      },
+      {
+        "id": "unit-p-kafe-200-case-of-12",
+        "label": "case of 12",
+        "factor": 12,
+        "condition": null,
+        "sell": 5000
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-kafe-grenn",
+    "sku": "KAFE-GRENN",
+    "barcode": "KAFE-GRENN",
+    "name": "Kafe Grenn 1lb",
+    "name_ht": "Kafe grenn 1 liv",
+    "categories": [
+      "cat-food",
+      "cat-staples"
+    ],
+    "item_type": "goods",
+    "stock": 40,
+    "low": 8,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-kafe-grenn-pound",
+        "label": "pound",
+        "factor": 1,
+        "condition": null,
+        "sell": 600
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-let-400",
+    "sku": "LET-400",
+    "barcode": "LET-400",
+    "name": "Milk Powder Nido 400g",
+    "name_ht": "Lèt Nido 400g",
+    "categories": [
+      "cat-food",
+      "cat-dairy"
+    ],
+    "item_type": "goods",
+    "stock": 48,
+    "low": 8,
+    "tier": "U",
+    "units": [
+      {
+        "id": "unit-p-let-400-tin",
+        "label": "tin",
+        "factor": 1,
+        "condition": null,
+        "sell": 650
+      },
+      {
+        "id": "unit-p-let-400-box-of-12",
+        "label": "box of 12",
+        "factor": 12,
+        "condition": null,
+        "sell": 7400
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-let-evap",
+    "sku": "LET-EVAP",
+    "barcode": "LET-EVAP",
+    "name": "Evaporated Milk 354ml",
+    "name_ht": "Lèt evapore 354ml",
+    "categories": [
+      "cat-food",
+      "cat-dairy",
+      "cat-canned"
+    ],
+    "item_type": "goods",
+    "stock": 72,
+    "low": 12,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-let-evap-can",
+        "label": "can",
+        "factor": 1,
+        "condition": null,
+        "sell": 150
+      },
+      {
+        "id": "unit-p-let-evap-box-of-48",
+        "label": "box of 48",
+        "factor": 48,
+        "condition": null,
+        "sell": 6700
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-ze-12",
+    "sku": "ZE-12",
+    "barcode": "ZE-12",
+    "name": "Eggs Dozen",
+    "name_ht": "Ze 1 douzèn",
+    "categories": [
+      "cat-food",
+      "cat-dairy"
+    ],
+    "item_type": "goods",
+    "stock": 360,
+    "low": 60,
+    "tier": "U",
+    "units": [
+      {
+        "id": "unit-p-ze-12-egg",
+        "label": "egg",
+        "factor": 1,
+        "condition": null,
+        "sell": 25
+      },
+      {
+        "id": "unit-p-ze-12-dozen",
+        "label": "dozen",
+        "factor": 12,
+        "condition": null,
+        "sell": 275
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-yogout-200",
+    "sku": "YOGOUT-200",
+    "barcode": "YOGOUT-200",
+    "name": "Yogout 200ml",
+    "name_ht": "Yogout 200ml",
+    "categories": [
+      "cat-food",
+      "cat-dairy"
+    ],
+    "item_type": "goods",
+    "stock": 48,
+    "low": 12,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-yogout-200-single-cold",
+        "label": "single",
+        "factor": 1,
+        "condition": "cold",
+        "sell": 150
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-butter-250",
+    "sku": "BUTTER-250",
+    "barcode": "BUTTER-250",
+    "name": "Butter 250g",
+    "name_ht": "Bè 250g",
+    "categories": [
+      "cat-food",
+      "cat-dairy"
+    ],
+    "item_type": "goods",
+    "stock": 40,
+    "low": 8,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-butter-250-pack",
+        "label": "pack",
+        "factor": 1,
+        "condition": null,
+        "sell": 450
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-rice-25kg",
+    "sku": "RICE-25KG",
+    "barcode": "RICE-25KG",
+    "name": "Rice 25kg",
+    "name_ht": "Diri 25kg",
+    "categories": [
+      "cat-food",
+      "cat-staples"
+    ],
+    "item_type": "goods",
+    "stock": 2500,
+    "low": 250,
+    "tier": "U",
+    "units": [
+      {
+        "id": "unit-p-rice-25kg-sack-25kg",
+        "label": "sack 25kg",
+        "factor": 50,
+        "condition": null,
+        "sell": 3200
+      },
+      {
+        "id": "unit-p-rice-25kg-mamit",
+        "label": "mamit",
+        "factor": 6,
+        "condition": null,
+        "sell": 400
+      },
+      {
+        "id": "unit-p-rice-25kg-ve",
+        "label": "vè",
+        "factor": 1,
+        "condition": null,
+        "sell": 75
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-rice-mega-10",
+    "sku": "RICE-MEGA-10",
+    "barcode": "RICE-MEGA-10",
+    "name": "Rice Mega 10kg",
+    "name_ht": "Diri Mega 10kg",
+    "categories": [
+      "cat-food",
+      "cat-staples"
+    ],
+    "item_type": "goods",
+    "stock": 1000,
+    "low": 100,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-rice-mega-10-sack-10kg",
+        "label": "sack 10kg",
+        "factor": 20,
+        "condition": null,
+        "sell": 1350
+      },
+      {
+        "id": "unit-p-rice-mega-10-mamit",
+        "label": "mamit",
+        "factor": 6,
+        "condition": null,
+        "sell": 400
+      },
+      {
+        "id": "unit-p-rice-mega-10-ve",
+        "label": "vè",
+        "factor": 1,
+        "condition": null,
+        "sell": 75
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-rice-djak-5",
+    "sku": "RICE-DJAK-5",
+    "barcode": "RICE-DJAK-5",
+    "name": "Rice Djakout 5kg",
+    "name_ht": "Diri Djakout 5kg",
+    "categories": [
+      "cat-food",
+      "cat-staples"
+    ],
+    "item_type": "goods",
+    "stock": 500,
+    "low": 50,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-rice-djak-5-bag-5kg",
+        "label": "bag 5kg",
+        "factor": 10,
+        "condition": null,
+        "sell": 700
+      },
+      {
+        "id": "unit-p-rice-djak-5-mamit",
+        "label": "mamit",
+        "factor": 6,
+        "condition": null,
+        "sell": 400
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-sik-10kg",
+    "sku": "SIK-10KG",
+    "barcode": "SIK-10KG",
+    "name": "White Sugar 10kg",
+    "name_ht": "Sik Blan 10kg",
+    "categories": [
+      "cat-food",
+      "cat-staples"
+    ],
+    "item_type": "goods",
+    "stock": 1000,
+    "low": 100,
+    "tier": "U",
+    "units": [
+      {
+        "id": "unit-p-sik-10kg-sack-10kg",
+        "label": "sack 10kg",
+        "factor": 40,
+        "condition": null,
+        "sell": 950
+      },
+      {
+        "id": "unit-p-sik-10kg-mamit",
+        "label": "mamit",
+        "factor": 4,
+        "condition": null,
+        "sell": 110
+      },
+      {
+        "id": "unit-p-sik-10kg-ve",
+        "label": "vè",
+        "factor": 1,
+        "condition": null,
+        "sell": 30
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-sik-1kg",
+    "sku": "SIK-1KG",
+    "barcode": "SIK-1KG",
+    "name": "Sugar 1kg Packet",
+    "name_ht": "Sik 1kg",
+    "categories": [
+      "cat-food",
+      "cat-staples"
+    ],
+    "item_type": "goods",
+    "stock": 200,
+    "low": 20,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-sik-1kg-packet",
+        "label": "packet",
+        "factor": 1,
+        "condition": null,
+        "sell": 110
+      },
+      {
+        "id": "unit-p-sik-1kg-box-of-20",
+        "label": "box of 20",
+        "factor": 20,
+        "condition": null,
+        "sell": 2000
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-sik-50kg",
+    "sku": "SIK-50KG",
+    "barcode": "SIK-50KG",
+    "name": "Sugar Sack 50kg",
+    "name_ht": "Sik 50kg",
+    "categories": [
+      "cat-food",
+      "cat-staples"
+    ],
+    "item_type": "goods",
+    "stock": 200,
+    "low": 40,
+    "tier": "N",
+    "units": [
+      {
+        "id": "unit-p-sik-50kg-sack-50kg",
+        "label": "sack 50kg",
+        "factor": 200,
+        "condition": null,
+        "sell": 4400
+      },
+      {
+        "id": "unit-p-sik-50kg-mamit",
+        "label": "mamit",
+        "factor": 4,
+        "condition": null,
+        "sell": 110
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-oil-5l",
+    "sku": "OIL-5L",
+    "barcode": "OIL-5L",
+    "name": "Cooking Oil 5L",
+    "name_ht": "Lwil 5L",
+    "categories": [
+      "cat-food",
+      "cat-staples"
+    ],
+    "item_type": "goods",
+    "stock": 60,
+    "low": 10,
+    "tier": "U",
+    "units": [
+      {
+        "id": "unit-p-oil-5l-jug-5l",
+        "label": "jug 5L",
+        "factor": 5,
+        "condition": null,
+        "sell": 1100
+      },
+      {
+        "id": "unit-p-oil-5l-liter",
+        "label": "liter",
+        "factor": 1,
+        "condition": null,
+        "sell": 240
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-oil-1l",
+    "sku": "OIL-1L",
+    "barcode": "OIL-1L",
+    "name": "Cooking Oil 1L",
+    "name_ht": "Lwil 1L",
+    "categories": [
+      "cat-food",
+      "cat-staples"
+    ],
+    "item_type": "goods",
+    "stock": 72,
+    "low": 12,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-oil-1l-bottle-1l",
+        "label": "bottle 1L",
+        "factor": 1,
+        "condition": null,
+        "sell": 240
+      },
+      {
+        "id": "unit-p-oil-1l-case-of-12",
+        "label": "case of 12",
+        "factor": 12,
+        "condition": null,
+        "sell": 2700
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-oil-20l",
+    "sku": "OIL-20L",
+    "barcode": "OIL-20L",
+    "name": "Cooking Oil 20L",
+    "name_ht": "Lwil 20L",
+    "categories": [
+      "cat-food",
+      "cat-staples"
+    ],
+    "item_type": "goods",
+    "stock": 10,
+    "low": 2,
+    "tier": "N",
+    "units": [
+      {
+        "id": "unit-p-oil-20l-tin-20l",
+        "label": "tin 20L",
+        "factor": 20,
+        "condition": null,
+        "sell": 4200
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-oil-coco-500",
+    "sku": "OIL-COCO-500",
+    "barcode": "OIL-COCO-500",
+    "name": "Coconut Oil 500ml",
+    "name_ht": "Lwil kokoye 500ml",
+    "categories": [
+      "cat-food",
+      "cat-staples"
+    ],
+    "item_type": "goods",
+    "stock": 30,
+    "low": 6,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-oil-coco-500-bottle",
+        "label": "bottle",
+        "factor": 1,
+        "condition": null,
+        "sell": 450
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-farin-25kg",
+    "sku": "FARIN-25KG",
+    "barcode": "FARIN-25KG",
+    "name": "Flour 25kg",
+    "name_ht": "Farin 25kg",
+    "categories": [
+      "cat-food",
+      "cat-staples"
+    ],
+    "item_type": "goods",
+    "stock": 1000,
+    "low": 100,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-farin-25kg-sack-25kg",
+        "label": "sack 25kg",
+        "factor": 50,
+        "condition": null,
+        "sell": 2800
+      },
+      {
+        "id": "unit-p-farin-25kg-mamit",
+        "label": "mamit",
+        "factor": 6,
+        "condition": null,
+        "sell": 350
+      },
+      {
+        "id": "unit-p-farin-25kg-ve",
+        "label": "vè",
+        "factor": 1,
+        "condition": null,
+        "sell": 65
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-farin-10kg",
+    "sku": "FARIN-10KG",
+    "barcode": "FARIN-10KG",
+    "name": "Flour 10kg",
+    "name_ht": "Farin 10kg",
+    "categories": [
+      "cat-food",
+      "cat-staples"
+    ],
+    "item_type": "goods",
+    "stock": 400,
+    "low": 40,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-farin-10kg-sack-10kg",
+        "label": "sack 10kg",
+        "factor": 20,
+        "condition": null,
+        "sell": 1150
+      },
+      {
+        "id": "unit-p-farin-10kg-mamit",
+        "label": "mamit",
+        "factor": 6,
+        "condition": null,
+        "sell": 350
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-mayi-10kg",
+    "sku": "MAYI-10KG",
+    "barcode": "MAYI-10KG",
+    "name": "Corn Meal 10kg",
+    "name_ht": "Mayi 10kg",
+    "categories": [
+      "cat-food",
+      "cat-staples"
+    ],
+    "item_type": "goods",
+    "stock": 600,
+    "low": 60,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-mayi-10kg-sack-10kg",
+        "label": "sack 10kg",
+        "factor": 20,
+        "condition": null,
+        "sell": 800
+      },
+      {
+        "id": "unit-p-mayi-10kg-mamit",
+        "label": "mamit",
+        "factor": 4,
+        "condition": null,
+        "sell": 175
+      },
+      {
+        "id": "unit-p-mayi-10kg-ve",
+        "label": "vè",
+        "factor": 1,
+        "condition": null,
+        "sell": 50
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-mayi-25kg",
+    "sku": "MAYI-25KG",
+    "barcode": "MAYI-25KG",
+    "name": "Corn Meal 25kg",
+    "name_ht": "Mayi 25kg",
+    "categories": [
+      "cat-food",
+      "cat-staples"
+    ],
+    "item_type": "goods",
+    "stock": 500,
+    "low": 100,
+    "tier": "N",
+    "units": [
+      {
+        "id": "unit-p-mayi-25kg-sack-25kg",
+        "label": "sack 25kg",
+        "factor": 50,
+        "condition": null,
+        "sell": 1900
+      },
+      {
+        "id": "unit-p-mayi-25kg-mamit",
+        "label": "mamit",
+        "factor": 4,
+        "condition": null,
+        "sell": 175
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-sel-5kg",
+    "sku": "SEL-5KG",
+    "barcode": "SEL-5KG",
+    "name": "Salt 5kg",
+    "name_ht": "Sèl 5kg",
+    "categories": [
+      "cat-food",
+      "cat-staples"
+    ],
+    "item_type": "goods",
+    "stock": 500,
+    "low": 50,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-sel-5kg-sack-5kg",
+        "label": "sack 5kg",
+        "factor": 20,
+        "condition": null,
+        "sell": 300
+      },
+      {
+        "id": "unit-p-sel-5kg-mamit",
+        "label": "mamit",
+        "factor": 4,
+        "condition": null,
+        "sell": 75
+      },
+      {
+        "id": "unit-p-sel-5kg-ve",
+        "label": "vè",
+        "factor": 1,
+        "condition": null,
+        "sell": 25
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-sel-500g",
+    "sku": "SEL-500G",
+    "barcode": "SEL-500G",
+    "name": "Salt 500g",
+    "name_ht": "Sèl 500g",
+    "categories": [
+      "cat-food",
+      "cat-staples"
+    ],
+    "item_type": "goods",
+    "stock": 150,
+    "low": 20,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-sel-500g-packet",
+        "label": "packet",
+        "factor": 1,
+        "condition": null,
+        "sell": 50
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-pwa-nwa-5",
+    "sku": "PWA-NWA-5",
+    "barcode": "PWA-NWA-5",
+    "name": "Black Beans 5lb",
+    "name_ht": "Pwa nwa 5 liv",
+    "categories": [
+      "cat-food",
+      "cat-beans",
+      "cat-staples"
+    ],
+    "item_type": "goods",
+    "stock": 300,
+    "low": 30,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-pwa-nwa-5-bag-5lb",
+        "label": "bag 5lb",
+        "factor": 5,
+        "condition": null,
+        "sell": 550
+      },
+      {
+        "id": "unit-p-pwa-nwa-5-mamit",
+        "label": "mamit",
+        "factor": 2,
+        "condition": null,
+        "sell": 225
+      },
+      {
+        "id": "unit-p-pwa-nwa-5-ve",
+        "label": "vè",
+        "factor": 1,
+        "condition": null,
+        "sell": 125
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-pwa-wouj-5",
+    "sku": "PWA-WOUJ-5",
+    "barcode": "PWA-WOUJ-5",
+    "name": "Red Beans 5lb",
+    "name_ht": "Pwa wouj 5 liv",
+    "categories": [
+      "cat-food",
+      "cat-beans",
+      "cat-staples"
+    ],
+    "item_type": "goods",
+    "stock": 200,
+    "low": 20,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-pwa-wouj-5-bag-5lb",
+        "label": "bag 5lb",
+        "factor": 5,
+        "condition": null,
+        "sell": 600
+      },
+      {
+        "id": "unit-p-pwa-wouj-5-mamit",
+        "label": "mamit",
+        "factor": 2,
+        "condition": null,
+        "sell": 250
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-pwa-kongo-5",
+    "sku": "PWA-KONGO-5",
+    "barcode": "PWA-KONGO-5",
+    "name": "Pwa Kongo 5lb",
+    "name_ht": "Pwa kongo 5 liv",
+    "categories": [
+      "cat-food",
+      "cat-beans"
+    ],
+    "item_type": "goods",
+    "stock": 150,
+    "low": 15,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-pwa-kongo-5-bag-5lb",
+        "label": "bag 5lb",
+        "factor": 5,
+        "condition": null,
+        "sell": 650
+      },
+      {
+        "id": "unit-p-pwa-kongo-5-mamit",
+        "label": "mamit",
+        "factor": 2,
+        "condition": null,
+        "sell": 275
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-pasta-500",
+    "sku": "PASTA-500",
+    "barcode": "PASTA-500",
+    "name": "Spaghetti 500g",
+    "name_ht": "Espageti 500g",
+    "categories": [
+      "cat-food",
+      "cat-staples"
+    ],
+    "item_type": "goods",
+    "stock": 120,
+    "low": 15,
+    "tier": "U",
+    "units": [
+      {
+        "id": "unit-p-pasta-500-pack",
+        "label": "pack",
+        "factor": 1,
+        "condition": null,
+        "sell": 75
+      },
+      {
+        "id": "unit-p-pasta-500-box-of-24",
+        "label": "box of 24",
+        "factor": 24,
+        "condition": null,
+        "sell": 1650
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-tomat-400",
+    "sku": "TOMAT-400",
+    "barcode": "TOMAT-400",
+    "name": "Tomato Paste 400g",
+    "name_ht": "Tomat 400g",
+    "categories": [
+      "cat-food",
+      "cat-canned"
+    ],
+    "item_type": "goods",
+    "stock": 96,
+    "low": 10,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-tomat-400-can",
+        "label": "can",
+        "factor": 1,
+        "condition": null,
+        "sell": 120
+      },
+      {
+        "id": "unit-p-tomat-400-box-of-48",
+        "label": "box of 48",
+        "factor": 48,
+        "condition": null,
+        "sell": 5300
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-tomat-800",
+    "sku": "TOMAT-800",
+    "barcode": "TOMAT-800",
+    "name": "Tomato Paste 800g",
+    "name_ht": "Tomat 800g",
+    "categories": [
+      "cat-food",
+      "cat-canned"
+    ],
+    "item_type": "goods",
+    "stock": 48,
+    "low": 6,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-tomat-800-can",
+        "label": "can",
+        "factor": 1,
+        "condition": null,
+        "sell": 220
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-sardine-120",
+    "sku": "SARDINE-120",
+    "barcode": "SARDINE-120",
+    "name": "Sardine Tin 120g",
+    "name_ht": "Sardine 120g",
+    "categories": [
+      "cat-food",
+      "cat-canned",
+      "cat-staples"
+    ],
+    "item_type": "goods",
+    "stock": 150,
+    "low": 20,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-sardine-120-tin",
+        "label": "tin",
+        "factor": 1,
+        "condition": null,
+        "sell": 85
+      },
+      {
+        "id": "unit-p-sardine-120-box-of-50",
+        "label": "box of 50",
+        "factor": 50,
+        "condition": null,
+        "sell": 3900
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-tuna-170",
+    "sku": "TUNA-170",
+    "barcode": "TUNA-170",
+    "name": "Tuna Can 170g",
+    "name_ht": "Ton 170g",
+    "categories": [
+      "cat-food",
+      "cat-canned"
+    ],
+    "item_type": "goods",
+    "stock": 72,
+    "low": 10,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-tuna-170-can",
+        "label": "can",
+        "factor": 1,
+        "condition": null,
+        "sell": 175
+      },
+      {
+        "id": "unit-p-tuna-170-box-of-48",
+        "label": "box of 48",
+        "factor": 48,
+        "condition": null,
+        "sell": 7800
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-corned-340",
+    "sku": "CORNED-340",
+    "barcode": "CORNED-340",
+    "name": "Corned Beef 340g",
+    "name_ht": "Kòn bif 340g",
+    "categories": [
+      "cat-food",
+      "cat-canned"
+    ],
+    "item_type": "goods",
+    "stock": 60,
+    "low": 8,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-corned-340-can",
+        "label": "can",
+        "factor": 1,
+        "condition": null,
+        "sell": 350
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-maggi-100",
+    "sku": "MAGGI-100",
+    "barcode": "MAGGI-100",
+    "name": "Maggi Cube Box 100",
+    "name_ht": "Maggi 100 kib",
+    "categories": [
+      "cat-food",
+      "cat-staples"
+    ],
+    "item_type": "goods",
+    "stock": 500,
+    "low": 100,
+    "tier": "U",
+    "units": [
+      {
+        "id": "unit-p-maggi-100-cube",
+        "label": "cube",
+        "factor": 1,
+        "condition": null,
+        "sell": 15
+      },
+      {
+        "id": "unit-p-maggi-100-box-of-100",
+        "label": "box of 100",
+        "factor": 100,
+        "condition": null,
+        "sell": 1250
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-sosis-1kg",
+    "sku": "SOSIS-1KG",
+    "barcode": "SOSIS-1KG",
+    "name": "Sausage 1kg",
+    "name_ht": "Sosis 1kg",
+    "categories": [
+      "cat-food",
+      "cat-frozen"
+    ],
+    "item_type": "goods",
+    "stock": 40,
+    "low": 8,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-sosis-1kg-pack-1kg",
+        "label": "pack 1kg",
+        "factor": 2,
+        "condition": null,
+        "sell": 650
+      },
+      {
+        "id": "unit-p-sosis-1kg-half-pack",
+        "label": "half pack",
+        "factor": 1,
+        "condition": null,
+        "sell": 350
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-poulet-lb",
+    "sku": "POULET-LB",
+    "barcode": "POULET-LB",
+    "name": "Chicken lb",
+    "name_ht": "Poul 1 liv",
+    "categories": [
+      "cat-food",
+      "cat-frozen"
+    ],
+    "item_type": "goods",
+    "stock": 200,
+    "low": 20,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-poulet-lb-pound",
+        "label": "pound",
+        "factor": 1,
+        "condition": null,
+        "sell": 175
+      },
+      {
+        "id": "unit-p-poulet-lb-pound-cold",
+        "label": "pound",
+        "factor": 1,
+        "condition": "cold",
+        "sell": 185
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-kodenn-lb",
+    "sku": "KODENN-LB",
+    "barcode": "KODENN-LB",
+    "name": "Turkey lb",
+    "name_ht": "Kodenn 1 liv",
+    "categories": [
+      "cat-food",
+      "cat-frozen"
+    ],
+    "item_type": "goods",
+    "stock": 60,
+    "low": 10,
+    "tier": "N",
+    "units": [
+      {
+        "id": "unit-p-kodenn-lb-pound",
+        "label": "pound",
+        "factor": 1,
+        "condition": null,
+        "sell": 225
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-pwason-lb",
+    "sku": "PWASON-LB",
+    "barcode": "PWASON-LB",
+    "name": "Fish lb",
+    "name_ht": "Pwason 1 liv",
+    "categories": [
+      "cat-food",
+      "cat-frozen",
+      "cat-produce"
+    ],
+    "item_type": "goods",
+    "stock": 80,
+    "low": 10,
+    "tier": "N",
+    "units": [
+      {
+        "id": "unit-p-pwason-lb-pound",
+        "label": "pound",
+        "factor": 1,
+        "condition": null,
+        "sell": 200
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-pikliz-jar",
+    "sku": "PIKLIZ-JAR",
+    "barcode": "PIKLIZ-JAR",
+    "name": "Pikliz Jar 500ml",
+    "name_ht": "Pikliz bokal",
+    "categories": [
+      "cat-food",
+      "cat-produce"
+    ],
+    "item_type": "goods",
+    "stock": 24,
+    "low": 4,
+    "tier": "E",
+    "units": [
+      {
+        "id": "unit-p-pikliz-jar-jar",
+        "label": "jar",
+        "factor": 1,
+        "condition": null,
+        "sell": 450
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-epis-jar",
+    "sku": "EPIS-JAR",
+    "barcode": "EPIS-JAR",
+    "name": "Epis Jar 500ml",
+    "name_ht": "Epis bokal",
+    "categories": [
+      "cat-food",
+      "cat-produce"
+    ],
+    "item_type": "goods",
+    "stock": 30,
+    "low": 5,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-epis-jar-jar",
+        "label": "jar",
+        "factor": 1,
+        "condition": null,
+        "sell": 400
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-ketchup-500",
+    "sku": "KETCHUP-500",
+    "barcode": "KETCHUP-500",
+    "name": "Ketchup 500ml",
+    "name_ht": "Ketchup 500ml",
+    "categories": [
+      "cat-food",
+      "cat-canned"
+    ],
+    "item_type": "goods",
+    "stock": 48,
+    "low": 6,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-ketchup-500-bottle",
+        "label": "bottle",
+        "factor": 1,
+        "condition": null,
+        "sell": 275
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-mayo-500",
+    "sku": "MAYO-500",
+    "barcode": "MAYO-500",
+    "name": "Mayo 500ml",
+    "name_ht": "Mayo 500ml",
+    "categories": [
+      "cat-food",
+      "cat-canned"
+    ],
+    "item_type": "goods",
+    "stock": 48,
+    "low": 6,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-mayo-500-jar",
+        "label": "jar",
+        "factor": 1,
+        "condition": null,
+        "sell": 350
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-vineg-500",
+    "sku": "VINEG-500",
+    "barcode": "VINEG-500",
+    "name": "Vinegar 500ml",
+    "name_ht": "Vinèg 500ml",
+    "categories": [
+      "cat-food",
+      "cat-staples"
+    ],
+    "item_type": "goods",
+    "stock": 48,
+    "low": 6,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-vineg-500-bottle",
+        "label": "bottle",
+        "factor": 1,
+        "condition": null,
+        "sell": 150
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-te-25",
+    "sku": "TE-25",
+    "barcode": "TE-25",
+    "name": "Tea Bags Box 25",
+    "name_ht": "Te 25 sache",
+    "categories": [
+      "cat-food",
+      "cat-staples"
+    ],
+    "item_type": "goods",
+    "stock": 100,
+    "low": 10,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-te-25-bag",
+        "label": "bag",
+        "factor": 1,
+        "condition": null,
+        "sell": 15
+      },
+      {
+        "id": "unit-p-te-25-box-of-25",
+        "label": "box of 25",
+        "factor": 25,
+        "condition": null,
+        "sell": 300
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-avwan-500",
+    "sku": "AVWAN-500",
+    "barcode": "AVWAN-500",
+    "name": "Oats 500g",
+    "name_ht": "Avwan 500g",
+    "categories": [
+      "cat-food",
+      "cat-staples"
+    ],
+    "item_type": "goods",
+    "stock": 60,
+    "low": 8,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-avwan-500-pack",
+        "label": "pack",
+        "factor": 1,
+        "condition": null,
+        "sell": 275
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-manba-500",
+    "sku": "MANBA-500",
+    "barcode": "MANBA-500",
+    "name": "Peanut Butter 500g",
+    "name_ht": "Manba 500g",
+    "categories": [
+      "cat-food",
+      "cat-staples"
+    ],
+    "item_type": "goods",
+    "stock": 48,
+    "low": 6,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-manba-500-jar",
+        "label": "jar",
+        "factor": 1,
+        "condition": null,
+        "sell": 450
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-pen-50",
+    "sku": "PEN-50",
+    "barcode": "PEN-50",
+    "name": "Bread 50g",
+    "name_ht": "Pen 50g",
+    "categories": [
+      "cat-food",
+      "cat-bakery"
+    ],
+    "item_type": "goods",
+    "stock": 200,
+    "low": 30,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-pen-50-single",
+        "label": "single",
+        "factor": 1,
+        "condition": null,
+        "sell": 25
+      },
+      {
+        "id": "unit-p-pen-50-dozen",
+        "label": "dozen",
+        "factor": 12,
+        "condition": null,
+        "sell": 275
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-gateau-sl",
+    "sku": "GATEAU-SL",
+    "barcode": "GATEAU-SL",
+    "name": "Cake Slice",
+    "name_ht": "Moso gato",
+    "categories": [
+      "cat-food",
+      "cat-bakery"
+    ],
+    "item_type": "goods",
+    "stock": 40,
+    "low": 8,
+    "tier": "E",
+    "units": [
+      {
+        "id": "unit-p-gateau-sl-slice",
+        "label": "slice",
+        "factor": 1,
+        "condition": null,
+        "sell": 100
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-kwasan",
+    "sku": "KWASAN",
+    "barcode": "KWASAN",
+    "name": "Croissant",
+    "name_ht": "Kwasan",
+    "categories": [
+      "cat-food",
+      "cat-bakery",
+      "cat-snacks"
+    ],
+    "item_type": "goods",
+    "stock": 60,
+    "low": 10,
+    "tier": "N",
+    "units": [
+      {
+        "id": "unit-p-kwasan-single",
+        "label": "single",
+        "factor": 1,
+        "condition": null,
+        "sell": 75
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-bisk-30",
+    "sku": "BISK-30",
+    "barcode": "BISK-30",
+    "name": "Sayo Biscuit",
+    "name_ht": "Biskè Sayo",
+    "categories": [
+      "cat-food",
+      "cat-bakery",
+      "cat-snacks"
+    ],
+    "item_type": "goods",
+    "stock": 200,
+    "low": 30,
+    "tier": "U",
+    "units": [
+      {
+        "id": "unit-p-bisk-30-single",
+        "label": "single",
+        "factor": 1,
+        "condition": null,
+        "sell": 25
+      },
+      {
+        "id": "unit-p-bisk-30-box-of-36",
+        "label": "box of 36",
+        "factor": 36,
+        "condition": null,
+        "sell": 800
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-crackers-100",
+    "sku": "CRACKERS-100",
+    "barcode": "CRACKERS-100",
+    "name": "Soda Crackers 100g",
+    "name_ht": "Krakè 100g",
+    "categories": [
+      "cat-food",
+      "cat-bakery",
+      "cat-snacks"
+    ],
+    "item_type": "goods",
+    "stock": 120,
+    "low": 15,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-crackers-100-pack",
+        "label": "pack",
+        "factor": 1,
+        "condition": null,
+        "sell": 50
+      },
+      {
+        "id": "unit-p-crackers-100-box-of-24",
+        "label": "box of 24",
+        "factor": 24,
+        "condition": null,
+        "sell": 1050
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-chips-ban",
+    "sku": "CHIPS-BAN",
+    "barcode": "CHIPS-BAN",
+    "name": "Banana Chips 100g",
+    "name_ht": "Chips fig 100g",
+    "categories": [
+      "cat-food",
+      "cat-snacks"
+    ],
+    "item_type": "goods",
+    "stock": 80,
+    "low": 10,
+    "tier": "N",
+    "units": [
+      {
+        "id": "unit-p-chips-ban-bag",
+        "label": "bag",
+        "factor": 1,
+        "condition": null,
+        "sell": 100
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-pistach-100",
+    "sku": "PISTACH-100",
+    "barcode": "PISTACH-100",
+    "name": "Peanuts 100g",
+    "name_ht": "Pistach 100g",
+    "categories": [
+      "cat-food",
+      "cat-snacks"
+    ],
+    "item_type": "goods",
+    "stock": 100,
+    "low": 12,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-pistach-100-bag",
+        "label": "bag",
+        "factor": 1,
+        "condition": null,
+        "sell": 75
+      },
+      {
+        "id": "unit-p-pistach-100-box-of-20",
+        "label": "box of 20",
+        "factor": 20,
+        "condition": null,
+        "sell": 1300
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-tomat-fresh",
+    "sku": "TOMAT-FRESH",
+    "barcode": "TOMAT-FRESH",
+    "name": "Tomato Fresh kg",
+    "name_ht": "Tomat fre 1kg",
+    "categories": [
+      "cat-food",
+      "cat-produce"
+    ],
+    "item_type": "goods",
+    "stock": 100,
+    "low": 10,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-tomat-fresh-kg",
+        "label": "kg",
+        "factor": 2,
+        "condition": null,
+        "sell": 200
+      },
+      {
+        "id": "unit-p-tomat-fresh-pound",
+        "label": "pound",
+        "factor": 1,
+        "condition": null,
+        "sell": 100
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-zyonyon",
+    "sku": "ZYONYON",
+    "barcode": "ZYONYON",
+    "name": "Onion kg",
+    "name_ht": "Zonyon 1kg",
+    "categories": [
+      "cat-food",
+      "cat-produce"
+    ],
+    "item_type": "goods",
+    "stock": 100,
+    "low": 10,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-zyonyon-kg",
+        "label": "kg",
+        "factor": 2,
+        "condition": null,
+        "sell": 250
+      },
+      {
+        "id": "unit-p-zyonyon-pound",
+        "label": "pound",
+        "factor": 1,
+        "condition": null,
+        "sell": 125
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-lay",
+    "sku": "LAY",
+    "barcode": "LAY",
+    "name": "Garlic Head",
+    "name_ht": "Lay 1 tèt",
+    "categories": [
+      "cat-food",
+      "cat-produce"
+    ],
+    "item_type": "goods",
+    "stock": 100,
+    "low": 15,
+    "tier": "N",
+    "units": [
+      {
+        "id": "unit-p-lay-head",
+        "label": "head",
+        "factor": 1,
+        "condition": null,
+        "sell": 25
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-bannann-dz",
+    "sku": "BANNANN-DZ",
+    "barcode": "BANNANN-DZ",
+    "name": "Plantain Dozen",
+    "name_ht": "Bannann 1 douzèn",
+    "categories": [
+      "cat-food",
+      "cat-produce"
+    ],
+    "item_type": "goods",
+    "stock": 60,
+    "low": 6,
+    "tier": "N",
+    "units": [
+      {
+        "id": "unit-p-bannann-dz-single",
+        "label": "single",
+        "factor": 1,
+        "condition": null,
+        "sell": 50
+      },
+      {
+        "id": "unit-p-bannann-dz-dozen",
+        "label": "dozen",
+        "factor": 12,
+        "condition": null,
+        "sell": 550
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-chou",
+    "sku": "CHOU",
+    "barcode": "CHOU",
+    "name": "Cabbage",
+    "name_ht": "Chou",
+    "categories": [
+      "cat-food",
+      "cat-produce"
+    ],
+    "item_type": "goods",
+    "stock": 40,
+    "low": 5,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-chou-head",
+        "label": "head",
+        "factor": 1,
+        "condition": null,
+        "sell": 150
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-kawot-lb",
+    "sku": "KAWOT-LB",
+    "barcode": "KAWOT-LB",
+    "name": "Carrot lb",
+    "name_ht": "Kawòt 1 liv",
+    "categories": [
+      "cat-food",
+      "cat-produce"
+    ],
+    "item_type": "goods",
+    "stock": 80,
+    "low": 10,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-kawot-lb-pound",
+        "label": "pound",
+        "factor": 1,
+        "condition": null,
+        "sell": 100
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-sitwon-sk",
+    "sku": "SITWON-SK",
+    "barcode": "SITWON-SK",
+    "name": "Lime Sack",
+    "name_ht": "Sitwon 1 sak",
+    "categories": [
+      "cat-food",
+      "cat-produce"
+    ],
+    "item_type": "goods",
+    "stock": 20,
+    "low": 3,
+    "tier": "N",
+    "units": [
+      {
+        "id": "unit-p-sitwon-sk-sack",
+        "label": "sack",
+        "factor": 100,
+        "condition": null,
+        "sell": 1500
+      },
+      {
+        "id": "unit-p-sitwon-sk-dozen",
+        "label": "dozen",
+        "factor": 12,
+        "condition": null,
+        "sell": 200
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-manyok-lb",
+    "sku": "MANYOK-LB",
+    "barcode": "MANYOK-LB",
+    "name": "Cassava lb",
+    "name_ht": "Manyòk 1 liv",
+    "categories": [
+      "cat-food",
+      "cat-produce"
+    ],
+    "item_type": "goods",
+    "stock": 100,
+    "low": 10,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-manyok-lb-pound",
+        "label": "pound",
+        "factor": 1,
+        "condition": null,
+        "sell": 75
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-soap-001",
+    "sku": "SOAP-001",
+    "barcode": "SOAP-001",
+    "name": "Laundry Soap Bar",
+    "name_ht": "Savon 1 moso",
+    "categories": [
+      "cat-household"
+    ],
+    "item_type": "goods",
+    "stock": 250,
+    "low": 30,
+    "tier": "U",
+    "units": [
+      {
+        "id": "unit-p-soap-001-bar",
+        "label": "bar",
+        "factor": 1,
+        "condition": null,
+        "sell": 50
+      },
+      {
+        "id": "unit-p-soap-001-box-of-40",
+        "label": "box of 40",
+        "factor": 40,
+        "condition": null,
+        "sell": 1800
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-savon-det",
+    "sku": "SAVON-DET",
+    "barcode": "SAVON-DET",
+    "name": "Detergent Powder 1kg",
+    "name_ht": "Savon Poud 1kg",
+    "categories": [
+      "cat-household"
+    ],
+    "item_type": "goods",
+    "stock": 80,
+    "low": 10,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-savon-det-bag-1kg",
+        "label": "bag 1kg",
+        "factor": 1,
+        "condition": null,
+        "sell": 120
+      },
+      {
+        "id": "unit-p-savon-det-box-of-12",
+        "label": "box of 12",
+        "factor": 12,
+        "condition": null,
+        "sell": 1300
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-savon-500",
+    "sku": "SAVON-500",
+    "barcode": "SAVON-500",
+    "name": "Detergent Powder 500g",
+    "name_ht": "Savon Poud 500g",
+    "categories": [
+      "cat-household"
+    ],
+    "item_type": "goods",
+    "stock": 100,
+    "low": 12,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-savon-500-bag",
+        "label": "bag",
+        "factor": 1,
+        "condition": null,
+        "sell": 65
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-clorox-1l",
+    "sku": "CLOROX-1L",
+    "barcode": "CLOROX-1L",
+    "name": "Bleach 1L",
+    "name_ht": "Klowo 1L",
+    "categories": [
+      "cat-household"
+    ],
+    "item_type": "goods",
+    "stock": 60,
+    "low": 8,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-clorox-1l-bottle-1l",
+        "label": "bottle 1L",
+        "factor": 1,
+        "condition": null,
+        "sell": 150
+      },
+      {
+        "id": "unit-p-clorox-1l-case-of-12",
+        "label": "case of 12",
+        "factor": 12,
+        "condition": null,
+        "sell": 1650
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-savon-lik",
+    "sku": "SAVON-LIK",
+    "barcode": "SAVON-LIK",
+    "name": "Dish Soap 500ml",
+    "name_ht": "Savon likid 500ml",
+    "categories": [
+      "cat-household"
+    ],
+    "item_type": "goods",
+    "stock": 60,
+    "low": 8,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-savon-lik-bottle",
+        "label": "bottle",
+        "factor": 1,
+        "condition": null,
+        "sell": 175
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-eponj",
+    "sku": "EPONJ",
+    "barcode": "EPONJ",
+    "name": "Sponge",
+    "name_ht": "Eponj",
+    "categories": [
+      "cat-household"
+    ],
+    "item_type": "goods",
+    "stock": 100,
+    "low": 12,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-eponj-single",
+        "label": "single",
+        "factor": 1,
+        "condition": null,
+        "sell": 50
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-balai",
+    "sku": "BALAI",
+    "barcode": "BALAI",
+    "name": "Broom",
+    "name_ht": "Balè",
+    "categories": [
+      "cat-household"
+    ],
+    "item_type": "goods",
+    "stock": 20,
+    "low": 3,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-balai-single",
+        "label": "single",
+        "factor": 1,
+        "condition": null,
+        "sell": 450
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-alimet",
+    "sku": "ALIMET",
+    "barcode": "ALIMET",
+    "name": "Matches Box",
+    "name_ht": "Alimèt 1 bwat",
+    "categories": [
+      "cat-household",
+      "cat-tob"
+    ],
+    "item_type": "goods",
+    "stock": 200,
+    "low": 20,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-alimet-box",
+        "label": "box",
+        "factor": 1,
+        "condition": null,
+        "sell": 25
+      },
+      {
+        "id": "unit-p-alimet-pack-of-10",
+        "label": "pack of 10",
+        "factor": 10,
+        "condition": null,
+        "sell": 225
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-balenn",
+    "sku": "BALENN",
+    "barcode": "BALENN",
+    "name": "Candle",
+    "name_ht": "Balèn",
+    "categories": [
+      "cat-household"
+    ],
+    "item_type": "goods",
+    "stock": 150,
+    "low": 15,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-balenn-single",
+        "label": "single",
+        "factor": 1,
+        "condition": null,
+        "sell": 50
+      },
+      {
+        "id": "unit-p-balenn-pack-of-6",
+        "label": "pack of 6",
+        "factor": 6,
+        "condition": null,
+        "sell": 275
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-bat-aa4",
+    "sku": "BAT-AA4",
+    "barcode": "BAT-AA4",
+    "name": "Batteries AA 4-pack",
+    "name_ht": "Pil AA 4",
+    "categories": [
+      "cat-household"
+    ],
+    "item_type": "goods",
+    "stock": 60,
+    "low": 8,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-bat-aa4-pack-of-4",
+        "label": "pack of 4",
+        "factor": 1,
+        "condition": null,
+        "sell": 250
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-anpoul",
+    "sku": "ANPOUL",
+    "barcode": "ANPOUL",
+    "name": "Light Bulb",
+    "name_ht": "Anpoul",
+    "categories": [
+      "cat-household"
+    ],
+    "item_type": "goods",
+    "stock": 48,
+    "low": 6,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-anpoul-single",
+        "label": "single",
+        "factor": 1,
+        "condition": null,
+        "sell": 200
+      },
+      {
+        "id": "unit-p-anpoul-box-of-12",
+        "label": "box of 12",
+        "factor": 12,
+        "condition": null,
+        "sell": 2200
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-charbon-10",
+    "sku": "CHARBON-10",
+    "barcode": "CHARBON-10",
+    "name": "Charcoal 10kg",
+    "name_ht": "Chabon 10kg",
+    "categories": [
+      "cat-household",
+      "cat-food"
+    ],
+    "item_type": "goods",
+    "stock": 200,
+    "low": 20,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-charbon-10-sack-10kg",
+        "label": "sack 10kg",
+        "factor": 10,
+        "condition": null,
+        "sell": 800
+      },
+      {
+        "id": "unit-p-charbon-10-mamit",
+        "label": "mamit",
+        "factor": 1,
+        "condition": null,
+        "sell": 100
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-keroz-l",
+    "sku": "KEROZ-L",
+    "barcode": "KEROZ-L",
+    "name": "Kerosene Liter",
+    "name_ht": "Kerozen 1L",
+    "categories": [
+      "cat-household"
+    ],
+    "item_type": "goods",
+    "stock": 100,
+    "low": 10,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-keroz-l-liter",
+        "label": "liter",
+        "factor": 1,
+        "condition": null,
+        "sell": 200
+      },
+      {
+        "id": "unit-p-keroz-l-gallon",
+        "label": "gallon",
+        "factor": 3.78,
+        "condition": null,
+        "sell": 725
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-sach-poub",
+    "sku": "SACH-POUB",
+    "barcode": "SACH-POUB",
+    "name": "Trash Bags x10",
+    "name_ht": "Sach poubèl 10",
+    "categories": [
+      "cat-household"
+    ],
+    "item_type": "goods",
+    "stock": 80,
+    "low": 10,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-sach-poub-pack-of-10",
+        "label": "pack of 10",
+        "factor": 1,
+        "condition": null,
+        "sell": 150
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-pat-colg",
+    "sku": "PAT-COLG",
+    "barcode": "PAT-COLG",
+    "name": "Colgate Toothpaste",
+    "name_ht": "Pat Colgate",
+    "categories": [
+      "cat-care"
+    ],
+    "item_type": "goods",
+    "stock": 100,
+    "low": 10,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-pat-colg-tube",
+        "label": "tube",
+        "factor": 1,
+        "condition": null,
+        "sell": 180
+      },
+      {
+        "id": "unit-p-pat-colg-box-of-12",
+        "label": "box of 12",
+        "factor": 12,
+        "condition": null,
+        "sell": 2000
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-bwos-dan",
+    "sku": "BWOS-DAN",
+    "barcode": "BWOS-DAN",
+    "name": "Toothbrush",
+    "name_ht": "Bwòs dan",
+    "categories": [
+      "cat-care"
+    ],
+    "item_type": "goods",
+    "stock": 100,
+    "low": 12,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-bwos-dan-single",
+        "label": "single",
+        "factor": 1,
+        "condition": null,
+        "sell": 100
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-deodo",
+    "sku": "DEODO",
+    "barcode": "DEODO",
+    "name": "Deodorant",
+    "name_ht": "Deyodoran",
+    "categories": [
+      "cat-care"
+    ],
+    "item_type": "goods",
+    "stock": 48,
+    "low": 6,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-deodo-single",
+        "label": "single",
+        "factor": 1,
+        "condition": null,
+        "sell": 350
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-shamp-sach",
+    "sku": "SHAMP-SACH",
+    "barcode": "SHAMP-SACH",
+    "name": "Shampoo Sachet",
+    "name_ht": "Chanpou sache",
+    "categories": [
+      "cat-care"
+    ],
+    "item_type": "goods",
+    "stock": 200,
+    "low": 20,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-shamp-sach-sachet",
+        "label": "sachet",
+        "factor": 1,
+        "condition": null,
+        "sell": 25
+      },
+      {
+        "id": "unit-p-shamp-sach-box-of-12",
+        "label": "box of 12",
+        "factor": 12,
+        "condition": null,
+        "sell": 275
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-savon-lux",
+    "sku": "SAVON-LUX",
+    "barcode": "SAVON-LUX",
+    "name": "Beauty Soap",
+    "name_ht": "Savon Lux 1 moso",
+    "categories": [
+      "cat-care"
+    ],
+    "item_type": "goods",
+    "stock": 120,
+    "low": 12,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-savon-lux-bar",
+        "label": "bar",
+        "factor": 1,
+        "condition": null,
+        "sell": 125
+      },
+      {
+        "id": "unit-p-savon-lux-3-pack",
+        "label": "3-pack",
+        "factor": 3,
+        "condition": null,
+        "sell": 350
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-pomad",
+    "sku": "POMAD",
+    "barcode": "POMAD",
+    "name": "Hair Pomade",
+    "name_ht": "Pomad 100g",
+    "categories": [
+      "cat-care"
+    ],
+    "item_type": "goods",
+    "stock": 48,
+    "low": 6,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-pomad-jar",
+        "label": "jar",
+        "factor": 1,
+        "condition": null,
+        "sell": 250
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-razwa",
+    "sku": "RAZWA",
+    "barcode": "RAZWA",
+    "name": "Razor",
+    "name_ht": "Razwa",
+    "categories": [
+      "cat-care"
+    ],
+    "item_type": "goods",
+    "stock": 100,
+    "low": 12,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-razwa-single",
+        "label": "single",
+        "factor": 1,
+        "condition": null,
+        "sell": 75
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-papij-twal",
+    "sku": "PAPIJ-TWAL",
+    "barcode": "PAPIJ-TWAL",
+    "name": "Toilet Paper Roll",
+    "name_ht": "Papye twalèt 1 woulo",
+    "categories": [
+      "cat-care",
+      "cat-household"
+    ],
+    "item_type": "goods",
+    "stock": 200,
+    "low": 20,
+    "tier": "U",
+    "units": [
+      {
+        "id": "unit-p-papij-twal-roll",
+        "label": "roll",
+        "factor": 1,
+        "condition": null,
+        "sell": 75
+      },
+      {
+        "id": "unit-p-papij-twal-pack-of-12",
+        "label": "pack of 12",
+        "factor": 12,
+        "condition": null,
+        "sell": 825
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-serviet-yej",
+    "sku": "SERVIET-YEJ",
+    "barcode": "SERVIET-YEJ",
+    "name": "Sanitary Pads 8",
+    "name_ht": "Sèvyèt 8",
+    "categories": [
+      "cat-care"
+    ],
+    "item_type": "goods",
+    "stock": 60,
+    "low": 8,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-serviet-yej-pack-of-8",
+        "label": "pack of 8",
+        "factor": 1,
+        "condition": null,
+        "sell": 250
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-kouch-m20",
+    "sku": "KOUCH-M20",
+    "barcode": "KOUCH-M20",
+    "name": "Diapers M x20",
+    "name_ht": "Kouch M 20",
+    "categories": [
+      "cat-baby"
+    ],
+    "item_type": "goods",
+    "stock": 60,
+    "low": 6,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-kouch-m20-pack-of-20",
+        "label": "pack of 20",
+        "factor": 1,
+        "condition": null,
+        "sell": 850
+      },
+      {
+        "id": "unit-p-kouch-m20-box-of-4",
+        "label": "box of 4",
+        "factor": 4,
+        "condition": null,
+        "sell": 3200
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-lete-bebe",
+    "sku": "LETE-BEBE",
+    "barcode": "LETE-BEBE",
+    "name": "Baby Formula 400g",
+    "name_ht": "Lèt bebe 400g",
+    "categories": [
+      "cat-baby"
+    ],
+    "item_type": "goods",
+    "stock": 20,
+    "low": 3,
+    "tier": "E",
+    "units": [
+      {
+        "id": "unit-p-lete-bebe-tin",
+        "label": "tin",
+        "factor": 1,
+        "condition": null,
+        "sell": 1500
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-lwil-bebe",
+    "sku": "LWIL-BEBE",
+    "barcode": "LWIL-BEBE",
+    "name": "Baby Oil 200ml",
+    "name_ht": "Lwil bebe 200ml",
+    "categories": [
+      "cat-baby",
+      "cat-care"
+    ],
+    "item_type": "goods",
+    "stock": 40,
+    "low": 5,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-lwil-bebe-bottle",
+        "label": "bottle",
+        "factor": 1,
+        "condition": null,
+        "sell": 350
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-savon-bebe",
+    "sku": "SAVON-BEBE",
+    "barcode": "SAVON-BEBE",
+    "name": "Baby Soap",
+    "name_ht": "Savon bebe",
+    "categories": [
+      "cat-baby",
+      "cat-care"
+    ],
+    "item_type": "goods",
+    "stock": 60,
+    "low": 6,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-savon-bebe-bar",
+        "label": "bar",
+        "factor": 1,
+        "condition": null,
+        "sell": 150
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-linget",
+    "sku": "LINGET",
+    "barcode": "LINGET",
+    "name": "Baby Wipes 80",
+    "name_ht": "Lenjèt 80",
+    "categories": [
+      "cat-baby"
+    ],
+    "item_type": "goods",
+    "stock": 48,
+    "low": 6,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-linget-pack",
+        "label": "pack",
+        "factor": 1,
+        "condition": null,
+        "sell": 400
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-rapadou",
+    "sku": "RAPADOU",
+    "barcode": "RAPADOU",
+    "name": "Rapadou",
+    "name_ht": "Rapadou",
+    "categories": [
+      "cat-food",
+      "cat-staples"
+    ],
+    "item_type": "goods",
+    "stock": 80,
+    "low": 8,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-rapadou-cone",
+        "label": "cone",
+        "factor": 1,
+        "condition": null,
+        "sell": 75
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-tablet-koko",
+    "sku": "TABLET-KOKO",
+    "barcode": "TABLET-KOKO",
+    "name": "Tablette Kokoye",
+    "name_ht": "Tablet kokoye",
+    "categories": [
+      "cat-food",
+      "cat-snacks"
+    ],
+    "item_type": "goods",
+    "stock": 60,
+    "low": 6,
+    "tier": "N",
+    "units": [
+      {
+        "id": "unit-p-tablet-koko-single",
+        "label": "single",
+        "factor": 1,
+        "condition": null,
+        "sell": 50
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-dous-makos",
+    "sku": "DOUS-MAKOS",
+    "barcode": "DOUS-MAKOS",
+    "name": "Dous Makos",
+    "name_ht": "Dous makos",
+    "categories": [
+      "cat-food",
+      "cat-snacks",
+      "cat-bakery"
+    ],
+    "item_type": "goods",
+    "stock": 48,
+    "low": 5,
+    "tier": "N",
+    "units": [
+      {
+        "id": "unit-p-dous-makos-single",
+        "label": "single",
+        "factor": 1,
+        "condition": null,
+        "sell": 100
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-akasan-500",
+    "sku": "AKASAN-500",
+    "barcode": "AKASAN-500",
+    "name": "Akasan 500ml",
+    "name_ht": "Akasan 500ml",
+    "categories": [
+      "cat-drinks",
+      "cat-soft"
+    ],
+    "item_type": "goods",
+    "stock": 60,
+    "low": 8,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-akasan-500-single-cold",
+        "label": "single",
+        "factor": 1,
+        "condition": "cold",
+        "sell": 125
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-mabi-500",
+    "sku": "MABI-500",
+    "barcode": "MABI-500",
+    "name": "Mabi 500ml",
+    "name_ht": "Mabi 500ml",
+    "categories": [
+      "cat-drinks",
+      "cat-soft"
+    ],
+    "item_type": "goods",
+    "stock": 48,
+    "low": 6,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-mabi-500-single",
+        "label": "single",
+        "factor": 1,
+        "condition": null,
+        "sell": 100
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-chokola-5",
+    "sku": "CHOKOLA-5",
+    "barcode": "CHOKOLA-5",
+    "name": "Chokola 5 Boul",
+    "name_ht": "Chokola 5 boul",
+    "categories": [
+      "cat-food",
+      "cat-staples"
+    ],
+    "item_type": "goods",
+    "stock": 70,
+    "low": 7,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-chokola-5-pack-of-5",
+        "label": "pack of 5",
+        "factor": 1,
+        "condition": null,
+        "sell": 150
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-poud-bebe",
+    "sku": "POUD-BEBE",
+    "barcode": "POUD-BEBE",
+    "name": "Baby Powder 200g",
+    "name_ht": "Poud bebe 200g",
+    "categories": [
+      "cat-baby",
+      "cat-care"
+    ],
+    "item_type": "goods",
+    "stock": 40,
+    "low": 5,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-poud-bebe-bottle",
+        "label": "bottle",
+        "factor": 1,
+        "condition": null,
+        "sell": 300
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-lwil-mask",
+    "sku": "LWIL-MASK",
+    "barcode": "LWIL-MASK",
+    "name": "Castor Oil 100ml",
+    "name_ht": "Lwil maskriti 100ml",
+    "categories": [
+      "cat-care"
+    ],
+    "item_type": "goods",
+    "stock": 36,
+    "low": 4,
+    "tier": "N",
+    "units": [
+      {
+        "id": "unit-p-lwil-mask-bottle",
+        "label": "bottle",
+        "factor": 1,
+        "condition": null,
+        "sell": 275
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-cig-cif",
+    "sku": "CIG-CIF",
+    "barcode": "CIG-CIF",
+    "name": "Cigarettes Pack 20",
+    "name_ht": "Sigarèt 20",
+    "categories": [
+      "cat-tob"
+    ],
+    "item_type": "goods",
+    "stock": 100,
+    "low": 10,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-cig-cif-pack-of-20",
+        "label": "pack of 20",
+        "factor": 1,
+        "condition": null,
+        "sell": 250
+      },
+      {
+        "id": "unit-p-cig-cif-carton-of-10",
+        "label": "carton of 10",
+        "factor": 10,
+        "condition": null,
+        "sell": 2350
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-domino",
+    "sku": "DOMINO",
+    "barcode": "DOMINO",
+    "name": "Domino Set",
+    "name_ht": "Domino",
+    "categories": [
+      "cat-tob",
+      "cat-household"
+    ],
+    "item_type": "goods",
+    "stock": 10,
+    "low": 2,
+    "tier": "E",
+    "units": [
+      {
+        "id": "unit-p-domino-set",
+        "label": "set",
+        "factor": 1,
+        "condition": null,
+        "sell": 750
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-kat-jwe",
+    "sku": "KAT-JWE",
+    "barcode": "KAT-JWE",
+    "name": "Playing Cards",
+    "name_ht": "Kat jwèt",
+    "categories": [
+      "cat-tob",
+      "cat-household"
+    ],
+    "item_type": "goods",
+    "stock": 40,
+    "low": 5,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-kat-jwe-deck",
+        "label": "deck",
+        "factor": 1,
+        "condition": null,
+        "sell": 200
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-kaye-100",
+    "sku": "KAYE-100",
+    "barcode": "KAYE-100",
+    "name": "Notebook 100p",
+    "name_ht": "Kayè 100 paj",
+    "categories": [
+      "cat-household"
+    ],
+    "item_type": "goods",
+    "stock": 100,
+    "low": 12,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-kaye-100-single",
+        "label": "single",
+        "factor": 1,
+        "condition": null,
+        "sell": 150
+      },
+      {
+        "id": "unit-p-kaye-100-dozen",
+        "label": "dozen",
+        "factor": 12,
+        "condition": null,
+        "sell": 1650
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-plim-bl",
+    "sku": "PLIM-BL",
+    "barcode": "PLIM-BL",
+    "name": "Pen Blue",
+    "name_ht": "Plim ble",
+    "categories": [
+      "cat-household"
+    ],
+    "item_type": "goods",
+    "stock": 300,
+    "low": 30,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-plim-bl-single",
+        "label": "single",
+        "factor": 1,
+        "condition": null,
+        "sell": 25
+      },
+      {
+        "id": "unit-p-plim-bl-box-of-50",
+        "label": "box of 50",
+        "factor": 50,
+        "condition": null,
+        "sell": 1050
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-kod-m",
+    "sku": "KOD-M",
+    "barcode": "KOD-M",
+    "name": "Rope Meter",
+    "name_ht": "Kòd 1 mèt",
+    "categories": [
+      "cat-household"
+    ],
+    "item_type": "goods",
+    "stock": 100,
+    "low": 10,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-kod-m-meter",
+        "label": "meter",
+        "factor": 1,
+        "condition": null,
+        "sell": 50
+      }
+    ],
+    "bundles": []
+  },
+  {
+    "id": "p-klou-kg",
+    "sku": "KLOU-KG",
+    "barcode": "KLOU-KG",
+    "name": "Nails kg",
+    "name_ht": "Klou 1kg",
+    "categories": [
+      "cat-household"
+    ],
+    "item_type": "goods",
+    "stock": 50,
+    "low": 5,
+    "tier": "C",
+    "units": [
+      {
+        "id": "unit-p-klou-kg-kg",
+        "label": "kg",
+        "factor": 1,
+        "condition": null,
+        "sell": 400
+      }
+    ],
+    "bundles": []
+  }
+]

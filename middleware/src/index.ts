@@ -7,6 +7,7 @@ import Redis from "ioredis";
 import syncRoutes from "./routes/sync.js";
 import salesRoutes from "./routes/sales.js";
 import productsRoutes from "./routes/products.js";
+import supplierCostRoutes from "./routes/supplier-costs.js";
 import customersRoutes from "./routes/customers.js";
 import analyticsRoutes from "./routes/analytics.js";
 
@@ -46,6 +47,7 @@ app.get("/health", async () => ({ status: "ok", time: new Date().toISOString() }
 await app.register(syncRoutes, { prefix: "/api/sync" });
 await app.register(salesRoutes, { prefix: "/api/sales" });
 await app.register(productsRoutes, { prefix: "/api/products" });
+await app.register(supplierCostRoutes, { prefix: "/api/supplier-costs" });
 await app.register(customersRoutes, { prefix: "/api/customers" });
 await app.register(analyticsRoutes, { prefix: "/api/analytics" });
 

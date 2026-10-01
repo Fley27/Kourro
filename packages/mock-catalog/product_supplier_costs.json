@@ -1,0 +1,6296 @@
+[
+  {
+    "product_id": "p-prest-12",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-prest-12-single",
+    "cost": 98
+  },
+  {
+    "product_id": "p-prest-12",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-prest-12-single-cold",
+    "cost": 113
+  },
+  {
+    "product_id": "p-prest-12",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-prest-12-box-of-24",
+    "cost": 2204
+  },
+  {
+    "product_id": "p-prest-12",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-prest-12-box-of-24-cold",
+    "cost": 2417
+  },
+  {
+    "product_id": "p-prest-12",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-prest-12-single",
+    "cost": 102
+  },
+  {
+    "product_id": "p-prest-12",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-prest-12-single-cold",
+    "cost": 119
+  },
+  {
+    "product_id": "p-prest-12",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-prest-12-box-of-24",
+    "cost": 2226
+  },
+  {
+    "product_id": "p-prest-12",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-prest-12-box-of-24-cold",
+    "cost": 2336
+  },
+  {
+    "product_id": "p-prest-12",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-prest-12-single",
+    "cost": 98
+  },
+  {
+    "product_id": "p-prest-12",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-prest-12-single-cold",
+    "cost": 116
+  },
+  {
+    "product_id": "p-prest-12",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-prest-12-box-of-24",
+    "cost": 2199
+  },
+  {
+    "product_id": "p-prest-12",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-prest-12-box-of-24-cold",
+    "cost": 2446
+  },
+  {
+    "product_id": "p-prest-12",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-prest-12-single",
+    "cost": 99
+  },
+  {
+    "product_id": "p-prest-12",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-prest-12-single-cold",
+    "cost": 114
+  },
+  {
+    "product_id": "p-prest-12",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-prest-12-box-of-24",
+    "cost": 2212
+  },
+  {
+    "product_id": "p-prest-12",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-prest-12-box-of-24-cold",
+    "cost": 2428
+  },
+  {
+    "product_id": "p-prest-12",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-prest-12-single",
+    "cost": 100
+  },
+  {
+    "product_id": "p-prest-12",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-prest-12-single-cold",
+    "cost": 119
+  },
+  {
+    "product_id": "p-prest-12",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-prest-12-box-of-24",
+    "cost": 2218
+  },
+  {
+    "product_id": "p-prest-12",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-prest-12-box-of-24-cold",
+    "cost": 2408
+  },
+  {
+    "product_id": "p-prest-12",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-prest-12-single",
+    "cost": 99
+  },
+  {
+    "product_id": "p-prest-12",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-prest-12-single-cold",
+    "cost": 118
+  },
+  {
+    "product_id": "p-prest-12",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-prest-12-box-of-24",
+    "cost": 2146
+  },
+  {
+    "product_id": "p-prest-12",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-prest-12-box-of-24-cold",
+    "cost": 2368
+  },
+  {
+    "product_id": "p-prest-12",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-prest-12-single",
+    "cost": 99
+  },
+  {
+    "product_id": "p-prest-12",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-prest-12-single-cold",
+    "cost": 116
+  },
+  {
+    "product_id": "p-prest-12",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-prest-12-box-of-24",
+    "cost": 2208
+  },
+  {
+    "product_id": "p-prest-12",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-prest-12-box-of-24-cold",
+    "cost": 2418
+  },
+  {
+    "product_id": "p-prest-12",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-prest-12-single",
+    "cost": 97
+  },
+  {
+    "product_id": "p-prest-12",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-prest-12-single-cold",
+    "cost": 117
+  },
+  {
+    "product_id": "p-prest-12",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-prest-12-box-of-24",
+    "cost": 2162
+  },
+  {
+    "product_id": "p-prest-12",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-prest-12-box-of-24-cold",
+    "cost": 2400
+  },
+  {
+    "product_id": "p-prest-12",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-prest-12-single",
+    "cost": 97
+  },
+  {
+    "product_id": "p-prest-12",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-prest-12-single-cold",
+    "cost": 118
+  },
+  {
+    "product_id": "p-prest-12",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-prest-12-box-of-24",
+    "cost": 2150
+  },
+  {
+    "product_id": "p-prest-12",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-prest-12-box-of-24-cold",
+    "cost": 2329
+  },
+  {
+    "product_id": "p-prest-lt-12",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-prest-lt-12-single",
+    "cost": 100
+  },
+  {
+    "product_id": "p-prest-lt-12",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-prest-lt-12-single-cold",
+    "cost": 121
+  },
+  {
+    "product_id": "p-prest-lt-12",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-prest-lt-12-box-of-24-cold",
+    "cost": 2422
+  },
+  {
+    "product_id": "p-prest-lt-12",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-prest-lt-12-single",
+    "cost": 100
+  },
+  {
+    "product_id": "p-prest-lt-12",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-prest-lt-12-single-cold",
+    "cost": 122
+  },
+  {
+    "product_id": "p-prest-lt-12",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-prest-lt-12-box-of-24-cold",
+    "cost": 2463
+  },
+  {
+    "product_id": "p-prest-lt-12",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-prest-lt-12-single",
+    "cost": 94
+  },
+  {
+    "product_id": "p-prest-lt-12",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-prest-lt-12-single-cold",
+    "cost": 123
+  },
+  {
+    "product_id": "p-prest-lt-12",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-prest-lt-12-box-of-24-cold",
+    "cost": 2235
+  },
+  {
+    "product_id": "p-prest-22",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-prest-22-single",
+    "cost": 164
+  },
+  {
+    "product_id": "p-prest-22",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-prest-22-single-cold",
+    "cost": 190
+  },
+  {
+    "product_id": "p-prest-22",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-prest-22-single",
+    "cost": 167
+  },
+  {
+    "product_id": "p-prest-22",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-prest-22-single-cold",
+    "cost": 176
+  },
+  {
+    "product_id": "p-prest-22",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-prest-22-single",
+    "cost": 170
+  },
+  {
+    "product_id": "p-prest-22",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-prest-22-single-cold",
+    "cost": 188
+  },
+  {
+    "product_id": "p-prest-22",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-prest-22-single",
+    "cost": 164
+  },
+  {
+    "product_id": "p-prest-22",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-prest-22-single-cold",
+    "cost": 190
+  },
+  {
+    "product_id": "p-corona-12",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-corona-12-single-cold",
+    "cost": 153
+  },
+  {
+    "product_id": "p-corona-12",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-corona-12-6-pack",
+    "cost": 742
+  },
+  {
+    "product_id": "p-corona-12",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-corona-12-6-pack-cold",
+    "cost": 847
+  },
+  {
+    "product_id": "p-corona-12",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-corona-12-box-of-24",
+    "cost": 2924
+  },
+  {
+    "product_id": "p-corona-12",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-corona-12-box-of-24-cold",
+    "cost": 3173
+  },
+  {
+    "product_id": "p-corona-12",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-corona-12-single-cold",
+    "cost": 152
+  },
+  {
+    "product_id": "p-corona-12",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-corona-12-6-pack",
+    "cost": 744
+  },
+  {
+    "product_id": "p-corona-12",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-corona-12-6-pack-cold",
+    "cost": 847
+  },
+  {
+    "product_id": "p-corona-12",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-corona-12-box-of-24",
+    "cost": 2932
+  },
+  {
+    "product_id": "p-corona-12",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-corona-12-box-of-24-cold",
+    "cost": 3106
+  },
+  {
+    "product_id": "p-corona-12",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-corona-12-single-cold",
+    "cost": 153
+  },
+  {
+    "product_id": "p-corona-12",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-corona-12-6-pack",
+    "cost": 778
+  },
+  {
+    "product_id": "p-corona-12",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-corona-12-6-pack-cold",
+    "cost": 825
+  },
+  {
+    "product_id": "p-corona-12",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-corona-12-box-of-24",
+    "cost": 2842
+  },
+  {
+    "product_id": "p-corona-12",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-corona-12-box-of-24-cold",
+    "cost": 3029
+  },
+  {
+    "product_id": "p-corona-12",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-corona-12-single-cold",
+    "cost": 145
+  },
+  {
+    "product_id": "p-corona-12",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-corona-12-6-pack",
+    "cost": 748
+  },
+  {
+    "product_id": "p-corona-12",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-corona-12-6-pack-cold",
+    "cost": 801
+  },
+  {
+    "product_id": "p-corona-12",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-corona-12-box-of-24",
+    "cost": 2945
+  },
+  {
+    "product_id": "p-corona-12",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-corona-12-box-of-24-cold",
+    "cost": 3105
+  },
+  {
+    "product_id": "p-corona-12",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-corona-12-single-cold",
+    "cost": 152
+  },
+  {
+    "product_id": "p-corona-12",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-corona-12-6-pack",
+    "cost": 747
+  },
+  {
+    "product_id": "p-corona-12",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-corona-12-6-pack-cold",
+    "cost": 817
+  },
+  {
+    "product_id": "p-corona-12",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-corona-12-box-of-24",
+    "cost": 2957
+  },
+  {
+    "product_id": "p-corona-12",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-corona-12-box-of-24-cold",
+    "cost": 3096
+  },
+  {
+    "product_id": "p-corona-12",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-corona-12-single-cold",
+    "cost": 149
+  },
+  {
+    "product_id": "p-corona-12",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-corona-12-6-pack",
+    "cost": 743
+  },
+  {
+    "product_id": "p-corona-12",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-corona-12-6-pack-cold",
+    "cost": 805
+  },
+  {
+    "product_id": "p-corona-12",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-corona-12-box-of-24",
+    "cost": 2895
+  },
+  {
+    "product_id": "p-corona-12",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-corona-12-box-of-24-cold",
+    "cost": 3143
+  },
+  {
+    "product_id": "p-corona-12",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-corona-12-single-cold",
+    "cost": 150
+  },
+  {
+    "product_id": "p-corona-12",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-corona-12-6-pack",
+    "cost": 737
+  },
+  {
+    "product_id": "p-corona-12",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-corona-12-6-pack-cold",
+    "cost": 833
+  },
+  {
+    "product_id": "p-corona-12",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-corona-12-box-of-24",
+    "cost": 2818
+  },
+  {
+    "product_id": "p-corona-12",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-corona-12-box-of-24-cold",
+    "cost": 3128
+  },
+  {
+    "product_id": "p-corona-12",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-corona-12-single-cold",
+    "cost": 150
+  },
+  {
+    "product_id": "p-corona-12",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-corona-12-6-pack",
+    "cost": 740
+  },
+  {
+    "product_id": "p-corona-12",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-corona-12-6-pack-cold",
+    "cost": 849
+  },
+  {
+    "product_id": "p-corona-12",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-corona-12-box-of-24",
+    "cost": 2943
+  },
+  {
+    "product_id": "p-corona-12",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-corona-12-box-of-24-cold",
+    "cost": 3122
+  },
+  {
+    "product_id": "p-corona-12",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-corona-12-single-cold",
+    "cost": 145
+  },
+  {
+    "product_id": "p-corona-12",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-corona-12-6-pack",
+    "cost": 744
+  },
+  {
+    "product_id": "p-corona-12",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-corona-12-6-pack-cold",
+    "cost": 842
+  },
+  {
+    "product_id": "p-corona-12",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-corona-12-box-of-24",
+    "cost": 2984
+  },
+  {
+    "product_id": "p-corona-12",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-corona-12-box-of-24-cold",
+    "cost": 3084
+  },
+  {
+    "product_id": "p-hein-12",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-hein-12-single",
+    "cost": 130
+  },
+  {
+    "product_id": "p-hein-12",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-hein-12-single-cold",
+    "cost": 149
+  },
+  {
+    "product_id": "p-hein-12",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-hein-12-6-pack-cold",
+    "cost": 846
+  },
+  {
+    "product_id": "p-hein-12",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-hein-12-single",
+    "cost": 124
+  },
+  {
+    "product_id": "p-hein-12",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-hein-12-single-cold",
+    "cost": 149
+  },
+  {
+    "product_id": "p-hein-12",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-hein-12-6-pack-cold",
+    "cost": 808
+  },
+  {
+    "product_id": "p-guin-12",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-guin-12-single",
+    "cost": 148
+  },
+  {
+    "product_id": "p-guin-12",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-guin-12-single-cold",
+    "cost": 163
+  },
+  {
+    "product_id": "p-guin-12",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-guin-12-single",
+    "cost": 155
+  },
+  {
+    "product_id": "p-guin-12",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-guin-12-single-cold",
+    "cost": 171
+  },
+  {
+    "product_id": "p-guin-12",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-guin-12-single",
+    "cost": 141
+  },
+  {
+    "product_id": "p-guin-12",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-guin-12-single-cold",
+    "cost": 152
+  },
+  {
+    "product_id": "p-amstel-12",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-amstel-12-single-cold",
+    "cost": 126
+  },
+  {
+    "product_id": "p-amstel-12",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-amstel-12-6-pack-cold",
+    "cost": 715
+  },
+  {
+    "product_id": "p-amstel-12",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-amstel-12-single-cold",
+    "cost": 139
+  },
+  {
+    "product_id": "p-amstel-12",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-amstel-12-6-pack-cold",
+    "cost": 688
+  },
+  {
+    "product_id": "p-barb-3-750",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-barb-3-750-bottle",
+    "cost": 966
+  },
+  {
+    "product_id": "p-barb-3-750",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-barb-3-750-shot",
+    "cost": 65
+  },
+  {
+    "product_id": "p-barb-3-750",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-barb-3-750-bottle",
+    "cost": 944
+  },
+  {
+    "product_id": "p-barb-3-750",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-barb-3-750-shot",
+    "cost": 65
+  },
+  {
+    "product_id": "p-barb-3-750",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-barb-3-750-bottle",
+    "cost": 978
+  },
+  {
+    "product_id": "p-barb-3-750",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-barb-3-750-shot",
+    "cost": 67
+  },
+  {
+    "product_id": "p-barb-3-750",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-barb-3-750-bottle",
+    "cost": 954
+  },
+  {
+    "product_id": "p-barb-3-750",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-barb-3-750-shot",
+    "cost": 67
+  },
+  {
+    "product_id": "p-barb-3-750",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-barb-3-750-bottle",
+    "cost": 952
+  },
+  {
+    "product_id": "p-barb-3-750",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-barb-3-750-shot",
+    "cost": 66
+  },
+  {
+    "product_id": "p-barb-3-750",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-barb-3-750-bottle",
+    "cost": 984
+  },
+  {
+    "product_id": "p-barb-3-750",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-barb-3-750-shot",
+    "cost": 64
+  },
+  {
+    "product_id": "p-barb-3-750",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-barb-3-750-bottle",
+    "cost": 963
+  },
+  {
+    "product_id": "p-barb-3-750",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-barb-3-750-shot",
+    "cost": 66
+  },
+  {
+    "product_id": "p-barb-3-750",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-barb-3-750-bottle",
+    "cost": 951
+  },
+  {
+    "product_id": "p-barb-3-750",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-barb-3-750-shot",
+    "cost": 65
+  },
+  {
+    "product_id": "p-barb-3-750",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-barb-3-750-bottle",
+    "cost": 979
+  },
+  {
+    "product_id": "p-barb-3-750",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-barb-3-750-shot",
+    "cost": 66
+  },
+  {
+    "product_id": "p-barb-5-750",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-barb-5-750-bottle",
+    "cost": 1494
+  },
+  {
+    "product_id": "p-barb-5-750",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-barb-5-750-shot",
+    "cost": 96
+  },
+  {
+    "product_id": "p-barb-5-750",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-barb-5-750-bottle",
+    "cost": 1489
+  },
+  {
+    "product_id": "p-barb-5-750",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-barb-5-750-shot",
+    "cost": 93
+  },
+  {
+    "product_id": "p-kleren-750",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-kleren-750-bottle",
+    "cost": 416
+  },
+  {
+    "product_id": "p-kleren-750",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-kleren-750-shot",
+    "cost": 33
+  },
+  {
+    "product_id": "p-kleren-750",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-kleren-750-gallon",
+    "cost": 1934
+  },
+  {
+    "product_id": "p-kleren-750",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-kleren-750-bottle",
+    "cost": 460
+  },
+  {
+    "product_id": "p-kleren-750",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-kleren-750-shot",
+    "cost": 30
+  },
+  {
+    "product_id": "p-kleren-750",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-kleren-750-gallon",
+    "cost": 2015
+  },
+  {
+    "product_id": "p-kleren-750",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-kleren-750-bottle",
+    "cost": 456
+  },
+  {
+    "product_id": "p-kleren-750",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-kleren-750-shot",
+    "cost": 31
+  },
+  {
+    "product_id": "p-kleren-750",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-kleren-750-gallon",
+    "cost": 1912
+  },
+  {
+    "product_id": "p-vieux-labbe",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-vieux-labbe-bottle",
+    "cost": 1188
+  },
+  {
+    "product_id": "p-vieux-labbe",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-vieux-labbe-shot",
+    "cost": 83
+  },
+  {
+    "product_id": "p-bw-750",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-bw-750-bottle",
+    "cost": 2112
+  },
+  {
+    "product_id": "p-bw-750",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-bw-750-shot",
+    "cost": 132
+  },
+  {
+    "product_id": "p-vodka-750",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-vodka-750-bottle",
+    "cost": 987
+  },
+  {
+    "product_id": "p-vodka-750",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-vodka-750-shot",
+    "cost": 66
+  },
+  {
+    "product_id": "p-vodka-750",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-vodka-750-bottle",
+    "cost": 994
+  },
+  {
+    "product_id": "p-vodka-750",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-vodka-750-shot",
+    "cost": 70
+  },
+  {
+    "product_id": "p-kremas-750",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-kremas-750-bottle",
+    "cost": 792
+  },
+  {
+    "product_id": "p-kremas-750",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-kremas-750-shot",
+    "cost": 66
+  },
+  {
+    "product_id": "p-malta-350",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-malta-350-single",
+    "cost": 60
+  },
+  {
+    "product_id": "p-malta-350",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-malta-350-single-cold",
+    "cost": 81
+  },
+  {
+    "product_id": "p-malta-350",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-malta-350-6-pack",
+    "cost": 347
+  },
+  {
+    "product_id": "p-malta-350",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-malta-350-single",
+    "cost": 66
+  },
+  {
+    "product_id": "p-malta-350",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-malta-350-single-cold",
+    "cost": 82
+  },
+  {
+    "product_id": "p-malta-350",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-malta-350-6-pack",
+    "cost": 357
+  },
+  {
+    "product_id": "p-malta-350",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-malta-350-single",
+    "cost": 67
+  },
+  {
+    "product_id": "p-malta-350",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-malta-350-single-cold",
+    "cost": 72
+  },
+  {
+    "product_id": "p-malta-350",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-malta-350-6-pack",
+    "cost": 315
+  },
+  {
+    "product_id": "p-malta-350",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-malta-350-single",
+    "cost": 67
+  },
+  {
+    "product_id": "p-malta-350",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-malta-350-single-cold",
+    "cost": 82
+  },
+  {
+    "product_id": "p-malta-350",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-malta-350-6-pack",
+    "cost": 325
+  },
+  {
+    "product_id": "p-coca-500",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-coca-500-single",
+    "cost": 60
+  },
+  {
+    "product_id": "p-coca-500",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-coca-500-single-cold",
+    "cost": 77
+  },
+  {
+    "product_id": "p-coca-500",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-coca-500-3-pack",
+    "cost": 169
+  },
+  {
+    "product_id": "p-coca-500",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-coca-500-12-pack",
+    "cost": 642
+  },
+  {
+    "product_id": "p-coca-500",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-coca-500-12-pack-cold",
+    "cost": 735
+  },
+  {
+    "product_id": "p-coca-500",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-coca-500-box-of-24",
+    "cost": 1218
+  },
+  {
+    "product_id": "p-coca-500",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-coca-500-single",
+    "cost": 62
+  },
+  {
+    "product_id": "p-coca-500",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-coca-500-single-cold",
+    "cost": 76
+  },
+  {
+    "product_id": "p-coca-500",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-coca-500-3-pack",
+    "cost": 172
+  },
+  {
+    "product_id": "p-coca-500",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-coca-500-12-pack",
+    "cost": 646
+  },
+  {
+    "product_id": "p-coca-500",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-coca-500-12-pack-cold",
+    "cost": 752
+  },
+  {
+    "product_id": "p-coca-500",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-coca-500-box-of-24",
+    "cost": 1253
+  },
+  {
+    "product_id": "p-coca-500",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-coca-500-single",
+    "cost": 61
+  },
+  {
+    "product_id": "p-coca-500",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-coca-500-single-cold",
+    "cost": 77
+  },
+  {
+    "product_id": "p-coca-500",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-coca-500-3-pack",
+    "cost": 168
+  },
+  {
+    "product_id": "p-coca-500",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-coca-500-12-pack",
+    "cost": 653
+  },
+  {
+    "product_id": "p-coca-500",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-coca-500-12-pack-cold",
+    "cost": 763
+  },
+  {
+    "product_id": "p-coca-500",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-coca-500-box-of-24",
+    "cost": 1261
+  },
+  {
+    "product_id": "p-coca-500",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-coca-500-single",
+    "cost": 62
+  },
+  {
+    "product_id": "p-coca-500",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-coca-500-single-cold",
+    "cost": 76
+  },
+  {
+    "product_id": "p-coca-500",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-coca-500-3-pack",
+    "cost": 166
+  },
+  {
+    "product_id": "p-coca-500",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-coca-500-12-pack",
+    "cost": 662
+  },
+  {
+    "product_id": "p-coca-500",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-coca-500-12-pack-cold",
+    "cost": 736
+  },
+  {
+    "product_id": "p-coca-500",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-coca-500-box-of-24",
+    "cost": 1219
+  },
+  {
+    "product_id": "p-coca-500",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-coca-500-single",
+    "cost": 64
+  },
+  {
+    "product_id": "p-coca-500",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-coca-500-single-cold",
+    "cost": 77
+  },
+  {
+    "product_id": "p-coca-500",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-coca-500-3-pack",
+    "cost": 166
+  },
+  {
+    "product_id": "p-coca-500",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-coca-500-12-pack",
+    "cost": 666
+  },
+  {
+    "product_id": "p-coca-500",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-coca-500-12-pack-cold",
+    "cost": 756
+  },
+  {
+    "product_id": "p-coca-500",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-coca-500-box-of-24",
+    "cost": 1215
+  },
+  {
+    "product_id": "p-coca-500",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-coca-500-single",
+    "cost": 63
+  },
+  {
+    "product_id": "p-coca-500",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-coca-500-single-cold",
+    "cost": 78
+  },
+  {
+    "product_id": "p-coca-500",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-coca-500-3-pack",
+    "cost": 174
+  },
+  {
+    "product_id": "p-coca-500",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-coca-500-12-pack",
+    "cost": 647
+  },
+  {
+    "product_id": "p-coca-500",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-coca-500-12-pack-cold",
+    "cost": 730
+  },
+  {
+    "product_id": "p-coca-500",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-coca-500-box-of-24",
+    "cost": 1264
+  },
+  {
+    "product_id": "p-coca-500",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-coca-500-single",
+    "cost": 60
+  },
+  {
+    "product_id": "p-coca-500",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-coca-500-single-cold",
+    "cost": 78
+  },
+  {
+    "product_id": "p-coca-500",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-coca-500-3-pack",
+    "cost": 170
+  },
+  {
+    "product_id": "p-coca-500",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-coca-500-12-pack",
+    "cost": 649
+  },
+  {
+    "product_id": "p-coca-500",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-coca-500-12-pack-cold",
+    "cost": 731
+  },
+  {
+    "product_id": "p-coca-500",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-coca-500-box-of-24",
+    "cost": 1244
+  },
+  {
+    "product_id": "p-coca-500",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-coca-500-single",
+    "cost": 61
+  },
+  {
+    "product_id": "p-coca-500",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-coca-500-single-cold",
+    "cost": 80
+  },
+  {
+    "product_id": "p-coca-500",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-coca-500-3-pack",
+    "cost": 176
+  },
+  {
+    "product_id": "p-coca-500",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-coca-500-12-pack",
+    "cost": 660
+  },
+  {
+    "product_id": "p-coca-500",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-coca-500-12-pack-cold",
+    "cost": 745
+  },
+  {
+    "product_id": "p-coca-500",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-coca-500-box-of-24",
+    "cost": 1259
+  },
+  {
+    "product_id": "p-coca-500",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-coca-500-single",
+    "cost": 61
+  },
+  {
+    "product_id": "p-coca-500",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-coca-500-single-cold",
+    "cost": 76
+  },
+  {
+    "product_id": "p-coca-500",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-coca-500-3-pack",
+    "cost": 169
+  },
+  {
+    "product_id": "p-coca-500",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-coca-500-12-pack",
+    "cost": 660
+  },
+  {
+    "product_id": "p-coca-500",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-coca-500-12-pack-cold",
+    "cost": 748
+  },
+  {
+    "product_id": "p-coca-500",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-coca-500-box-of-24",
+    "cost": 1257
+  },
+  {
+    "product_id": "p-coca-2l",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-coca-2l-single",
+    "cost": 145
+  },
+  {
+    "product_id": "p-coca-2l",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-coca-2l-single",
+    "cost": 143
+  },
+  {
+    "product_id": "p-coca-350",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-coca-350-single-cold",
+    "cost": 65
+  },
+  {
+    "product_id": "p-coca-350",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-coca-350-6-pack-cold",
+    "cost": 375
+  },
+  {
+    "product_id": "p-coca-350",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-coca-350-single-cold",
+    "cost": 68
+  },
+  {
+    "product_id": "p-coca-350",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-coca-350-6-pack-cold",
+    "cost": 368
+  },
+  {
+    "product_id": "p-coca-350",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-coca-350-single-cold",
+    "cost": 71
+  },
+  {
+    "product_id": "p-coca-350",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-coca-350-6-pack-cold",
+    "cost": 374
+  },
+  {
+    "product_id": "p-sprite-500",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-sprite-500-single",
+    "cost": 63
+  },
+  {
+    "product_id": "p-sprite-500",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-sprite-500-single-cold",
+    "cost": 76
+  },
+  {
+    "product_id": "p-sprite-500",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-sprite-500-12-pack",
+    "cost": 636
+  },
+  {
+    "product_id": "p-sprite-500",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-sprite-500-box-of-24",
+    "cost": 1234
+  },
+  {
+    "product_id": "p-sprite-500",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-sprite-500-single",
+    "cost": 61
+  },
+  {
+    "product_id": "p-sprite-500",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-sprite-500-single-cold",
+    "cost": 78
+  },
+  {
+    "product_id": "p-sprite-500",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-sprite-500-12-pack",
+    "cost": 633
+  },
+  {
+    "product_id": "p-sprite-500",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-sprite-500-box-of-24",
+    "cost": 1223
+  },
+  {
+    "product_id": "p-sprite-500",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-sprite-500-single",
+    "cost": 62
+  },
+  {
+    "product_id": "p-sprite-500",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-sprite-500-single-cold",
+    "cost": 78
+  },
+  {
+    "product_id": "p-sprite-500",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-sprite-500-12-pack",
+    "cost": 659
+  },
+  {
+    "product_id": "p-sprite-500",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-sprite-500-box-of-24",
+    "cost": 1264
+  },
+  {
+    "product_id": "p-sprite-500",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-sprite-500-single",
+    "cost": 63
+  },
+  {
+    "product_id": "p-sprite-500",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-sprite-500-single-cold",
+    "cost": 78
+  },
+  {
+    "product_id": "p-sprite-500",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-sprite-500-12-pack",
+    "cost": 636
+  },
+  {
+    "product_id": "p-sprite-500",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-sprite-500-box-of-24",
+    "cost": 1233
+  },
+  {
+    "product_id": "p-sprite-500",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-sprite-500-single",
+    "cost": 63
+  },
+  {
+    "product_id": "p-sprite-500",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-sprite-500-single-cold",
+    "cost": 78
+  },
+  {
+    "product_id": "p-sprite-500",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-sprite-500-12-pack",
+    "cost": 640
+  },
+  {
+    "product_id": "p-sprite-500",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-sprite-500-box-of-24",
+    "cost": 1244
+  },
+  {
+    "product_id": "p-sprite-500",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-sprite-500-single",
+    "cost": 61
+  },
+  {
+    "product_id": "p-sprite-500",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-sprite-500-single-cold",
+    "cost": 76
+  },
+  {
+    "product_id": "p-sprite-500",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-sprite-500-12-pack",
+    "cost": 648
+  },
+  {
+    "product_id": "p-sprite-500",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-sprite-500-box-of-24",
+    "cost": 1235
+  },
+  {
+    "product_id": "p-sprite-500",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-sprite-500-single",
+    "cost": 61
+  },
+  {
+    "product_id": "p-sprite-500",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-sprite-500-single-cold",
+    "cost": 76
+  },
+  {
+    "product_id": "p-sprite-500",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-sprite-500-12-pack",
+    "cost": 668
+  },
+  {
+    "product_id": "p-sprite-500",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-sprite-500-box-of-24",
+    "cost": 1229
+  },
+  {
+    "product_id": "p-sprite-500",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-sprite-500-single",
+    "cost": 61
+  },
+  {
+    "product_id": "p-sprite-500",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-sprite-500-single-cold",
+    "cost": 80
+  },
+  {
+    "product_id": "p-sprite-500",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-sprite-500-12-pack",
+    "cost": 663
+  },
+  {
+    "product_id": "p-sprite-500",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-sprite-500-box-of-24",
+    "cost": 1216
+  },
+  {
+    "product_id": "p-sprite-500",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-sprite-500-single",
+    "cost": 60
+  },
+  {
+    "product_id": "p-sprite-500",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-sprite-500-single-cold",
+    "cost": 79
+  },
+  {
+    "product_id": "p-sprite-500",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-sprite-500-12-pack",
+    "cost": 638
+  },
+  {
+    "product_id": "p-sprite-500",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-sprite-500-box-of-24",
+    "cost": 1230
+  },
+  {
+    "product_id": "p-sprite-2l",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-sprite-2l-single",
+    "cost": 161
+  },
+  {
+    "product_id": "p-sprite-2l",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-sprite-2l-single",
+    "cost": 144
+  },
+  {
+    "product_id": "p-sprite-2l",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-sprite-2l-single",
+    "cost": 165
+  },
+  {
+    "product_id": "p-sprite-2l",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-sprite-2l-single",
+    "cost": 147
+  },
+  {
+    "product_id": "p-sprite-2l",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-sprite-2l-single",
+    "cost": 149
+  },
+  {
+    "product_id": "p-fanta-500",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-fanta-500-single",
+    "cost": 60
+  },
+  {
+    "product_id": "p-fanta-500",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-fanta-500-single-cold",
+    "cost": 83
+  },
+  {
+    "product_id": "p-fanta-500",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-fanta-500-12-pack",
+    "cost": 619
+  },
+  {
+    "product_id": "p-fanta-500",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-fanta-500-single",
+    "cost": 60
+  },
+  {
+    "product_id": "p-fanta-500",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-fanta-500-single-cold",
+    "cost": 80
+  },
+  {
+    "product_id": "p-fanta-500",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-fanta-500-12-pack",
+    "cost": 652
+  },
+  {
+    "product_id": "p-crn-champ-500",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-crn-champ-500-single",
+    "cost": 45
+  },
+  {
+    "product_id": "p-crn-champ-500",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-crn-champ-500-single-cold",
+    "cost": 57
+  },
+  {
+    "product_id": "p-crn-champ-500",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-crn-champ-500-3-pack",
+    "cost": 130
+  },
+  {
+    "product_id": "p-crn-champ-500",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-crn-champ-500-12-pack",
+    "cost": 503
+  },
+  {
+    "product_id": "p-crn-champ-500",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-crn-champ-500-box-of-24",
+    "cost": 973
+  },
+  {
+    "product_id": "p-crn-champ-500",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-crn-champ-500-single",
+    "cost": 44
+  },
+  {
+    "product_id": "p-crn-champ-500",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-crn-champ-500-single-cold",
+    "cost": 62
+  },
+  {
+    "product_id": "p-crn-champ-500",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-crn-champ-500-3-pack",
+    "cost": 123
+  },
+  {
+    "product_id": "p-crn-champ-500",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-crn-champ-500-12-pack",
+    "cost": 516
+  },
+  {
+    "product_id": "p-crn-champ-500",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-crn-champ-500-box-of-24",
+    "cost": 934
+  },
+  {
+    "product_id": "p-crn-champ-500",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-crn-champ-500-single",
+    "cost": 51
+  },
+  {
+    "product_id": "p-crn-champ-500",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-crn-champ-500-single-cold",
+    "cost": 63
+  },
+  {
+    "product_id": "p-crn-champ-500",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-crn-champ-500-3-pack",
+    "cost": 133
+  },
+  {
+    "product_id": "p-crn-champ-500",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-crn-champ-500-12-pack",
+    "cost": 459
+  },
+  {
+    "product_id": "p-crn-champ-500",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-crn-champ-500-box-of-24",
+    "cost": 925
+  },
+  {
+    "product_id": "p-crn-or-500",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-crn-or-500-single",
+    "cost": 50
+  },
+  {
+    "product_id": "p-crn-or-500",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-crn-or-500-single-cold",
+    "cost": 62
+  },
+  {
+    "product_id": "p-crn-or-500",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-crn-or-500-12-pack",
+    "cost": 462
+  },
+  {
+    "product_id": "p-crn-or-500",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-crn-or-500-single",
+    "cost": 50
+  },
+  {
+    "product_id": "p-crn-or-500",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-crn-or-500-single-cold",
+    "cost": 61
+  },
+  {
+    "product_id": "p-crn-or-500",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-crn-or-500-12-pack",
+    "cost": 478
+  },
+  {
+    "product_id": "p-crn-or-500",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-crn-or-500-single",
+    "cost": 44
+  },
+  {
+    "product_id": "p-crn-or-500",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-crn-or-500-single-cold",
+    "cost": 58
+  },
+  {
+    "product_id": "p-crn-or-500",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-crn-or-500-12-pack",
+    "cost": 471
+  },
+  {
+    "product_id": "p-crn-or-500",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-crn-or-500-single",
+    "cost": 46
+  },
+  {
+    "product_id": "p-crn-or-500",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-crn-or-500-single-cold",
+    "cost": 60
+  },
+  {
+    "product_id": "p-crn-or-500",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-crn-or-500-12-pack",
+    "cost": 488
+  },
+  {
+    "product_id": "p-crn-cit-500",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-crn-cit-500-single",
+    "cost": 46
+  },
+  {
+    "product_id": "p-crn-cit-500",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-crn-cit-500-single-cold",
+    "cost": 63
+  },
+  {
+    "product_id": "p-crn-cit-500",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-crn-cit-500-12-pack",
+    "cost": 501
+  },
+  {
+    "product_id": "p-crn-cit-500",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-crn-cit-500-single",
+    "cost": 47
+  },
+  {
+    "product_id": "p-crn-cit-500",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-crn-cit-500-single-cold",
+    "cost": 59
+  },
+  {
+    "product_id": "p-crn-cit-500",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-crn-cit-500-12-pack",
+    "cost": 501
+  },
+  {
+    "product_id": "p-crn-cit-500",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-crn-cit-500-single",
+    "cost": 45
+  },
+  {
+    "product_id": "p-crn-cit-500",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-crn-cit-500-single-cold",
+    "cost": 63
+  },
+  {
+    "product_id": "p-crn-cit-500",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-crn-cit-500-12-pack",
+    "cost": 496
+  },
+  {
+    "product_id": "p-crn-cit-500",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-crn-cit-500-single",
+    "cost": 47
+  },
+  {
+    "product_id": "p-crn-cit-500",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-crn-cit-500-single-cold",
+    "cost": 59
+  },
+  {
+    "product_id": "p-crn-cit-500",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-crn-cit-500-12-pack",
+    "cost": 513
+  },
+  {
+    "product_id": "p-crn-cit-500",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-crn-cit-500-single",
+    "cost": 46
+  },
+  {
+    "product_id": "p-crn-cit-500",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-crn-cit-500-single-cold",
+    "cost": 65
+  },
+  {
+    "product_id": "p-crn-cit-500",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-crn-cit-500-12-pack",
+    "cost": 489
+  },
+  {
+    "product_id": "p-crn-framb-500",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-crn-framb-500-single",
+    "cost": 44
+  },
+  {
+    "product_id": "p-crn-framb-500",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-crn-framb-500-single-cold",
+    "cost": 61
+  },
+  {
+    "product_id": "p-crn-framb-500",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-crn-framb-500-single",
+    "cost": 44
+  },
+  {
+    "product_id": "p-crn-framb-500",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-crn-framb-500-single-cold",
+    "cost": 61
+  },
+  {
+    "product_id": "p-dlo-5gal",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-dlo-5gal-jug",
+    "cost": 94
+  },
+  {
+    "product_id": "p-dlo-5gal",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-dlo-5gal-jug-cold",
+    "cost": 110
+  },
+  {
+    "product_id": "p-dlo-5gal",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-dlo-5gal-jug",
+    "cost": 94
+  },
+  {
+    "product_id": "p-dlo-5gal",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-dlo-5gal-jug-cold",
+    "cost": 107
+  },
+  {
+    "product_id": "p-dlo-5gal",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-dlo-5gal-jug",
+    "cost": 94
+  },
+  {
+    "product_id": "p-dlo-5gal",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-dlo-5gal-jug-cold",
+    "cost": 109
+  },
+  {
+    "product_id": "p-dlo-5gal",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-dlo-5gal-jug",
+    "cost": 93
+  },
+  {
+    "product_id": "p-dlo-5gal",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-dlo-5gal-jug-cold",
+    "cost": 112
+  },
+  {
+    "product_id": "p-dlo-5gal",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-dlo-5gal-jug",
+    "cost": 93
+  },
+  {
+    "product_id": "p-dlo-5gal",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-dlo-5gal-jug-cold",
+    "cost": 112
+  },
+  {
+    "product_id": "p-dlo-5gal",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-dlo-5gal-jug",
+    "cost": 90
+  },
+  {
+    "product_id": "p-dlo-5gal",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-dlo-5gal-jug-cold",
+    "cost": 109
+  },
+  {
+    "product_id": "p-dlo-5gal",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-dlo-5gal-jug",
+    "cost": 94
+  },
+  {
+    "product_id": "p-dlo-5gal",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-dlo-5gal-jug-cold",
+    "cost": 112
+  },
+  {
+    "product_id": "p-dlo-5gal",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-dlo-5gal-jug",
+    "cost": 96
+  },
+  {
+    "product_id": "p-dlo-5gal",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-dlo-5gal-jug-cold",
+    "cost": 107
+  },
+  {
+    "product_id": "p-dlo-5gal",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-dlo-5gal-jug",
+    "cost": 95
+  },
+  {
+    "product_id": "p-dlo-5gal",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-dlo-5gal-jug-cold",
+    "cost": 109
+  },
+  {
+    "product_id": "p-dlo-1l",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-dlo-1l-single",
+    "cost": 46
+  },
+  {
+    "product_id": "p-dlo-1l",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-dlo-1l-single-cold",
+    "cost": 57
+  },
+  {
+    "product_id": "p-dlo-1l",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-dlo-1l-case-of-12",
+    "cost": 471
+  },
+  {
+    "product_id": "p-dlo-1l",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-dlo-1l-single",
+    "cost": 46
+  },
+  {
+    "product_id": "p-dlo-1l",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-dlo-1l-single-cold",
+    "cost": 67
+  },
+  {
+    "product_id": "p-dlo-1l",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-dlo-1l-case-of-12",
+    "cost": 460
+  },
+  {
+    "product_id": "p-dlo-1l",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-dlo-1l-single",
+    "cost": 49
+  },
+  {
+    "product_id": "p-dlo-1l",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-dlo-1l-single-cold",
+    "cost": 64
+  },
+  {
+    "product_id": "p-dlo-1l",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-dlo-1l-case-of-12",
+    "cost": 521
+  },
+  {
+    "product_id": "p-dlo-1l",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-dlo-1l-single",
+    "cost": 51
+  },
+  {
+    "product_id": "p-dlo-1l",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-dlo-1l-single-cold",
+    "cost": 65
+  },
+  {
+    "product_id": "p-dlo-1l",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-dlo-1l-case-of-12",
+    "cost": 521
+  },
+  {
+    "product_id": "p-dlo-sachet",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-dlo-sachet-bag-of-20",
+    "cost": 299
+  },
+  {
+    "product_id": "p-dlo-sachet",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-dlo-sachet-bag-of-20-cold",
+    "cost": 388
+  },
+  {
+    "product_id": "p-dlo-sachet",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-dlo-sachet-bag-of-20",
+    "cost": 320
+  },
+  {
+    "product_id": "p-dlo-sachet",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-dlo-sachet-bag-of-20-cold",
+    "cost": 396
+  },
+  {
+    "product_id": "p-dlo-sachet",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-dlo-sachet-bag-of-20",
+    "cost": 311
+  },
+  {
+    "product_id": "p-dlo-sachet",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-dlo-sachet-bag-of-20-cold",
+    "cost": 390
+  },
+  {
+    "product_id": "p-dlo-sachet",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-dlo-sachet-bag-of-20",
+    "cost": 303
+  },
+  {
+    "product_id": "p-dlo-sachet",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-dlo-sachet-bag-of-20-cold",
+    "cost": 343
+  },
+  {
+    "product_id": "p-dlo-sachet",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-dlo-sachet-bag-of-20",
+    "cost": 305
+  },
+  {
+    "product_id": "p-dlo-sachet",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-dlo-sachet-bag-of-20-cold",
+    "cost": 391
+  },
+  {
+    "product_id": "p-dlo-1gal",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-dlo-1gal-gallon",
+    "cost": 76
+  },
+  {
+    "product_id": "p-dlo-1gal",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-dlo-1gal-gallon",
+    "cost": 76
+  },
+  {
+    "product_id": "p-tamp-1l",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-tamp-1l-single",
+    "cost": 97
+  },
+  {
+    "product_id": "p-tamp-1l",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-tamp-1l-single-cold",
+    "cost": 111
+  },
+  {
+    "product_id": "p-tamp-1l",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-tamp-1l-gallon",
+    "cost": 336
+  },
+  {
+    "product_id": "p-tamp-1l",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-tamp-1l-single",
+    "cost": 97
+  },
+  {
+    "product_id": "p-tamp-1l",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-tamp-1l-single-cold",
+    "cost": 110
+  },
+  {
+    "product_id": "p-tamp-1l",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-tamp-1l-gallon",
+    "cost": 326
+  },
+  {
+    "product_id": "p-tamp-1l",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-tamp-1l-single",
+    "cost": 88
+  },
+  {
+    "product_id": "p-tamp-1l",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-tamp-1l-single-cold",
+    "cost": 103
+  },
+  {
+    "product_id": "p-tamp-1l",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-tamp-1l-gallon",
+    "cost": 339
+  },
+  {
+    "product_id": "p-juve-mango",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-juve-mango-single",
+    "cost": 78
+  },
+  {
+    "product_id": "p-juve-mango",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-juve-mango-single-cold",
+    "cost": 93
+  },
+  {
+    "product_id": "p-juve-mango",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-juve-mango-single",
+    "cost": 79
+  },
+  {
+    "product_id": "p-juve-mango",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-juve-mango-single-cold",
+    "cost": 88
+  },
+  {
+    "product_id": "p-juve-mango",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-juve-mango-single",
+    "cost": 81
+  },
+  {
+    "product_id": "p-juve-mango",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-juve-mango-single-cold",
+    "cost": 88
+  },
+  {
+    "product_id": "p-juve-mango",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-juve-mango-single",
+    "cost": 79
+  },
+  {
+    "product_id": "p-juve-mango",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-juve-mango-single-cold",
+    "cost": 86
+  },
+  {
+    "product_id": "p-toro-250",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-toro-250-single-cold",
+    "cost": 87
+  },
+  {
+    "product_id": "p-toro-250",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-toro-250-single-cold",
+    "cost": 95
+  },
+  {
+    "product_id": "p-toro-250",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-toro-250-single-cold",
+    "cost": 98
+  },
+  {
+    "product_id": "p-toro-250",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-toro-250-single-cold",
+    "cost": 87
+  },
+  {
+    "product_id": "p-toro-250",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-toro-250-single-cold",
+    "cost": 99
+  },
+  {
+    "product_id": "p-kafe-200",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-kafe-200-pack",
+    "cost": 370
+  },
+  {
+    "product_id": "p-kafe-200",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-kafe-200-case-of-12",
+    "cost": 4118
+  },
+  {
+    "product_id": "p-kafe-200",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-kafe-200-pack",
+    "cost": 384
+  },
+  {
+    "product_id": "p-kafe-200",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-kafe-200-case-of-12",
+    "cost": 4365
+  },
+  {
+    "product_id": "p-kafe-grenn",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-kafe-grenn-pound",
+    "cost": 479
+  },
+  {
+    "product_id": "p-kafe-grenn",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-kafe-grenn-pound",
+    "cost": 458
+  },
+  {
+    "product_id": "p-kafe-grenn",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-kafe-grenn-pound",
+    "cost": 466
+  },
+  {
+    "product_id": "p-let-400",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-let-400-tin",
+    "cost": 459
+  },
+  {
+    "product_id": "p-let-400",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-let-400-box-of-12",
+    "cost": 5209
+  },
+  {
+    "product_id": "p-let-400",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-let-400-tin",
+    "cost": 460
+  },
+  {
+    "product_id": "p-let-400",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-let-400-box-of-12",
+    "cost": 5154
+  },
+  {
+    "product_id": "p-let-400",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-let-400-tin",
+    "cost": 464
+  },
+  {
+    "product_id": "p-let-400",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-let-400-box-of-12",
+    "cost": 5181
+  },
+  {
+    "product_id": "p-let-400",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-let-400-tin",
+    "cost": 459
+  },
+  {
+    "product_id": "p-let-400",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-let-400-box-of-12",
+    "cost": 5179
+  },
+  {
+    "product_id": "p-let-400",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-let-400-tin",
+    "cost": 460
+  },
+  {
+    "product_id": "p-let-400",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-let-400-box-of-12",
+    "cost": 5248
+  },
+  {
+    "product_id": "p-let-400",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-let-400-tin",
+    "cost": 455
+  },
+  {
+    "product_id": "p-let-400",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-let-400-box-of-12",
+    "cost": 5104
+  },
+  {
+    "product_id": "p-let-400",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-let-400-tin",
+    "cost": 468
+  },
+  {
+    "product_id": "p-let-400",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-let-400-box-of-12",
+    "cost": 5274
+  },
+  {
+    "product_id": "p-let-400",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-let-400-tin",
+    "cost": 451
+  },
+  {
+    "product_id": "p-let-400",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-let-400-box-of-12",
+    "cost": 5121
+  },
+  {
+    "product_id": "p-let-400",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-let-400-tin",
+    "cost": 463
+  },
+  {
+    "product_id": "p-let-400",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-let-400-box-of-12",
+    "cost": 5323
+  },
+  {
+    "product_id": "p-let-evap",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-let-evap-can",
+    "cost": 109
+  },
+  {
+    "product_id": "p-let-evap",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-let-evap-box-of-48",
+    "cost": 4335
+  },
+  {
+    "product_id": "p-let-evap",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-let-evap-can",
+    "cost": 107
+  },
+  {
+    "product_id": "p-let-evap",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-let-evap-box-of-48",
+    "cost": 5064
+  },
+  {
+    "product_id": "p-let-evap",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-let-evap-can",
+    "cost": 107
+  },
+  {
+    "product_id": "p-let-evap",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-let-evap-box-of-48",
+    "cost": 5028
+  },
+  {
+    "product_id": "p-let-evap",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-let-evap-can",
+    "cost": 104
+  },
+  {
+    "product_id": "p-let-evap",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-let-evap-box-of-48",
+    "cost": 4452
+  },
+  {
+    "product_id": "p-let-evap",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-let-evap-can",
+    "cost": 111
+  },
+  {
+    "product_id": "p-let-evap",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-let-evap-box-of-48",
+    "cost": 4923
+  },
+  {
+    "product_id": "p-ze-12",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-ze-12-egg",
+    "cost": 19
+  },
+  {
+    "product_id": "p-ze-12",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-ze-12-dozen",
+    "cost": 189
+  },
+  {
+    "product_id": "p-ze-12",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-ze-12-egg",
+    "cost": 18
+  },
+  {
+    "product_id": "p-ze-12",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-ze-12-dozen",
+    "cost": 191
+  },
+  {
+    "product_id": "p-ze-12",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-ze-12-egg",
+    "cost": 18
+  },
+  {
+    "product_id": "p-ze-12",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-ze-12-dozen",
+    "cost": 193
+  },
+  {
+    "product_id": "p-ze-12",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-ze-12-egg",
+    "cost": 18
+  },
+  {
+    "product_id": "p-ze-12",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-ze-12-dozen",
+    "cost": 192
+  },
+  {
+    "product_id": "p-ze-12",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-ze-12-egg",
+    "cost": 18
+  },
+  {
+    "product_id": "p-ze-12",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-ze-12-dozen",
+    "cost": 199
+  },
+  {
+    "product_id": "p-ze-12",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-ze-12-egg",
+    "cost": 18
+  },
+  {
+    "product_id": "p-ze-12",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-ze-12-dozen",
+    "cost": 191
+  },
+  {
+    "product_id": "p-ze-12",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-ze-12-egg",
+    "cost": 18
+  },
+  {
+    "product_id": "p-ze-12",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-ze-12-dozen",
+    "cost": 188
+  },
+  {
+    "product_id": "p-ze-12",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-ze-12-egg",
+    "cost": 18
+  },
+  {
+    "product_id": "p-ze-12",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-ze-12-dozen",
+    "cost": 190
+  },
+  {
+    "product_id": "p-ze-12",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-ze-12-egg",
+    "cost": 18
+  },
+  {
+    "product_id": "p-ze-12",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-ze-12-dozen",
+    "cost": 194
+  },
+  {
+    "product_id": "p-yogout-200",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-yogout-200-single-cold",
+    "cost": 106
+  },
+  {
+    "product_id": "p-yogout-200",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-yogout-200-single-cold",
+    "cost": 110
+  },
+  {
+    "product_id": "p-yogout-200",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-yogout-200-single-cold",
+    "cost": 109
+  },
+  {
+    "product_id": "p-butter-250",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-butter-250-pack",
+    "cost": 330
+  },
+  {
+    "product_id": "p-butter-250",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-butter-250-pack",
+    "cost": 338
+  },
+  {
+    "product_id": "p-butter-250",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-butter-250-pack",
+    "cost": 291
+  },
+  {
+    "product_id": "p-butter-250",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-butter-250-pack",
+    "cost": 291
+  },
+  {
+    "product_id": "p-rice-25kg",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-rice-25kg-sack-25kg",
+    "cost": 2658
+  },
+  {
+    "product_id": "p-rice-25kg",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-rice-25kg-mamit",
+    "cost": 321
+  },
+  {
+    "product_id": "p-rice-25kg",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-rice-25kg-ve",
+    "cost": 61
+  },
+  {
+    "product_id": "p-rice-25kg",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-rice-25kg-sack-25kg",
+    "cost": 2601
+  },
+  {
+    "product_id": "p-rice-25kg",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-rice-25kg-mamit",
+    "cost": 320
+  },
+  {
+    "product_id": "p-rice-25kg",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-rice-25kg-ve",
+    "cost": 60
+  },
+  {
+    "product_id": "p-rice-25kg",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-rice-25kg-sack-25kg",
+    "cost": 2604
+  },
+  {
+    "product_id": "p-rice-25kg",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-rice-25kg-mamit",
+    "cost": 323
+  },
+  {
+    "product_id": "p-rice-25kg",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-rice-25kg-ve",
+    "cost": 61
+  },
+  {
+    "product_id": "p-rice-25kg",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-rice-25kg-sack-25kg",
+    "cost": 2592
+  },
+  {
+    "product_id": "p-rice-25kg",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-rice-25kg-mamit",
+    "cost": 324
+  },
+  {
+    "product_id": "p-rice-25kg",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-rice-25kg-ve",
+    "cost": 63
+  },
+  {
+    "product_id": "p-rice-25kg",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-rice-25kg-sack-25kg",
+    "cost": 2664
+  },
+  {
+    "product_id": "p-rice-25kg",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-rice-25kg-mamit",
+    "cost": 324
+  },
+  {
+    "product_id": "p-rice-25kg",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-rice-25kg-ve",
+    "cost": 62
+  },
+  {
+    "product_id": "p-rice-25kg",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-rice-25kg-sack-25kg",
+    "cost": 2546
+  },
+  {
+    "product_id": "p-rice-25kg",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-rice-25kg-mamit",
+    "cost": 331
+  },
+  {
+    "product_id": "p-rice-25kg",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-rice-25kg-ve",
+    "cost": 63
+  },
+  {
+    "product_id": "p-rice-25kg",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-rice-25kg-sack-25kg",
+    "cost": 2677
+  },
+  {
+    "product_id": "p-rice-25kg",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-rice-25kg-mamit",
+    "cost": 331
+  },
+  {
+    "product_id": "p-rice-25kg",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-rice-25kg-ve",
+    "cost": 62
+  },
+  {
+    "product_id": "p-rice-25kg",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-rice-25kg-sack-25kg",
+    "cost": 2648
+  },
+  {
+    "product_id": "p-rice-25kg",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-rice-25kg-mamit",
+    "cost": 334
+  },
+  {
+    "product_id": "p-rice-25kg",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-rice-25kg-ve",
+    "cost": 61
+  },
+  {
+    "product_id": "p-rice-25kg",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-rice-25kg-sack-25kg",
+    "cost": 2619
+  },
+  {
+    "product_id": "p-rice-25kg",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-rice-25kg-mamit",
+    "cost": 324
+  },
+  {
+    "product_id": "p-rice-25kg",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-rice-25kg-ve",
+    "cost": 60
+  },
+  {
+    "product_id": "p-rice-mega-10",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-rice-mega-10-sack-10kg",
+    "cost": 1080
+  },
+  {
+    "product_id": "p-rice-mega-10",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-rice-mega-10-mamit",
+    "cost": 308
+  },
+  {
+    "product_id": "p-rice-mega-10",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-rice-mega-10-ve",
+    "cost": 63
+  },
+  {
+    "product_id": "p-rice-mega-10",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-rice-mega-10-sack-10kg",
+    "cost": 1051
+  },
+  {
+    "product_id": "p-rice-mega-10",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-rice-mega-10-mamit",
+    "cost": 340
+  },
+  {
+    "product_id": "p-rice-mega-10",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-rice-mega-10-ve",
+    "cost": 60
+  },
+  {
+    "product_id": "p-rice-djak-5",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-rice-djak-5-bag-5kg",
+    "cost": 615
+  },
+  {
+    "product_id": "p-rice-djak-5",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-rice-djak-5-mamit",
+    "cost": 322
+  },
+  {
+    "product_id": "p-rice-djak-5",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-rice-djak-5-bag-5kg",
+    "cost": 613
+  },
+  {
+    "product_id": "p-rice-djak-5",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-rice-djak-5-mamit",
+    "cost": 330
+  },
+  {
+    "product_id": "p-rice-djak-5",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-rice-djak-5-bag-5kg",
+    "cost": 609
+  },
+  {
+    "product_id": "p-rice-djak-5",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-rice-djak-5-mamit",
+    "cost": 343
+  },
+  {
+    "product_id": "p-sik-10kg",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-sik-10kg-sack-10kg",
+    "cost": 770
+  },
+  {
+    "product_id": "p-sik-10kg",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-sik-10kg-mamit",
+    "cost": 92
+  },
+  {
+    "product_id": "p-sik-10kg",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-sik-10kg-ve",
+    "cost": 25
+  },
+  {
+    "product_id": "p-sik-10kg",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-sik-10kg-sack-10kg",
+    "cost": 763
+  },
+  {
+    "product_id": "p-sik-10kg",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-sik-10kg-mamit",
+    "cost": 92
+  },
+  {
+    "product_id": "p-sik-10kg",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-sik-10kg-ve",
+    "cost": 24
+  },
+  {
+    "product_id": "p-sik-10kg",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-sik-10kg-sack-10kg",
+    "cost": 785
+  },
+  {
+    "product_id": "p-sik-10kg",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-sik-10kg-mamit",
+    "cost": 90
+  },
+  {
+    "product_id": "p-sik-10kg",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-sik-10kg-ve",
+    "cost": 25
+  },
+  {
+    "product_id": "p-sik-10kg",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-sik-10kg-sack-10kg",
+    "cost": 782
+  },
+  {
+    "product_id": "p-sik-10kg",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-sik-10kg-mamit",
+    "cost": 89
+  },
+  {
+    "product_id": "p-sik-10kg",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-sik-10kg-ve",
+    "cost": 25
+  },
+  {
+    "product_id": "p-sik-10kg",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-sik-10kg-sack-10kg",
+    "cost": 783
+  },
+  {
+    "product_id": "p-sik-10kg",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-sik-10kg-mamit",
+    "cost": 89
+  },
+  {
+    "product_id": "p-sik-10kg",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-sik-10kg-ve",
+    "cost": 25
+  },
+  {
+    "product_id": "p-sik-10kg",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-sik-10kg-sack-10kg",
+    "cost": 756
+  },
+  {
+    "product_id": "p-sik-10kg",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-sik-10kg-mamit",
+    "cost": 91
+  },
+  {
+    "product_id": "p-sik-10kg",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-sik-10kg-ve",
+    "cost": 26
+  },
+  {
+    "product_id": "p-sik-10kg",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-sik-10kg-sack-10kg",
+    "cost": 772
+  },
+  {
+    "product_id": "p-sik-10kg",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-sik-10kg-mamit",
+    "cost": 89
+  },
+  {
+    "product_id": "p-sik-10kg",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-sik-10kg-ve",
+    "cost": 26
+  },
+  {
+    "product_id": "p-sik-10kg",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-sik-10kg-sack-10kg",
+    "cost": 790
+  },
+  {
+    "product_id": "p-sik-10kg",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-sik-10kg-mamit",
+    "cost": 92
+  },
+  {
+    "product_id": "p-sik-10kg",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-sik-10kg-ve",
+    "cost": 25
+  },
+  {
+    "product_id": "p-sik-10kg",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-sik-10kg-sack-10kg",
+    "cost": 794
+  },
+  {
+    "product_id": "p-sik-10kg",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-sik-10kg-mamit",
+    "cost": 87
+  },
+  {
+    "product_id": "p-sik-10kg",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-sik-10kg-ve",
+    "cost": 25
+  },
+  {
+    "product_id": "p-sik-1kg",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-sik-1kg-packet",
+    "cost": 94
+  },
+  {
+    "product_id": "p-sik-1kg",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-sik-1kg-box-of-20",
+    "cost": 1602
+  },
+  {
+    "product_id": "p-sik-1kg",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-sik-1kg-packet",
+    "cost": 89
+  },
+  {
+    "product_id": "p-sik-1kg",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-sik-1kg-box-of-20",
+    "cost": 1688
+  },
+  {
+    "product_id": "p-sik-1kg",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-sik-1kg-packet",
+    "cost": 92
+  },
+  {
+    "product_id": "p-sik-1kg",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-sik-1kg-box-of-20",
+    "cost": 1620
+  },
+  {
+    "product_id": "p-sik-1kg",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-sik-1kg-packet",
+    "cost": 87
+  },
+  {
+    "product_id": "p-sik-1kg",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-sik-1kg-box-of-20",
+    "cost": 1512
+  },
+  {
+    "product_id": "p-sik-1kg",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-sik-1kg-packet",
+    "cost": 88
+  },
+  {
+    "product_id": "p-sik-1kg",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-sik-1kg-box-of-20",
+    "cost": 1636
+  },
+  {
+    "product_id": "p-sik-50kg",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-sik-50kg-sack-50kg",
+    "cost": 3416
+  },
+  {
+    "product_id": "p-sik-50kg",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-sik-50kg-mamit",
+    "cost": 89
+  },
+  {
+    "product_id": "p-sik-50kg",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-sik-50kg-sack-50kg",
+    "cost": 3444
+  },
+  {
+    "product_id": "p-sik-50kg",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-sik-50kg-mamit",
+    "cost": 92
+  },
+  {
+    "product_id": "p-oil-5l",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-oil-5l-jug-5l",
+    "cost": 895
+  },
+  {
+    "product_id": "p-oil-5l",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-oil-5l-liter",
+    "cost": 196
+  },
+  {
+    "product_id": "p-oil-5l",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-oil-5l-jug-5l",
+    "cost": 917
+  },
+  {
+    "product_id": "p-oil-5l",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-oil-5l-liter",
+    "cost": 202
+  },
+  {
+    "product_id": "p-oil-5l",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-oil-5l-jug-5l",
+    "cost": 924
+  },
+  {
+    "product_id": "p-oil-5l",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-oil-5l-liter",
+    "cost": 202
+  },
+  {
+    "product_id": "p-oil-5l",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-oil-5l-jug-5l",
+    "cost": 913
+  },
+  {
+    "product_id": "p-oil-5l",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-oil-5l-liter",
+    "cost": 194
+  },
+  {
+    "product_id": "p-oil-5l",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-oil-5l-jug-5l",
+    "cost": 882
+  },
+  {
+    "product_id": "p-oil-5l",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-oil-5l-liter",
+    "cost": 193
+  },
+  {
+    "product_id": "p-oil-5l",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-oil-5l-jug-5l",
+    "cost": 879
+  },
+  {
+    "product_id": "p-oil-5l",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-oil-5l-liter",
+    "cost": 194
+  },
+  {
+    "product_id": "p-oil-5l",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-oil-5l-jug-5l",
+    "cost": 900
+  },
+  {
+    "product_id": "p-oil-5l",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-oil-5l-liter",
+    "cost": 194
+  },
+  {
+    "product_id": "p-oil-5l",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-oil-5l-jug-5l",
+    "cost": 878
+  },
+  {
+    "product_id": "p-oil-5l",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-oil-5l-liter",
+    "cost": 198
+  },
+  {
+    "product_id": "p-oil-5l",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-oil-5l-jug-5l",
+    "cost": 876
+  },
+  {
+    "product_id": "p-oil-5l",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-oil-5l-liter",
+    "cost": 202
+  },
+  {
+    "product_id": "p-oil-1l",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-oil-1l-bottle-1l",
+    "cost": 203
+  },
+  {
+    "product_id": "p-oil-1l",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-oil-1l-case-of-12",
+    "cost": 2070
+  },
+  {
+    "product_id": "p-oil-1l",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-oil-1l-bottle-1l",
+    "cost": 188
+  },
+  {
+    "product_id": "p-oil-1l",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-oil-1l-case-of-12",
+    "cost": 2173
+  },
+  {
+    "product_id": "p-oil-1l",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-oil-1l-bottle-1l",
+    "cost": 199
+  },
+  {
+    "product_id": "p-oil-1l",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-oil-1l-case-of-12",
+    "cost": 2276
+  },
+  {
+    "product_id": "p-oil-1l",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-oil-1l-bottle-1l",
+    "cost": 188
+  },
+  {
+    "product_id": "p-oil-1l",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-oil-1l-case-of-12",
+    "cost": 2289
+  },
+  {
+    "product_id": "p-oil-20l",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-oil-20l-tin-20l",
+    "cost": 3356
+  },
+  {
+    "product_id": "p-oil-20l",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-oil-20l-tin-20l",
+    "cost": 3291
+  },
+  {
+    "product_id": "p-oil-20l",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-oil-20l-tin-20l",
+    "cost": 3513
+  },
+  {
+    "product_id": "p-oil-coco-500",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-oil-coco-500-bottle",
+    "cost": 364
+  },
+  {
+    "product_id": "p-oil-coco-500",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-oil-coco-500-bottle",
+    "cost": 389
+  },
+  {
+    "product_id": "p-farin-25kg",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-farin-25kg-sack-25kg",
+    "cost": 2363
+  },
+  {
+    "product_id": "p-farin-25kg",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-farin-25kg-mamit",
+    "cost": 303
+  },
+  {
+    "product_id": "p-farin-25kg",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-farin-25kg-ve",
+    "cost": 57
+  },
+  {
+    "product_id": "p-farin-25kg",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-farin-25kg-sack-25kg",
+    "cost": 2440
+  },
+  {
+    "product_id": "p-farin-25kg",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-farin-25kg-mamit",
+    "cost": 298
+  },
+  {
+    "product_id": "p-farin-25kg",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-farin-25kg-ve",
+    "cost": 57
+  },
+  {
+    "product_id": "p-farin-25kg",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-farin-25kg-sack-25kg",
+    "cost": 2440
+  },
+  {
+    "product_id": "p-farin-25kg",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-farin-25kg-mamit",
+    "cost": 292
+  },
+  {
+    "product_id": "p-farin-25kg",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-farin-25kg-ve",
+    "cost": 53
+  },
+  {
+    "product_id": "p-farin-10kg",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-farin-10kg-sack-10kg",
+    "cost": 983
+  },
+  {
+    "product_id": "p-farin-10kg",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-farin-10kg-mamit",
+    "cost": 270
+  },
+  {
+    "product_id": "p-farin-10kg",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-farin-10kg-sack-10kg",
+    "cost": 941
+  },
+  {
+    "product_id": "p-farin-10kg",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-farin-10kg-mamit",
+    "cost": 295
+  },
+  {
+    "product_id": "p-farin-10kg",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-farin-10kg-sack-10kg",
+    "cost": 977
+  },
+  {
+    "product_id": "p-farin-10kg",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-farin-10kg-mamit",
+    "cost": 296
+  },
+  {
+    "product_id": "p-farin-10kg",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-farin-10kg-sack-10kg",
+    "cost": 938
+  },
+  {
+    "product_id": "p-farin-10kg",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-farin-10kg-mamit",
+    "cost": 299
+  },
+  {
+    "product_id": "p-mayi-10kg",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-mayi-10kg-sack-10kg",
+    "cost": 633
+  },
+  {
+    "product_id": "p-mayi-10kg",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-mayi-10kg-mamit",
+    "cost": 144
+  },
+  {
+    "product_id": "p-mayi-10kg",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-mayi-10kg-ve",
+    "cost": 43
+  },
+  {
+    "product_id": "p-mayi-10kg",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-mayi-10kg-sack-10kg",
+    "cost": 665
+  },
+  {
+    "product_id": "p-mayi-10kg",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-mayi-10kg-mamit",
+    "cost": 141
+  },
+  {
+    "product_id": "p-mayi-10kg",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-mayi-10kg-ve",
+    "cost": 39
+  },
+  {
+    "product_id": "p-mayi-10kg",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-mayi-10kg-sack-10kg",
+    "cost": 646
+  },
+  {
+    "product_id": "p-mayi-10kg",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-mayi-10kg-mamit",
+    "cost": 141
+  },
+  {
+    "product_id": "p-mayi-10kg",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-mayi-10kg-ve",
+    "cost": 43
+  },
+  {
+    "product_id": "p-mayi-10kg",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-mayi-10kg-sack-10kg",
+    "cost": 632
+  },
+  {
+    "product_id": "p-mayi-10kg",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-mayi-10kg-mamit",
+    "cost": 154
+  },
+  {
+    "product_id": "p-mayi-10kg",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-mayi-10kg-ve",
+    "cost": 41
+  },
+  {
+    "product_id": "p-mayi-10kg",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-mayi-10kg-sack-10kg",
+    "cost": 606
+  },
+  {
+    "product_id": "p-mayi-10kg",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-mayi-10kg-mamit",
+    "cost": 143
+  },
+  {
+    "product_id": "p-mayi-10kg",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-mayi-10kg-ve",
+    "cost": 43
+  },
+  {
+    "product_id": "p-mayi-25kg",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-mayi-25kg-sack-25kg",
+    "cost": 1657
+  },
+  {
+    "product_id": "p-mayi-25kg",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-mayi-25kg-mamit",
+    "cost": 141
+  },
+  {
+    "product_id": "p-mayi-25kg",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-mayi-25kg-sack-25kg",
+    "cost": 1560
+  },
+  {
+    "product_id": "p-mayi-25kg",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-mayi-25kg-mamit",
+    "cost": 150
+  },
+  {
+    "product_id": "p-sel-5kg",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-sel-5kg-sack-5kg",
+    "cost": 241
+  },
+  {
+    "product_id": "p-sel-5kg",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-sel-5kg-mamit",
+    "cost": 59
+  },
+  {
+    "product_id": "p-sel-5kg",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-sel-5kg-ve",
+    "cost": 21
+  },
+  {
+    "product_id": "p-sel-5kg",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-sel-5kg-sack-5kg",
+    "cost": 227
+  },
+  {
+    "product_id": "p-sel-5kg",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-sel-5kg-mamit",
+    "cost": 65
+  },
+  {
+    "product_id": "p-sel-5kg",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-sel-5kg-ve",
+    "cost": 21
+  },
+  {
+    "product_id": "p-sel-5kg",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-sel-5kg-sack-5kg",
+    "cost": 244
+  },
+  {
+    "product_id": "p-sel-5kg",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-sel-5kg-mamit",
+    "cost": 58
+  },
+  {
+    "product_id": "p-sel-5kg",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-sel-5kg-ve",
+    "cost": 21
+  },
+  {
+    "product_id": "p-sel-500g",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-sel-500g-packet",
+    "cost": 40
+  },
+  {
+    "product_id": "p-sel-500g",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-sel-500g-packet",
+    "cost": 42
+  },
+  {
+    "product_id": "p-sel-500g",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-sel-500g-packet",
+    "cost": 44
+  },
+  {
+    "product_id": "p-sel-500g",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-sel-500g-packet",
+    "cost": 43
+  },
+  {
+    "product_id": "p-pwa-nwa-5",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-pwa-nwa-5-bag-5lb",
+    "cost": 432
+  },
+  {
+    "product_id": "p-pwa-nwa-5",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-pwa-nwa-5-mamit",
+    "cost": 173
+  },
+  {
+    "product_id": "p-pwa-nwa-5",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-pwa-nwa-5-ve",
+    "cost": 109
+  },
+  {
+    "product_id": "p-pwa-nwa-5",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-pwa-nwa-5-bag-5lb",
+    "cost": 432
+  },
+  {
+    "product_id": "p-pwa-nwa-5",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-pwa-nwa-5-mamit",
+    "cost": 199
+  },
+  {
+    "product_id": "p-pwa-nwa-5",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-pwa-nwa-5-ve",
+    "cost": 99
+  },
+  {
+    "product_id": "p-pwa-nwa-5",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-pwa-nwa-5-bag-5lb",
+    "cost": 430
+  },
+  {
+    "product_id": "p-pwa-nwa-5",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-pwa-nwa-5-mamit",
+    "cost": 183
+  },
+  {
+    "product_id": "p-pwa-nwa-5",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-pwa-nwa-5-ve",
+    "cost": 95
+  },
+  {
+    "product_id": "p-pwa-nwa-5",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-pwa-nwa-5-bag-5lb",
+    "cost": 481
+  },
+  {
+    "product_id": "p-pwa-nwa-5",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-pwa-nwa-5-mamit",
+    "cost": 193
+  },
+  {
+    "product_id": "p-pwa-nwa-5",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-pwa-nwa-5-ve",
+    "cost": 98
+  },
+  {
+    "product_id": "p-pwa-nwa-5",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-pwa-nwa-5-bag-5lb",
+    "cost": 464
+  },
+  {
+    "product_id": "p-pwa-nwa-5",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-pwa-nwa-5-mamit",
+    "cost": 176
+  },
+  {
+    "product_id": "p-pwa-nwa-5",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-pwa-nwa-5-ve",
+    "cost": 106
+  },
+  {
+    "product_id": "p-pwa-wouj-5",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-pwa-wouj-5-bag-5lb",
+    "cost": 524
+  },
+  {
+    "product_id": "p-pwa-wouj-5",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-pwa-wouj-5-mamit",
+    "cost": 218
+  },
+  {
+    "product_id": "p-pwa-wouj-5",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-pwa-wouj-5-bag-5lb",
+    "cost": 530
+  },
+  {
+    "product_id": "p-pwa-wouj-5",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-pwa-wouj-5-mamit",
+    "cost": 196
+  },
+  {
+    "product_id": "p-pwa-kongo-5",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-pwa-kongo-5-bag-5lb",
+    "cost": 535
+  },
+  {
+    "product_id": "p-pwa-kongo-5",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-pwa-kongo-5-mamit",
+    "cost": 215
+  },
+  {
+    "product_id": "p-pwa-kongo-5",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-pwa-kongo-5-bag-5lb",
+    "cost": 547
+  },
+  {
+    "product_id": "p-pwa-kongo-5",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-pwa-kongo-5-mamit",
+    "cost": 227
+  },
+  {
+    "product_id": "p-pwa-kongo-5",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-pwa-kongo-5-bag-5lb",
+    "cost": 557
+  },
+  {
+    "product_id": "p-pwa-kongo-5",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-pwa-kongo-5-mamit",
+    "cost": 230
+  },
+  {
+    "product_id": "p-pasta-500",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-pasta-500-pack",
+    "cost": 62
+  },
+  {
+    "product_id": "p-pasta-500",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-pasta-500-box-of-24",
+    "cost": 1387
+  },
+  {
+    "product_id": "p-pasta-500",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-pasta-500-pack",
+    "cost": 62
+  },
+  {
+    "product_id": "p-pasta-500",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-pasta-500-box-of-24",
+    "cost": 1359
+  },
+  {
+    "product_id": "p-pasta-500",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-pasta-500-pack",
+    "cost": 60
+  },
+  {
+    "product_id": "p-pasta-500",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-pasta-500-box-of-24",
+    "cost": 1389
+  },
+  {
+    "product_id": "p-pasta-500",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-pasta-500-pack",
+    "cost": 61
+  },
+  {
+    "product_id": "p-pasta-500",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-pasta-500-box-of-24",
+    "cost": 1319
+  },
+  {
+    "product_id": "p-pasta-500",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-pasta-500-pack",
+    "cost": 62
+  },
+  {
+    "product_id": "p-pasta-500",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-pasta-500-box-of-24",
+    "cost": 1380
+  },
+  {
+    "product_id": "p-pasta-500",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-pasta-500-pack",
+    "cost": 63
+  },
+  {
+    "product_id": "p-pasta-500",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-pasta-500-box-of-24",
+    "cost": 1365
+  },
+  {
+    "product_id": "p-pasta-500",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-pasta-500-pack",
+    "cost": 60
+  },
+  {
+    "product_id": "p-pasta-500",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-pasta-500-box-of-24",
+    "cost": 1388
+  },
+  {
+    "product_id": "p-pasta-500",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-pasta-500-pack",
+    "cost": 60
+  },
+  {
+    "product_id": "p-pasta-500",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-pasta-500-box-of-24",
+    "cost": 1375
+  },
+  {
+    "product_id": "p-pasta-500",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-pasta-500-pack",
+    "cost": 62
+  },
+  {
+    "product_id": "p-pasta-500",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-pasta-500-box-of-24",
+    "cost": 1323
+  },
+  {
+    "product_id": "p-tomat-400",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-tomat-400-can",
+    "cost": 84
+  },
+  {
+    "product_id": "p-tomat-400",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-tomat-400-box-of-48",
+    "cost": 3430
+  },
+  {
+    "product_id": "p-tomat-400",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-tomat-400-can",
+    "cost": 90
+  },
+  {
+    "product_id": "p-tomat-400",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-tomat-400-box-of-48",
+    "cost": 3604
+  },
+  {
+    "product_id": "p-tomat-400",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-tomat-400-can",
+    "cost": 89
+  },
+  {
+    "product_id": "p-tomat-400",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-tomat-400-box-of-48",
+    "cost": 3959
+  },
+  {
+    "product_id": "p-tomat-400",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-tomat-400-can",
+    "cost": 79
+  },
+  {
+    "product_id": "p-tomat-400",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-tomat-400-box-of-48",
+    "cost": 3758
+  },
+  {
+    "product_id": "p-tomat-400",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-tomat-400-can",
+    "cost": 81
+  },
+  {
+    "product_id": "p-tomat-400",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-tomat-400-box-of-48",
+    "cost": 3802
+  },
+  {
+    "product_id": "p-tomat-800",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-tomat-800-can",
+    "cost": 160
+  },
+  {
+    "product_id": "p-tomat-800",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-tomat-800-can",
+    "cost": 148
+  },
+  {
+    "product_id": "p-sardine-120",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-sardine-120-tin",
+    "cost": 67
+  },
+  {
+    "product_id": "p-sardine-120",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-sardine-120-box-of-50",
+    "cost": 3236
+  },
+  {
+    "product_id": "p-sardine-120",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-sardine-120-tin",
+    "cost": 73
+  },
+  {
+    "product_id": "p-sardine-120",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-sardine-120-box-of-50",
+    "cost": 3088
+  },
+  {
+    "product_id": "p-sardine-120",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-sardine-120-tin",
+    "cost": 67
+  },
+  {
+    "product_id": "p-sardine-120",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-sardine-120-box-of-50",
+    "cost": 3269
+  },
+  {
+    "product_id": "p-tuna-170",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-tuna-170-can",
+    "cost": 129
+  },
+  {
+    "product_id": "p-tuna-170",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-tuna-170-box-of-48",
+    "cost": 5161
+  },
+  {
+    "product_id": "p-tuna-170",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-tuna-170-can",
+    "cost": 113
+  },
+  {
+    "product_id": "p-tuna-170",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-tuna-170-box-of-48",
+    "cost": 5894
+  },
+  {
+    "product_id": "p-tuna-170",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-tuna-170-can",
+    "cost": 113
+  },
+  {
+    "product_id": "p-tuna-170",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-tuna-170-box-of-48",
+    "cost": 5300
+  },
+  {
+    "product_id": "p-tuna-170",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-tuna-170-can",
+    "cost": 128
+  },
+  {
+    "product_id": "p-tuna-170",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-tuna-170-box-of-48",
+    "cost": 5212
+  },
+  {
+    "product_id": "p-corned-340",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-corned-340-can",
+    "cost": 227
+  },
+  {
+    "product_id": "p-corned-340",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-corned-340-can",
+    "cost": 239
+  },
+  {
+    "product_id": "p-corned-340",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-corned-340-can",
+    "cost": 236
+  },
+  {
+    "product_id": "p-corned-340",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-corned-340-can",
+    "cost": 232
+  },
+  {
+    "product_id": "p-corned-340",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-corned-340-can",
+    "cost": 237
+  },
+  {
+    "product_id": "p-maggi-100",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-maggi-100-cube",
+    "cost": 12
+  },
+  {
+    "product_id": "p-maggi-100",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-maggi-100-box-of-100",
+    "cost": 1043
+  },
+  {
+    "product_id": "p-maggi-100",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-maggi-100-cube",
+    "cost": 12
+  },
+  {
+    "product_id": "p-maggi-100",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-maggi-100-box-of-100",
+    "cost": 1047
+  },
+  {
+    "product_id": "p-maggi-100",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-maggi-100-cube",
+    "cost": 12
+  },
+  {
+    "product_id": "p-maggi-100",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-maggi-100-box-of-100",
+    "cost": 1041
+  },
+  {
+    "product_id": "p-maggi-100",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-maggi-100-cube",
+    "cost": 12
+  },
+  {
+    "product_id": "p-maggi-100",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-maggi-100-box-of-100",
+    "cost": 1048
+  },
+  {
+    "product_id": "p-maggi-100",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-maggi-100-cube",
+    "cost": 12
+  },
+  {
+    "product_id": "p-maggi-100",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-maggi-100-box-of-100",
+    "cost": 1014
+  },
+  {
+    "product_id": "p-maggi-100",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-maggi-100-cube",
+    "cost": 12
+  },
+  {
+    "product_id": "p-maggi-100",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-maggi-100-box-of-100",
+    "cost": 1055
+  },
+  {
+    "product_id": "p-maggi-100",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-maggi-100-cube",
+    "cost": 12
+  },
+  {
+    "product_id": "p-maggi-100",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-maggi-100-box-of-100",
+    "cost": 1054
+  },
+  {
+    "product_id": "p-maggi-100",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-maggi-100-cube",
+    "cost": 12
+  },
+  {
+    "product_id": "p-maggi-100",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-maggi-100-box-of-100",
+    "cost": 1012
+  },
+  {
+    "product_id": "p-maggi-100",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-maggi-100-cube",
+    "cost": 12
+  },
+  {
+    "product_id": "p-maggi-100",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-maggi-100-box-of-100",
+    "cost": 997
+  },
+  {
+    "product_id": "p-sosis-1kg",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-sosis-1kg-pack-1kg",
+    "cost": 444
+  },
+  {
+    "product_id": "p-sosis-1kg",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-sosis-1kg-half-pack",
+    "cost": 261
+  },
+  {
+    "product_id": "p-sosis-1kg",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-sosis-1kg-pack-1kg",
+    "cost": 434
+  },
+  {
+    "product_id": "p-sosis-1kg",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-sosis-1kg-half-pack",
+    "cost": 235
+  },
+  {
+    "product_id": "p-sosis-1kg",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-sosis-1kg-pack-1kg",
+    "cost": 466
+  },
+  {
+    "product_id": "p-sosis-1kg",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-sosis-1kg-half-pack",
+    "cost": 238
+  },
+  {
+    "product_id": "p-poulet-lb",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-poulet-lb-pound",
+    "cost": 125
+  },
+  {
+    "product_id": "p-poulet-lb",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-poulet-lb-pound-cold",
+    "cost": 130
+  },
+  {
+    "product_id": "p-poulet-lb",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-poulet-lb-pound",
+    "cost": 126
+  },
+  {
+    "product_id": "p-poulet-lb",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-poulet-lb-pound-cold",
+    "cost": 133
+  },
+  {
+    "product_id": "p-poulet-lb",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-poulet-lb-pound",
+    "cost": 131
+  },
+  {
+    "product_id": "p-poulet-lb",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-poulet-lb-pound-cold",
+    "cost": 122
+  },
+  {
+    "product_id": "p-poulet-lb",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-poulet-lb-pound",
+    "cost": 118
+  },
+  {
+    "product_id": "p-poulet-lb",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-poulet-lb-pound-cold",
+    "cost": 134
+  },
+  {
+    "product_id": "p-kodenn-lb",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-kodenn-lb-pound",
+    "cost": 153
+  },
+  {
+    "product_id": "p-kodenn-lb",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-kodenn-lb-pound",
+    "cost": 158
+  },
+  {
+    "product_id": "p-kodenn-lb",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-kodenn-lb-pound",
+    "cost": 163
+  },
+  {
+    "product_id": "p-pwason-lb",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-pwason-lb-pound",
+    "cost": 150
+  },
+  {
+    "product_id": "p-pwason-lb",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-pwason-lb-pound",
+    "cost": 146
+  },
+  {
+    "product_id": "p-pikliz-jar",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-pikliz-jar-jar",
+    "cost": 315
+  },
+  {
+    "product_id": "p-epis-jar",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-epis-jar-jar",
+    "cost": 267
+  },
+  {
+    "product_id": "p-epis-jar",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-epis-jar-jar",
+    "cost": 292
+  },
+  {
+    "product_id": "p-epis-jar",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-epis-jar-jar",
+    "cost": 283
+  },
+  {
+    "product_id": "p-epis-jar",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-epis-jar-jar",
+    "cost": 269
+  },
+  {
+    "product_id": "p-ketchup-500",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-ketchup-500-bottle",
+    "cost": 194
+  },
+  {
+    "product_id": "p-ketchup-500",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-ketchup-500-bottle",
+    "cost": 183
+  },
+  {
+    "product_id": "p-ketchup-500",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-ketchup-500-bottle",
+    "cost": 194
+  },
+  {
+    "product_id": "p-ketchup-500",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-ketchup-500-bottle",
+    "cost": 191
+  },
+  {
+    "product_id": "p-ketchup-500",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-ketchup-500-bottle",
+    "cost": 184
+  },
+  {
+    "product_id": "p-mayo-500",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-mayo-500-jar",
+    "cost": 251
+  },
+  {
+    "product_id": "p-mayo-500",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-mayo-500-jar",
+    "cost": 251
+  },
+  {
+    "product_id": "p-vineg-500",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-vineg-500-bottle",
+    "cost": 124
+  },
+  {
+    "product_id": "p-vineg-500",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-vineg-500-bottle",
+    "cost": 126
+  },
+  {
+    "product_id": "p-vineg-500",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-vineg-500-bottle",
+    "cost": 114
+  },
+  {
+    "product_id": "p-te-25",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-te-25-bag",
+    "cost": 12
+  },
+  {
+    "product_id": "p-te-25",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-te-25-box-of-25",
+    "cost": 231
+  },
+  {
+    "product_id": "p-te-25",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-te-25-bag",
+    "cost": 11
+  },
+  {
+    "product_id": "p-te-25",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-te-25-box-of-25",
+    "cost": 230
+  },
+  {
+    "product_id": "p-te-25",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-te-25-bag",
+    "cost": 13
+  },
+  {
+    "product_id": "p-te-25",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-te-25-box-of-25",
+    "cost": 247
+  },
+  {
+    "product_id": "p-te-25",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-te-25-bag",
+    "cost": 12
+  },
+  {
+    "product_id": "p-te-25",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-te-25-box-of-25",
+    "cost": 246
+  },
+  {
+    "product_id": "p-avwan-500",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-avwan-500-pack",
+    "cost": 239
+  },
+  {
+    "product_id": "p-avwan-500",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-avwan-500-pack",
+    "cost": 217
+  },
+  {
+    "product_id": "p-avwan-500",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-avwan-500-pack",
+    "cost": 216
+  },
+  {
+    "product_id": "p-avwan-500",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-avwan-500-pack",
+    "cost": 222
+  },
+  {
+    "product_id": "p-avwan-500",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-avwan-500-pack",
+    "cost": 222
+  },
+  {
+    "product_id": "p-manba-500",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-manba-500-jar",
+    "cost": 352
+  },
+  {
+    "product_id": "p-manba-500",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-manba-500-jar",
+    "cost": 357
+  },
+  {
+    "product_id": "p-pen-50",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-pen-50-single",
+    "cost": 18
+  },
+  {
+    "product_id": "p-pen-50",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-pen-50-dozen",
+    "cost": 198
+  },
+  {
+    "product_id": "p-pen-50",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-pen-50-single",
+    "cost": 18
+  },
+  {
+    "product_id": "p-pen-50",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-pen-50-dozen",
+    "cost": 206
+  },
+  {
+    "product_id": "p-pen-50",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-pen-50-single",
+    "cost": 17
+  },
+  {
+    "product_id": "p-pen-50",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-pen-50-dozen",
+    "cost": 191
+  },
+  {
+    "product_id": "p-gateau-sl",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-gateau-sl-slice",
+    "cost": 70
+  },
+  {
+    "product_id": "p-kwasan",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-kwasan-single",
+    "cost": 50
+  },
+  {
+    "product_id": "p-kwasan",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-kwasan-single",
+    "cost": 57
+  },
+  {
+    "product_id": "p-kwasan",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-kwasan-single",
+    "cost": 56
+  },
+  {
+    "product_id": "p-bisk-30",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-bisk-30-single",
+    "cost": 18
+  },
+  {
+    "product_id": "p-bisk-30",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-bisk-30-box-of-36",
+    "cost": 559
+  },
+  {
+    "product_id": "p-bisk-30",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-bisk-30-single",
+    "cost": 18
+  },
+  {
+    "product_id": "p-bisk-30",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-bisk-30-box-of-36",
+    "cost": 569
+  },
+  {
+    "product_id": "p-bisk-30",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-bisk-30-single",
+    "cost": 18
+  },
+  {
+    "product_id": "p-bisk-30",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-bisk-30-box-of-36",
+    "cost": 576
+  },
+  {
+    "product_id": "p-bisk-30",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-bisk-30-single",
+    "cost": 18
+  },
+  {
+    "product_id": "p-bisk-30",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-bisk-30-box-of-36",
+    "cost": 569
+  },
+  {
+    "product_id": "p-bisk-30",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-bisk-30-single",
+    "cost": 18
+  },
+  {
+    "product_id": "p-bisk-30",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-bisk-30-box-of-36",
+    "cost": 557
+  },
+  {
+    "product_id": "p-bisk-30",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-bisk-30-single",
+    "cost": 18
+  },
+  {
+    "product_id": "p-bisk-30",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-bisk-30-box-of-36",
+    "cost": 559
+  },
+  {
+    "product_id": "p-bisk-30",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-bisk-30-single",
+    "cost": 18
+  },
+  {
+    "product_id": "p-bisk-30",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-bisk-30-box-of-36",
+    "cost": 573
+  },
+  {
+    "product_id": "p-bisk-30",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-bisk-30-single",
+    "cost": 18
+  },
+  {
+    "product_id": "p-bisk-30",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-bisk-30-box-of-36",
+    "cost": 567
+  },
+  {
+    "product_id": "p-bisk-30",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-bisk-30-single",
+    "cost": 18
+  },
+  {
+    "product_id": "p-bisk-30",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-bisk-30-box-of-36",
+    "cost": 574
+  },
+  {
+    "product_id": "p-crackers-100",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-crackers-100-pack",
+    "cost": 36
+  },
+  {
+    "product_id": "p-crackers-100",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-crackers-100-box-of-24",
+    "cost": 754
+  },
+  {
+    "product_id": "p-crackers-100",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-crackers-100-pack",
+    "cost": 37
+  },
+  {
+    "product_id": "p-crackers-100",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-crackers-100-box-of-24",
+    "cost": 720
+  },
+  {
+    "product_id": "p-crackers-100",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-crackers-100-pack",
+    "cost": 33
+  },
+  {
+    "product_id": "p-crackers-100",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-crackers-100-box-of-24",
+    "cost": 701
+  },
+  {
+    "product_id": "p-chips-ban",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-chips-ban-bag",
+    "cost": 74
+  },
+  {
+    "product_id": "p-chips-ban",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-chips-ban-bag",
+    "cost": 65
+  },
+  {
+    "product_id": "p-pistach-100",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-pistach-100-bag",
+    "cost": 57
+  },
+  {
+    "product_id": "p-pistach-100",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-pistach-100-box-of-20",
+    "cost": 931
+  },
+  {
+    "product_id": "p-pistach-100",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-pistach-100-bag",
+    "cost": 56
+  },
+  {
+    "product_id": "p-pistach-100",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-pistach-100-box-of-20",
+    "cost": 886
+  },
+  {
+    "product_id": "p-pistach-100",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-pistach-100-bag",
+    "cost": 52
+  },
+  {
+    "product_id": "p-pistach-100",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-pistach-100-box-of-20",
+    "cost": 903
+  },
+  {
+    "product_id": "p-pistach-100",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-pistach-100-bag",
+    "cost": 50
+  },
+  {
+    "product_id": "p-pistach-100",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-pistach-100-box-of-20",
+    "cost": 871
+  },
+  {
+    "product_id": "p-pistach-100",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-pistach-100-bag",
+    "cost": 57
+  },
+  {
+    "product_id": "p-pistach-100",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-pistach-100-box-of-20",
+    "cost": 976
+  },
+  {
+    "product_id": "p-tomat-fresh",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-tomat-fresh-kg",
+    "cost": 140
+  },
+  {
+    "product_id": "p-tomat-fresh",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-tomat-fresh-pound",
+    "cost": 66
+  },
+  {
+    "product_id": "p-tomat-fresh",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-tomat-fresh-kg",
+    "cost": 130
+  },
+  {
+    "product_id": "p-tomat-fresh",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-tomat-fresh-pound",
+    "cost": 71
+  },
+  {
+    "product_id": "p-zyonyon",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-zyonyon-kg",
+    "cost": 166
+  },
+  {
+    "product_id": "p-zyonyon",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-zyonyon-pound",
+    "cost": 87
+  },
+  {
+    "product_id": "p-zyonyon",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-zyonyon-kg",
+    "cost": 163
+  },
+  {
+    "product_id": "p-zyonyon",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-zyonyon-pound",
+    "cost": 81
+  },
+  {
+    "product_id": "p-zyonyon",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-zyonyon-kg",
+    "cost": 169
+  },
+  {
+    "product_id": "p-zyonyon",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-zyonyon-pound",
+    "cost": 83
+  },
+  {
+    "product_id": "p-lay",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-lay-head",
+    "cost": 17
+  },
+  {
+    "product_id": "p-lay",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-lay-head",
+    "cost": 17
+  },
+  {
+    "product_id": "p-bannann-dz",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-bannann-dz-single",
+    "cost": 35
+  },
+  {
+    "product_id": "p-bannann-dz",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-bannann-dz-dozen",
+    "cost": 389
+  },
+  {
+    "product_id": "p-bannann-dz",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-bannann-dz-single",
+    "cost": 37
+  },
+  {
+    "product_id": "p-bannann-dz",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-bannann-dz-dozen",
+    "cost": 393
+  },
+  {
+    "product_id": "p-bannann-dz",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-bannann-dz-single",
+    "cost": 37
+  },
+  {
+    "product_id": "p-bannann-dz",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-bannann-dz-dozen",
+    "cost": 405
+  },
+  {
+    "product_id": "p-chou",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-chou-head",
+    "cost": 99
+  },
+  {
+    "product_id": "p-chou",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-chou-head",
+    "cost": 110
+  },
+  {
+    "product_id": "p-kawot-lb",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-kawot-lb-pound",
+    "cost": 75
+  },
+  {
+    "product_id": "p-kawot-lb",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-kawot-lb-pound",
+    "cost": 68
+  },
+  {
+    "product_id": "p-kawot-lb",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-kawot-lb-pound",
+    "cost": 64
+  },
+  {
+    "product_id": "p-sitwon-sk",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-sitwon-sk-sack",
+    "cost": 1029
+  },
+  {
+    "product_id": "p-sitwon-sk",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-sitwon-sk-dozen",
+    "cost": 141
+  },
+  {
+    "product_id": "p-sitwon-sk",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-sitwon-sk-sack",
+    "cost": 1037
+  },
+  {
+    "product_id": "p-sitwon-sk",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-sitwon-sk-dozen",
+    "cost": 133
+  },
+  {
+    "product_id": "p-manyok-lb",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-manyok-lb-pound",
+    "cost": 51
+  },
+  {
+    "product_id": "p-manyok-lb",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-manyok-lb-pound",
+    "cost": 51
+  },
+  {
+    "product_id": "p-manyok-lb",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-manyok-lb-pound",
+    "cost": 54
+  },
+  {
+    "product_id": "p-manyok-lb",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-manyok-lb-pound",
+    "cost": 51
+  },
+  {
+    "product_id": "p-manyok-lb",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-manyok-lb-pound",
+    "cost": 55
+  },
+  {
+    "product_id": "p-soap-001",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-soap-001-bar",
+    "cost": 36
+  },
+  {
+    "product_id": "p-soap-001",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-soap-001-box-of-40",
+    "cost": 1265
+  },
+  {
+    "product_id": "p-soap-001",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-soap-001-bar",
+    "cost": 36
+  },
+  {
+    "product_id": "p-soap-001",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-soap-001-box-of-40",
+    "cost": 1278
+  },
+  {
+    "product_id": "p-soap-001",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-soap-001-bar",
+    "cost": 34
+  },
+  {
+    "product_id": "p-soap-001",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-soap-001-box-of-40",
+    "cost": 1244
+  },
+  {
+    "product_id": "p-soap-001",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-soap-001-bar",
+    "cost": 34
+  },
+  {
+    "product_id": "p-soap-001",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-soap-001-box-of-40",
+    "cost": 1247
+  },
+  {
+    "product_id": "p-soap-001",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-soap-001-bar",
+    "cost": 36
+  },
+  {
+    "product_id": "p-soap-001",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-soap-001-box-of-40",
+    "cost": 1291
+  },
+  {
+    "product_id": "p-soap-001",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-soap-001-bar",
+    "cost": 35
+  },
+  {
+    "product_id": "p-soap-001",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-soap-001-box-of-40",
+    "cost": 1237
+  },
+  {
+    "product_id": "p-soap-001",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-soap-001-bar",
+    "cost": 36
+  },
+  {
+    "product_id": "p-soap-001",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-soap-001-box-of-40",
+    "cost": 1253
+  },
+  {
+    "product_id": "p-soap-001",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-soap-001-bar",
+    "cost": 35
+  },
+  {
+    "product_id": "p-soap-001",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-soap-001-box-of-40",
+    "cost": 1247
+  },
+  {
+    "product_id": "p-soap-001",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-soap-001-bar",
+    "cost": 36
+  },
+  {
+    "product_id": "p-soap-001",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-soap-001-box-of-40",
+    "cost": 1280
+  },
+  {
+    "product_id": "p-savon-det",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-savon-det-bag-1kg",
+    "cost": 83
+  },
+  {
+    "product_id": "p-savon-det",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-savon-det-box-of-12",
+    "cost": 944
+  },
+  {
+    "product_id": "p-savon-det",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-savon-det-bag-1kg",
+    "cost": 87
+  },
+  {
+    "product_id": "p-savon-det",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-savon-det-box-of-12",
+    "cost": 875
+  },
+  {
+    "product_id": "p-savon-det",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-savon-det-bag-1kg",
+    "cost": 90
+  },
+  {
+    "product_id": "p-savon-det",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-savon-det-box-of-12",
+    "cost": 839
+  },
+  {
+    "product_id": "p-savon-500",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-savon-500-bag",
+    "cost": 49
+  },
+  {
+    "product_id": "p-savon-500",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-savon-500-bag",
+    "cost": 46
+  },
+  {
+    "product_id": "p-savon-500",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-savon-500-bag",
+    "cost": 44
+  },
+  {
+    "product_id": "p-savon-500",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-savon-500-bag",
+    "cost": 49
+  },
+  {
+    "product_id": "p-clorox-1l",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-clorox-1l-bottle-1l",
+    "cost": 111
+  },
+  {
+    "product_id": "p-clorox-1l",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-clorox-1l-case-of-12",
+    "cost": 1081
+  },
+  {
+    "product_id": "p-clorox-1l",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-clorox-1l-bottle-1l",
+    "cost": 112
+  },
+  {
+    "product_id": "p-clorox-1l",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-clorox-1l-case-of-12",
+    "cost": 1086
+  },
+  {
+    "product_id": "p-clorox-1l",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-clorox-1l-bottle-1l",
+    "cost": 105
+  },
+  {
+    "product_id": "p-clorox-1l",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-clorox-1l-case-of-12",
+    "cost": 1130
+  },
+  {
+    "product_id": "p-clorox-1l",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-clorox-1l-bottle-1l",
+    "cost": 102
+  },
+  {
+    "product_id": "p-clorox-1l",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-clorox-1l-case-of-12",
+    "cost": 1177
+  },
+  {
+    "product_id": "p-clorox-1l",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-clorox-1l-bottle-1l",
+    "cost": 106
+  },
+  {
+    "product_id": "p-clorox-1l",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-clorox-1l-case-of-12",
+    "cost": 1140
+  },
+  {
+    "product_id": "p-savon-lik",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-savon-lik-bottle",
+    "cost": 129
+  },
+  {
+    "product_id": "p-savon-lik",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-savon-lik-bottle",
+    "cost": 118
+  },
+  {
+    "product_id": "p-eponj",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-eponj-single",
+    "cost": 33
+  },
+  {
+    "product_id": "p-eponj",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-eponj-single",
+    "cost": 34
+  },
+  {
+    "product_id": "p-eponj",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-eponj-single",
+    "cost": 37
+  },
+  {
+    "product_id": "p-balai",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-balai-single",
+    "cost": 301
+  },
+  {
+    "product_id": "p-balai",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-balai-single",
+    "cost": 316
+  },
+  {
+    "product_id": "p-balai",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-balai-single",
+    "cost": 316
+  },
+  {
+    "product_id": "p-balai",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-balai-single",
+    "cost": 292
+  },
+  {
+    "product_id": "p-alimet",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-alimet-box",
+    "cost": 19
+  },
+  {
+    "product_id": "p-alimet",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-alimet-pack-of-10",
+    "cost": 162
+  },
+  {
+    "product_id": "p-alimet",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-alimet-box",
+    "cost": 18
+  },
+  {
+    "product_id": "p-alimet",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-alimet-pack-of-10",
+    "cost": 155
+  },
+  {
+    "product_id": "p-alimet",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-alimet-box",
+    "cost": 17
+  },
+  {
+    "product_id": "p-alimet",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-alimet-pack-of-10",
+    "cost": 148
+  },
+  {
+    "product_id": "p-alimet",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-alimet-box",
+    "cost": 18
+  },
+  {
+    "product_id": "p-alimet",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-alimet-pack-of-10",
+    "cost": 155
+  },
+  {
+    "product_id": "p-alimet",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-alimet-box",
+    "cost": 17
+  },
+  {
+    "product_id": "p-alimet",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-alimet-pack-of-10",
+    "cost": 164
+  },
+  {
+    "product_id": "p-balenn",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-balenn-single",
+    "cost": 34
+  },
+  {
+    "product_id": "p-balenn",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-balenn-pack-of-6",
+    "cost": 178
+  },
+  {
+    "product_id": "p-balenn",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-balenn-single",
+    "cost": 38
+  },
+  {
+    "product_id": "p-balenn",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-balenn-pack-of-6",
+    "cost": 182
+  },
+  {
+    "product_id": "p-bat-aa4",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-bat-aa4-pack-of-4",
+    "cost": 162
+  },
+  {
+    "product_id": "p-bat-aa4",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-bat-aa4-pack-of-4",
+    "cost": 182
+  },
+  {
+    "product_id": "p-bat-aa4",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-bat-aa4-pack-of-4",
+    "cost": 171
+  },
+  {
+    "product_id": "p-anpoul",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-anpoul-single",
+    "cost": 134
+  },
+  {
+    "product_id": "p-anpoul",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-anpoul-box-of-12",
+    "cost": 1435
+  },
+  {
+    "product_id": "p-anpoul",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-anpoul-single",
+    "cost": 149
+  },
+  {
+    "product_id": "p-anpoul",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-anpoul-box-of-12",
+    "cost": 1496
+  },
+  {
+    "product_id": "p-anpoul",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-anpoul-single",
+    "cost": 134
+  },
+  {
+    "product_id": "p-anpoul",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-anpoul-box-of-12",
+    "cost": 1524
+  },
+  {
+    "product_id": "p-anpoul",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-anpoul-single",
+    "cost": 129
+  },
+  {
+    "product_id": "p-anpoul",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-anpoul-box-of-12",
+    "cost": 1663
+  },
+  {
+    "product_id": "p-charbon-10",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-charbon-10-sack-10kg",
+    "cost": 544
+  },
+  {
+    "product_id": "p-charbon-10",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-charbon-10-mamit",
+    "cost": 73
+  },
+  {
+    "product_id": "p-charbon-10",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-charbon-10-sack-10kg",
+    "cost": 593
+  },
+  {
+    "product_id": "p-charbon-10",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-charbon-10-mamit",
+    "cost": 71
+  },
+  {
+    "product_id": "p-charbon-10",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-charbon-10-sack-10kg",
+    "cost": 528
+  },
+  {
+    "product_id": "p-charbon-10",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-charbon-10-mamit",
+    "cost": 70
+  },
+  {
+    "product_id": "p-charbon-10",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-charbon-10-sack-10kg",
+    "cost": 578
+  },
+  {
+    "product_id": "p-charbon-10",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-charbon-10-mamit",
+    "cost": 65
+  },
+  {
+    "product_id": "p-charbon-10",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-charbon-10-sack-10kg",
+    "cost": 579
+  },
+  {
+    "product_id": "p-charbon-10",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-charbon-10-mamit",
+    "cost": 74
+  },
+  {
+    "product_id": "p-keroz-l",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-keroz-l-liter",
+    "cost": 142
+  },
+  {
+    "product_id": "p-keroz-l",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-keroz-l-gallon",
+    "cost": 544
+  },
+  {
+    "product_id": "p-keroz-l",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-keroz-l-liter",
+    "cost": 151
+  },
+  {
+    "product_id": "p-keroz-l",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-keroz-l-gallon",
+    "cost": 474
+  },
+  {
+    "product_id": "p-sach-poub",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-sach-poub-pack-of-10",
+    "cost": 98
+  },
+  {
+    "product_id": "p-sach-poub",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-sach-poub-pack-of-10",
+    "cost": 103
+  },
+  {
+    "product_id": "p-sach-poub",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-sach-poub-pack-of-10",
+    "cost": 109
+  },
+  {
+    "product_id": "p-pat-colg",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-pat-colg-tube",
+    "cost": 130
+  },
+  {
+    "product_id": "p-pat-colg",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-pat-colg-box-of-12",
+    "cost": 1358
+  },
+  {
+    "product_id": "p-pat-colg",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-pat-colg-tube",
+    "cost": 121
+  },
+  {
+    "product_id": "p-pat-colg",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-pat-colg-box-of-12",
+    "cost": 1426
+  },
+  {
+    "product_id": "p-pat-colg",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-pat-colg-tube",
+    "cost": 126
+  },
+  {
+    "product_id": "p-pat-colg",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-pat-colg-box-of-12",
+    "cost": 1511
+  },
+  {
+    "product_id": "p-pat-colg",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-pat-colg-tube",
+    "cost": 121
+  },
+  {
+    "product_id": "p-pat-colg",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-pat-colg-box-of-12",
+    "cost": 1302
+  },
+  {
+    "product_id": "p-bwos-dan",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-bwos-dan-single",
+    "cost": 72
+  },
+  {
+    "product_id": "p-bwos-dan",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-bwos-dan-single",
+    "cost": 73
+  },
+  {
+    "product_id": "p-bwos-dan",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-bwos-dan-single",
+    "cost": 69
+  },
+  {
+    "product_id": "p-bwos-dan",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-bwos-dan-single",
+    "cost": 69
+  },
+  {
+    "product_id": "p-bwos-dan",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-bwos-dan-single",
+    "cost": 75
+  },
+  {
+    "product_id": "p-deodo",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-deodo-single",
+    "cost": 249
+  },
+  {
+    "product_id": "p-deodo",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-deodo-single",
+    "cost": 256
+  },
+  {
+    "product_id": "p-shamp-sach",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-shamp-sach-sachet",
+    "cost": 17
+  },
+  {
+    "product_id": "p-shamp-sach",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-shamp-sach-box-of-12",
+    "cost": 207
+  },
+  {
+    "product_id": "p-shamp-sach",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-shamp-sach-sachet",
+    "cost": 19
+  },
+  {
+    "product_id": "p-shamp-sach",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-shamp-sach-box-of-12",
+    "cost": 190
+  },
+  {
+    "product_id": "p-shamp-sach",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-shamp-sach-sachet",
+    "cost": 18
+  },
+  {
+    "product_id": "p-shamp-sach",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-shamp-sach-box-of-12",
+    "cost": 183
+  },
+  {
+    "product_id": "p-savon-lux",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-savon-lux-bar",
+    "cost": 92
+  },
+  {
+    "product_id": "p-savon-lux",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-savon-lux-3-pack",
+    "cost": 253
+  },
+  {
+    "product_id": "p-savon-lux",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-savon-lux-bar",
+    "cost": 92
+  },
+  {
+    "product_id": "p-savon-lux",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-savon-lux-3-pack",
+    "cost": 234
+  },
+  {
+    "product_id": "p-savon-lux",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-savon-lux-bar",
+    "cost": 91
+  },
+  {
+    "product_id": "p-savon-lux",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-savon-lux-3-pack",
+    "cost": 259
+  },
+  {
+    "product_id": "p-savon-lux",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-savon-lux-bar",
+    "cost": 95
+  },
+  {
+    "product_id": "p-savon-lux",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-savon-lux-3-pack",
+    "cost": 226
+  },
+  {
+    "product_id": "p-pomad",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-pomad-jar",
+    "cost": 185
+  },
+  {
+    "product_id": "p-pomad",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-pomad-jar",
+    "cost": 187
+  },
+  {
+    "product_id": "p-pomad",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-pomad-jar",
+    "cost": 184
+  },
+  {
+    "product_id": "p-pomad",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-pomad-jar",
+    "cost": 175
+  },
+  {
+    "product_id": "p-pomad",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-pomad-jar",
+    "cost": 172
+  },
+  {
+    "product_id": "p-razwa",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-razwa-single",
+    "cost": 55
+  },
+  {
+    "product_id": "p-razwa",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-razwa-single",
+    "cost": 52
+  },
+  {
+    "product_id": "p-papij-twal",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-papij-twal-roll",
+    "cost": 53
+  },
+  {
+    "product_id": "p-papij-twal",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-papij-twal-pack-of-12",
+    "cost": 591
+  },
+  {
+    "product_id": "p-papij-twal",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-papij-twal-roll",
+    "cost": 54
+  },
+  {
+    "product_id": "p-papij-twal",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-papij-twal-pack-of-12",
+    "cost": 591
+  },
+  {
+    "product_id": "p-papij-twal",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-papij-twal-roll",
+    "cost": 52
+  },
+  {
+    "product_id": "p-papij-twal",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-papij-twal-pack-of-12",
+    "cost": 582
+  },
+  {
+    "product_id": "p-papij-twal",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-papij-twal-roll",
+    "cost": 54
+  },
+  {
+    "product_id": "p-papij-twal",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-papij-twal-pack-of-12",
+    "cost": 574
+  },
+  {
+    "product_id": "p-papij-twal",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-papij-twal-roll",
+    "cost": 54
+  },
+  {
+    "product_id": "p-papij-twal",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-papij-twal-pack-of-12",
+    "cost": 587
+  },
+  {
+    "product_id": "p-papij-twal",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-papij-twal-roll",
+    "cost": 52
+  },
+  {
+    "product_id": "p-papij-twal",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-papij-twal-pack-of-12",
+    "cost": 583
+  },
+  {
+    "product_id": "p-papij-twal",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-papij-twal-roll",
+    "cost": 54
+  },
+  {
+    "product_id": "p-papij-twal",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-papij-twal-pack-of-12",
+    "cost": 578
+  },
+  {
+    "product_id": "p-papij-twal",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-papij-twal-roll",
+    "cost": 53
+  },
+  {
+    "product_id": "p-papij-twal",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-papij-twal-pack-of-12",
+    "cost": 595
+  },
+  {
+    "product_id": "p-papij-twal",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-papij-twal-roll",
+    "cost": 52
+  },
+  {
+    "product_id": "p-papij-twal",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-papij-twal-pack-of-12",
+    "cost": 583
+  },
+  {
+    "product_id": "p-serviet-yej",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-serviet-yej-pack-of-8",
+    "cost": 179
+  },
+  {
+    "product_id": "p-serviet-yej",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-serviet-yej-pack-of-8",
+    "cost": 180
+  },
+  {
+    "product_id": "p-serviet-yej",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-serviet-yej-pack-of-8",
+    "cost": 186
+  },
+  {
+    "product_id": "p-serviet-yej",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-serviet-yej-pack-of-8",
+    "cost": 182
+  },
+  {
+    "product_id": "p-kouch-m20",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-kouch-m20-pack-of-20",
+    "cost": 651
+  },
+  {
+    "product_id": "p-kouch-m20",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-kouch-m20-box-of-4",
+    "cost": 2199
+  },
+  {
+    "product_id": "p-kouch-m20",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-kouch-m20-pack-of-20",
+    "cost": 649
+  },
+  {
+    "product_id": "p-kouch-m20",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-kouch-m20-box-of-4",
+    "cost": 2325
+  },
+  {
+    "product_id": "p-kouch-m20",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-kouch-m20-pack-of-20",
+    "cost": 632
+  },
+  {
+    "product_id": "p-kouch-m20",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-kouch-m20-box-of-4",
+    "cost": 2223
+  },
+  {
+    "product_id": "p-kouch-m20",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-kouch-m20-pack-of-20",
+    "cost": 600
+  },
+  {
+    "product_id": "p-kouch-m20",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-kouch-m20-box-of-4",
+    "cost": 2205
+  },
+  {
+    "product_id": "p-kouch-m20",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-kouch-m20-pack-of-20",
+    "cost": 597
+  },
+  {
+    "product_id": "p-kouch-m20",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-kouch-m20-box-of-4",
+    "cost": 2167
+  },
+  {
+    "product_id": "p-lete-bebe",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-lete-bebe-tin",
+    "cost": 1080
+  },
+  {
+    "product_id": "p-lwil-bebe",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-lwil-bebe-bottle",
+    "cost": 235
+  },
+  {
+    "product_id": "p-lwil-bebe",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-lwil-bebe-bottle",
+    "cost": 262
+  },
+  {
+    "product_id": "p-lwil-bebe",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-lwil-bebe-bottle",
+    "cost": 242
+  },
+  {
+    "product_id": "p-savon-bebe",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-savon-bebe-bar",
+    "cost": 103
+  },
+  {
+    "product_id": "p-savon-bebe",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-savon-bebe-bar",
+    "cost": 101
+  },
+  {
+    "product_id": "p-savon-bebe",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-savon-bebe-bar",
+    "cost": 116
+  },
+  {
+    "product_id": "p-savon-bebe",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-savon-bebe-bar",
+    "cost": 114
+  },
+  {
+    "product_id": "p-linget",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-linget-pack",
+    "cost": 297
+  },
+  {
+    "product_id": "p-linget",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-linget-pack",
+    "cost": 273
+  },
+  {
+    "product_id": "p-linget",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-linget-pack",
+    "cost": 283
+  },
+  {
+    "product_id": "p-linget",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-linget-pack",
+    "cost": 294
+  },
+  {
+    "product_id": "p-linget",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-linget-pack",
+    "cost": 310
+  },
+  {
+    "product_id": "p-rapadou",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-rapadou-cone",
+    "cost": 60
+  },
+  {
+    "product_id": "p-rapadou",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-rapadou-cone",
+    "cost": 62
+  },
+  {
+    "product_id": "p-tablet-koko",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-tablet-koko-single",
+    "cost": 36
+  },
+  {
+    "product_id": "p-tablet-koko",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-tablet-koko-single",
+    "cost": 33
+  },
+  {
+    "product_id": "p-tablet-koko",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-tablet-koko-single",
+    "cost": 35
+  },
+  {
+    "product_id": "p-dous-makos",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-dous-makos-single",
+    "cost": 67
+  },
+  {
+    "product_id": "p-dous-makos",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-dous-makos-single",
+    "cost": 70
+  },
+  {
+    "product_id": "p-akasan-500",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-akasan-500-single-cold",
+    "cost": 83
+  },
+  {
+    "product_id": "p-akasan-500",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-akasan-500-single-cold",
+    "cost": 74
+  },
+  {
+    "product_id": "p-akasan-500",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-akasan-500-single-cold",
+    "cost": 72
+  },
+  {
+    "product_id": "p-akasan-500",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-akasan-500-single-cold",
+    "cost": 76
+  },
+  {
+    "product_id": "p-akasan-500",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-akasan-500-single-cold",
+    "cost": 81
+  },
+  {
+    "product_id": "p-mabi-500",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-mabi-500-single",
+    "cost": 64
+  },
+  {
+    "product_id": "p-mabi-500",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-mabi-500-single",
+    "cost": 62
+  },
+  {
+    "product_id": "p-chokola-5",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-chokola-5-pack-of-5",
+    "cost": 114
+  },
+  {
+    "product_id": "p-chokola-5",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-chokola-5-pack-of-5",
+    "cost": 115
+  },
+  {
+    "product_id": "p-chokola-5",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-chokola-5-pack-of-5",
+    "cost": 115
+  },
+  {
+    "product_id": "p-poud-bebe",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-poud-bebe-bottle",
+    "cost": 206
+  },
+  {
+    "product_id": "p-poud-bebe",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-poud-bebe-bottle",
+    "cost": 220
+  },
+  {
+    "product_id": "p-poud-bebe",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-poud-bebe-bottle",
+    "cost": 230
+  },
+  {
+    "product_id": "p-poud-bebe",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-poud-bebe-bottle",
+    "cost": 211
+  },
+  {
+    "product_id": "p-lwil-mask",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-lwil-mask-bottle",
+    "cost": 192
+  },
+  {
+    "product_id": "p-lwil-mask",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-lwil-mask-bottle",
+    "cost": 190
+  },
+  {
+    "product_id": "p-lwil-mask",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-lwil-mask-bottle",
+    "cost": 194
+  },
+  {
+    "product_id": "p-cig-cif",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-cig-cif-pack-of-20",
+    "cost": 178
+  },
+  {
+    "product_id": "p-cig-cif",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-cig-cif-carton-of-10",
+    "cost": 1526
+  },
+  {
+    "product_id": "p-cig-cif",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-cig-cif-pack-of-20",
+    "cost": 175
+  },
+  {
+    "product_id": "p-cig-cif",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-cig-cif-carton-of-10",
+    "cost": 1636
+  },
+  {
+    "product_id": "p-domino",
+    "supplier_id": "sup-ti",
+    "unit_id": "unit-p-domino-set",
+    "cost": 525
+  },
+  {
+    "product_id": "p-kat-jwe",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-kat-jwe-deck",
+    "cost": 131
+  },
+  {
+    "product_id": "p-kat-jwe",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-kat-jwe-deck",
+    "cost": 151
+  },
+  {
+    "product_id": "p-kat-jwe",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-kat-jwe-deck",
+    "cost": 150
+  },
+  {
+    "product_id": "p-kat-jwe",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-kat-jwe-deck",
+    "cost": 133
+  },
+  {
+    "product_id": "p-kaye-100",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-kaye-100-single",
+    "cost": 101
+  },
+  {
+    "product_id": "p-kaye-100",
+    "supplier_id": "sup-carib",
+    "unit_id": "unit-p-kaye-100-dozen",
+    "cost": 1168
+  },
+  {
+    "product_id": "p-kaye-100",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-kaye-100-single",
+    "cost": 103
+  },
+  {
+    "product_id": "p-kaye-100",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-kaye-100-dozen",
+    "cost": 1079
+  },
+  {
+    "product_id": "p-kaye-100",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-kaye-100-single",
+    "cost": 98
+  },
+  {
+    "product_id": "p-kaye-100",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-kaye-100-dozen",
+    "cost": 1074
+  },
+  {
+    "product_id": "p-kaye-100",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-kaye-100-single",
+    "cost": 108
+  },
+  {
+    "product_id": "p-kaye-100",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-kaye-100-dozen",
+    "cost": 1203
+  },
+  {
+    "product_id": "p-kaye-100",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-kaye-100-single",
+    "cost": 107
+  },
+  {
+    "product_id": "p-kaye-100",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-kaye-100-dozen",
+    "cost": 1078
+  },
+  {
+    "product_id": "p-plim-bl",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-plim-bl-single",
+    "cost": 18
+  },
+  {
+    "product_id": "p-plim-bl",
+    "supplier_id": "sup-no",
+    "unit_id": "unit-p-plim-bl-box-of-50",
+    "cost": 696
+  },
+  {
+    "product_id": "p-plim-bl",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-plim-bl-single",
+    "cost": 18
+  },
+  {
+    "product_id": "p-plim-bl",
+    "supplier_id": "sup-santral",
+    "unit_id": "unit-p-plim-bl-box-of-50",
+    "cost": 752
+  },
+  {
+    "product_id": "p-kod-m",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-kod-m-meter",
+    "cost": 34
+  },
+  {
+    "product_id": "p-kod-m",
+    "supplier_id": "sup-pv",
+    "unit_id": "unit-p-kod-m-meter",
+    "cost": 33
+  },
+  {
+    "product_id": "p-kod-m",
+    "supplier_id": "sup-sid",
+    "unit_id": "unit-p-kod-m-meter",
+    "cost": 33
+  },
+  {
+    "product_id": "p-klou-kg",
+    "supplier_id": "sup-haiti-import",
+    "unit_id": "unit-p-klou-kg-kg",
+    "cost": 274
+  },
+  {
+    "product_id": "p-klou-kg",
+    "supplier_id": "sup-diri",
+    "unit_id": "unit-p-klou-kg-kg",
+    "cost": 261
+  },
+  {
+    "product_id": "p-klou-kg",
+    "supplier_id": "sup-bwason",
+    "unit_id": "unit-p-klou-kg-kg",
+    "cost": 260
+  },
+  {
+    "product_id": "p-klou-kg",
+    "supplier_id": "sup-top",
+    "unit_id": "unit-p-klou-kg-kg",
+    "cost": 268
+  }
+]

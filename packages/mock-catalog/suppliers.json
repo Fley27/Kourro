@@ -1,0 +1,92 @@
+[
+  {
+    "id": "sup-carib",
+    "name": "Caribbean Foods",
+    "phone": "+509 2810 1001",
+    "address": null,
+    "payment_terms": "30 jou",
+    "bank_info": null,
+    "notes": "mock"
+  },
+  {
+    "id": "sup-haiti-import",
+    "name": "Haiti Import SA",
+    "phone": "+509 2810 1002",
+    "address": null,
+    "payment_terms": "COD",
+    "bank_info": null,
+    "notes": "mock"
+  },
+  {
+    "id": "sup-diri",
+    "name": "Diri & Co",
+    "phone": "+509 2810 1003",
+    "address": null,
+    "payment_terms": "15 jou",
+    "bank_info": null,
+    "notes": "mock"
+  },
+  {
+    "id": "sup-bwason",
+    "name": "Bwason Plus",
+    "phone": "+509 2810 1004",
+    "address": null,
+    "payment_terms": "COD",
+    "bank_info": null,
+    "notes": "mock"
+  },
+  {
+    "id": "sup-top",
+    "name": "Top Marché Supply",
+    "phone": "+509 2810 1005",
+    "address": null,
+    "payment_terms": "30 jou",
+    "bank_info": null,
+    "notes": "mock"
+  },
+  {
+    "id": "sup-pv",
+    "name": "Petyonvil Distribisyon",
+    "phone": "+509 2810 1006",
+    "address": null,
+    "payment_terms": "7 jou",
+    "bank_info": null,
+    "notes": "mock"
+  },
+  {
+    "id": "sup-sid",
+    "name": "Sid Distribisyon",
+    "phone": "+509 2810 1007",
+    "address": null,
+    "payment_terms": "15 jou",
+    "bank_info": null,
+    "notes": "mock"
+  },
+  {
+    "id": "sup-no",
+    "name": "Nò Wholesale",
+    "phone": "+509 2810 1008",
+    "address": null,
+    "payment_terms": "30 jou",
+    "bank_info": null,
+    "notes": "mock"
+  },
+  {
+    "id": "sup-santral",
+    "name": "Santral Pwovizyon",
+    "phone": "+509 2810 1009",
+    "address": null,
+    "payment_terms": "COD",
+    "bank_info": null,
+    "notes": "mock"
+  },
+  {
+    "id": "sup-ti",
+    "name": "Ti Machann Wholesale",
+    "phone": "+509 2810 1010",
+    "address": null,
+    "payment_terms": "Cash",
+    "bank_info": null,
+    "notes": "mock"
+  }
+]

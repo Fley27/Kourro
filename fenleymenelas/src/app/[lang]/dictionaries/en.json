@@ -1,0 +1,166 @@
+{
+  "meta": {
+    "title": "Fenley Menelas — Software Engineer | Haiti & Remote",
+    "description": "Software engineer building web and mobile products for clients in Haiti and abroad. Available for freelance and full-time remote work.",
+    "keywords": [
+      "software engineer",
+      "freelance developer Haiti",
+      "web developer",
+      "Next.js developer",
+      "React Native developer",
+      "remote software engineer"
+    ]
+  },
+  "header": {
+    "brand": "Fenley Menelas",
+    "language": "Language",
+    "nav": {
+      "about": "About",
+      "services": "Services",
+      "work": "Work",
+      "contact": "Contact"
+    }
+  },
+  "hero": {
+    "badge": "Available for new projects",
+    "greeting": "Hi, I'm",
+    "name": "Fenley Menelas",
+    "role": "Software Engineer",
+    "intro": "I design and build reliable web and mobile applications for startups and businesses — in Haiti and around the world.",
+    "location": "Based in Haiti · Working worldwide (UTC−5)",
+    "ctaPrimary": "Start a project",
+    "ctaSecondary": "See my work",
+    "stats": [
+      { "value": "5+", "label": "Years of experience" },
+      { "value": "30+", "label": "Projects delivered" },
+      { "value": "24h", "label": "Response time" },
+      { "value": "3", "label": "Languages spoken" }
+    ]
+  },
+  "services": {
+    "heading": "Services",
+    "intro": "From idea to launch — end-to-end development for clients in Haiti and abroad.",
+    "items": [
+      {
+        "title": "Web applications",
+        "description": "Full-stack web apps built with React, Next.js and Node.js — from MVPs to production systems."
+      },
+      {
+        "title": "Mobile apps",
+        "description": "Cross-platform iOS and Android apps with React Native and Expo, shipped to the stores."
+      },
+      {
+        "title": "E-commerce & payments",
+        "description": "Online stores, order management and payment integrations (Stripe, MonCash, NatCash)."
+      },
+      {
+        "title": "Consulting & automation",
+        "description": "Technical consulting, API integrations, dashboards and process automation for growing teams."
+      }
+    ]
+  },
+  "about": {
+    "heading": "About me",
+    "paragraph1": "I'm a software engineer who helps companies turn ideas into products. I work end-to-end — architecture, front-end, back-end, databases and deployment — with a bias for simple, maintainable code that ships on time.",
+    "paragraph2": "I've worked with clients in Haiti, the United States and Europe, remotely and on site. I communicate in English, French and Spanish, and I'm used to working across time zones.",
+    "facts": [
+      { "label": "Location", "value": "Port-au-Prince, Haiti · Remote" },
+      { "label": "Availability", "value": "Freelance, contracts & full-time remote" },
+      { "label": "Languages", "value": "English · French · Spanish · Haitian Creole" }
+    ]
+  },
+  "skills": {
+    "heading": "Skills",
+    "groups": [
+      {
+        "name": "Frontend",
+        "items": ["React", "Next.js", "TypeScript", "Tailwind CSS", "HTML & CSS"]
+      },
+      {
+        "name": "Backend",
+        "items": ["Node.js", "PostgreSQL", "Supabase", "REST & GraphQL APIs", "Authentication"]
+      },
+      {
+        "name": "Mobile & tools",
+        "items": ["React Native", "Expo", "Git", "Docker", "CI/CD", "AWS & Vercel"]
+      }
+    ]
+  },
+  "work": {
+    "heading": "Selected work",
+    "intro": "A few projects that show how I work — replace them with your own case studies.",
+    "items": [
+      {
+        "title": "Retail Sales Management",
+        "year": "2025",
+        "description": "Point-of-sale and inventory platform with offline sync for multi-store retailers.",
+        "tags": ["Next.js", "React Native", "PostgreSQL"]
+      },
+      {
+        "title": "E-commerce Marketplace",
+        "year": "2024",
+        "description": "Storefront with checkout, delivery tracking and local payment methods.",
+        "tags": ["Next.js", "Stripe", "MonCash"]
+      },
+      {
+        "title": "Field Data Collection App",
+        "year": "2024",
+        "description": "Offline-first mobile app for field teams, with dashboards for program managers.",
+        "tags": ["React Native", "Node.js", "Supabase"]
+      },
+      {
+        "title": "Logistics Dashboard",
+        "year": "2023",
+        "description": "Real-time fleet tracking and dispatch dashboard for a delivery company.",
+        "tags": ["TypeScript", "WebSockets", "Maps API"]
+      }
+    ]
+  },
+  "experience": {
+    "heading": "Experience",
+    "items": [
+      {
+        "role": "Senior Software Engineer",
+        "company": "Freelance · Remote",
+        "period": "2022 — Present",
+        "description": "Building web and mobile products for clients in Haiti, the US and Europe — from discovery to deployment."
+      },
+      {
+        "role": "Software Engineer",
+        "company": "Company Name",
+        "period": "2020 — 2022",
+        "description": "Delivered customer-facing features, REST APIs and dashboards for a growing product team."
+      },
+      {
+        "role": "Junior Developer",
+        "company": "Company Name",
+        "period": "2018 — 2020",
+        "description": "Maintained web applications, fixed bugs and learned the craft of shipping production code."
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Let's work together",
+    "intro": "Tell me about your project — I reply within 24 hours. Remote worldwide, in-person in Haiti.",
+    "availability": "Open to new opportunities",
+    "emailLabel": "Email",
+    "email": "hello@fenleymenelas.dev",
+    "phoneLabel": "Phone",
+    "phone": "+509 0000 0000",
+    "locationLabel": "Location",
+    "location": "Port-au-Prince, Haiti",
+    "ctaEmail": "Email me",
+    "ctaWhatsApp": "WhatsApp",
+    "ctaLinkedIn": "View LinkedIn"
+  },
+  "footer": {
+    "tagline": "Software engineer for clients in Haiti and abroad.",
+    "rights": "All rights reserved.",
+    "built": "Built with Next.js"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "text": "The page you're looking for doesn't exist or has moved.",
+    "back": "Back to home"
+  }
+}

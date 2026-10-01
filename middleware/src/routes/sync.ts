@@ -2,9 +2,14 @@ import type { FastifyInstance } from "fastify";
 import { supabase, redis, isMockMode } from "../index.js";
 import { requireAuth } from "../auth.js";
 import type { SyncPushPayload, SyncChange } from "@retail/shared-types";
+import { GLOBAL_TABLES } from "@retail/shared-types";
 import { resolveLWW } from "@retail/sync-engine";
 
-const TABLES = ["products","customers","sales","sale_items","credits","credit_payments","price_history","categories","cash_sessions","stock_movements"] as const;
+const TABLES = ["products","customers","sales","sale_items","credits","credit_payments","price_history","categories","cash_sessions","stock_movements","stock_batches","suppliers","supplier_bank_accounts","orders","employee_stores","product_units","product_supplier_costs","category_links","product_categories","items","product_suppliers","batches","variants","variant_prices","bundles","bundle_prices","open_orders","open_order_lines","order_change_requests","open_order_events"] as const;
+// Assisted ordering: SQLite writes is_deleted as 0/1, Postgres wants a
+// boolean — normalize on the way in so these rows do not bounce as `error:`.
+const ORDER_TABLES = ["open_orders","open_order_lines","order_change_requests","open_order_events"] as const;
+const isGlobal = (t: string) => (GLOBAL_TABLES as readonly string[]).includes(t);
 
 export default async function syncRoutes(app: FastifyInstance) {
   // Push: client sends local changes, server merges via LWW into Postgres
@@ -30,14 +35,28 @@ export default async function syncRoutes(app: FastifyInstance) {
       }
       const id = (ch.record as any).id;
       try {
-        const { data: existing } = await supabase.from(ch.table).select("*").eq("id", id).maybeSingle();
+        // Link tables written by clients without row ids (mobile PKs are the
+        // bare pair): synthesize a stable id so the server upsert has a key.
+        const record: any = { ...ch.record };
+        if ((ORDER_TABLES as readonly string[]).includes(ch.table) && typeof record.is_deleted === "number") {
+          record.is_deleted = record.is_deleted !== 0;
+        }
+        if (!record.id && (ch.table === "product_categories" || ch.table === "category_links" || ch.table === "product_suppliers")) {
+          const a = record.product_id ?? record.child_id ?? "x";
+          const b = record.category_id ?? record.parent_id ?? "y";
+          record.id = `${a}__${b}`;
+        }
+        const { data: existing } = await supabase.from(ch.table).select("*").eq("id", record.id ?? id).maybeSingle();
+        // Global tables (suppliers, product_units, product_supplier_costs) carry
+        // no store scope: sync the record as-is, never stamp the caller's store.
+        const scoped = isGlobal(ch.table) ? record : { ...record, store_id: body.store_id };
         if (!existing) {
-          const { error } = await supabase.from(ch.table).insert({ ...ch.record, store_id: body.store_id });
+          const { error } = await supabase.from(ch.table).insert(scoped);
           results.push({ id, status: error ? `error:${error.message}` : "inserted" });
         } else {
-          const winner = resolveLWW(existing as any, ch.record as any);
-          if (winner === ch.record) {
-            const { error } = await supabase.from(ch.table).update(ch.record).eq("id", id);
+          const winner = resolveLWW(existing as any, record as any);
+          if (winner === record) {
+            const { error } = await supabase.from(ch.table).update(scoped).eq("id", record.id ?? id);
             results.push({ id, status: error ? `error:${error.message}` : "updated" });
           } else {
             results.push({ id, status: "conflict_local_wins" });
@@ -79,12 +98,15 @@ export default async function syncRoutes(app: FastifyInstance) {
     const allChanges: SyncChange[] = [];
     for (const table of TABLES) {
       try {
-        const { data, error } = await supabase.from(table)
+        // Global tables have no store_id: pull everything since `since`.
+        // Store tables stay scoped to the caller's store.
+        let q = supabase.from(table)
           .select("*")
-          .eq("store_id", store_id)
           .gt("updated_at", sinceDate.toISOString())
           .order("updated_at", { ascending: true })
           .limit(500);
+        if (!isGlobal(table)) q = q.eq("store_id", store_id);
+        const { data, error } = await q;
         if (error) continue;
         for (const row of data ?? []) {
           allChanges.push({ table, operation: (row as any).is_deleted ? "delete" : "update", record: row as any });

@@ -1,0 +1,166 @@
+{
+  "meta": {
+    "title": "Fenley Menelas — Ingeniero de software | Haití & Remoto",
+    "description": "Ingeniero de software que construye aplicaciones web y móviles para clientes en Haití y en el extranjero. Disponible para freelance y trabajo remoto a tiempo completo.",
+    "keywords": [
+      "ingeniero de software",
+      "desarrollador freelance Haití",
+      "desarrollador web",
+      "desarrollador Next.js",
+      "desarrollador React Native",
+      "ingeniero de software remoto"
+    ]
+  },
+  "header": {
+    "brand": "Fenley Menelas",
+    "language": "Idioma",
+    "nav": {
+      "about": "Sobre mí",
+      "services": "Servicios",
+      "work": "Proyectos",
+      "contact": "Contacto"
+    }
+  },
+  "hero": {
+    "badge": "Disponible para nuevos proyectos",
+    "greeting": "Hola, soy",
+    "name": "Fenley Menelas",
+    "role": "Ingeniero de software",
+    "intro": "Diseño y construyo aplicaciones web y móviles fiables para startups y empresas — en Haití y en todo el mundo.",
+    "location": "Con base en Haití · Trabajo global (UTC−5)",
+    "ctaPrimary": "Iniciar un proyecto",
+    "ctaSecondary": "Ver mis proyectos",
+    "stats": [
+      { "value": "5+", "label": "Años de experiencia" },
+      { "value": "30+", "label": "Proyectos entregados" },
+      { "value": "24h", "label": "Tiempo de respuesta" },
+      { "value": "3", "label": "Idiomas" }
+    ]
+  },
+  "services": {
+    "heading": "Servicios",
+    "intro": "De la idea al lanzamiento — desarrollo integral para clientes en Haití y en el extranjero.",
+    "items": [
+      {
+        "title": "Aplicaciones web",
+        "description": "Aplicaciones web full-stack con React, Next.js y Node.js — desde MVP hasta sistemas en producción."
+      },
+      {
+        "title": "Aplicaciones móviles",
+        "description": "Apps multiplataforma para iOS y Android con React Native y Expo, publicadas en las tiendas."
+      },
+      {
+        "title": "E-commerce y pagos",
+        "description": "Tiendas en línea, gestión de pedidos e integraciones de pago (Stripe, MonCash, NatCash)."
+      },
+      {
+        "title": "Consultoría y automatización",
+        "description": "Consultoría técnica, integraciones de API, dashboards y automatización de procesos."
+      }
+    ]
+  },
+  "about": {
+    "heading": "Sobre mí",
+    "paragraph1": "Soy un ingeniero de software que ayuda a las empresas a convertir ideas en productos. Trabajo de extremo a extremo — arquitectura, front-end, back-end, bases de datos y despliegue — con preferencia por código simple, mantenible y entregado a tiempo.",
+    "paragraph2": "He trabajado con clientes en Haití, Estados Unidos y Europa, de forma remota y presencial. Me comunico en inglés, francés y español, y estoy acostumbrado a trabajar entre husos horarios.",
+    "facts": [
+      { "label": "Ubicación", "value": "Puerto Príncipe, Haití · Remoto" },
+      { "label": "Disponibilidad", "value": "Freelance, contratos y remoto a tiempo completo" },
+      { "label": "Idiomas", "value": "Inglés · Francés · Español · Criollo haitiano" }
+    ]
+  },
+  "skills": {
+    "heading": "Habilidades",
+    "groups": [
+      {
+        "name": "Frontend",
+        "items": ["React", "Next.js", "TypeScript", "Tailwind CSS", "HTML & CSS"]
+      },
+      {
+        "name": "Backend",
+        "items": ["Node.js", "PostgreSQL", "Supabase", "API REST & GraphQL", "Autenticación"]
+      },
+      {
+        "name": "Móvil y herramientas",
+        "items": ["React Native", "Expo", "Git", "Docker", "CI/CD", "AWS & Vercel"]
+      }
+    ]
+  },
+  "work": {
+    "heading": "Proyectos destacados",
+    "intro": "Algunos proyectos que muestran mi forma de trabajar — reemplázalos con tus propios casos de estudio.",
+    "items": [
+      {
+        "title": "Gestión de ventas minoristas",
+        "year": "2025",
+        "description": "Plataforma de punto de venta e inventario con sincronización sin conexión para tiendas múltiples.",
+        "tags": ["Next.js", "React Native", "PostgreSQL"]
+      },
+      {
+        "title": "Marketplace de e-commerce",
+        "year": "2024",
+        "description": "Tienda con checkout, seguimiento de entregas y métodos de pago locales.",
+        "tags": ["Next.js", "Stripe", "MonCash"]
+      },
+      {
+        "title": "App de recolección de datos",
+        "year": "2024",
+        "description": "App móvil sin conexión para equipos de campo, con dashboards para gestores de programa.",
+        "tags": ["React Native", "Node.js", "Supabase"]
+      },
+      {
+        "title": "Dashboard de logística",
+        "year": "2023",
+        "description": "Seguimiento de flota en tiempo real y panel de despacho para una empresa de reparto.",
+        "tags": ["TypeScript", "WebSockets", "Maps API"]
+      }
+    ]
+  },
+  "experience": {
+    "heading": "Experiencia",
+    "items": [
+      {
+        "role": "Ingeniero de software senior",
+        "company": "Freelance · Remoto",
+        "period": "2022 — Actualidad",
+        "description": "Construcción de productos web y móviles para clientes en Haití, EE. UU. y Europa — del descubrimiento al despliegue."
+      },
+      {
+        "role": "Ingeniero de software",
+        "company": "Nombre de la empresa",
+        "period": "2020 — 2022",
+        "description": "Entrega de funcionalidades para clientes, API REST y dashboards para un equipo de producto en crecimiento."
+      },
+      {
+        "role": "Desarrollador junior",
+        "company": "Nombre de la empresa",
+        "period": "2018 — 2020",
+        "description": "Mantenimiento de aplicaciones web, corrección de errores y aprendizaje del oficio del código en producción."
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Trabajemos juntos",
+    "intro": "Cuéntame sobre tu proyecto — respondo en 24 horas. Remoto en todo el mundo, en persona en Haití.",
+    "availability": "Abierto a nuevas oportunidades",
+    "emailLabel": "Correo",
+    "email": "hello@fenleymenelas.dev",
+    "phoneLabel": "Teléfono",
+    "phone": "+509 0000 0000",
+    "locationLabel": "Ubicación",
+    "location": "Puerto Príncipe, Haití",
+    "ctaEmail": "Escríbeme",
+    "ctaWhatsApp": "WhatsApp",
+    "ctaLinkedIn": "Ver LinkedIn"
+  },
+  "footer": {
+    "tagline": "Ingeniero de software para clientes en Haití y en el extranjero.",
+    "rights": "Todos los derechos reservados.",
+    "built": "Creado con Next.js"
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "text": "La página que buscas no existe o ha cambiado de ubicación.",
+    "back": "Volver al inicio"
+  }
+}

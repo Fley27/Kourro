@@ -1,0 +1,166 @@
+{
+  "meta": {
+    "title": "Fenley Menelas — Ingénieur logiciel | Haïti & Remote",
+    "description": "Ingénieur logiciel qui conçoit des applications web et mobiles pour des clients en Haïti et à l'étranger. Disponible en freelance et en télétravail à temps plein.",
+    "keywords": [
+      "ingénieur logiciel",
+      "développeur freelance Haïti",
+      "développeur web",
+      "développeur Next.js",
+      "développeur React Native",
+      "ingénieur logiciel remote"
+    ]
+  },
+  "header": {
+    "brand": "Fenley Menelas",
+    "language": "Langue",
+    "nav": {
+      "about": "À propos",
+      "services": "Services",
+      "work": "Réalisations",
+      "contact": "Contact"
+    }
+  },
+  "hero": {
+    "badge": "Disponible pour de nouveaux projets",
+    "greeting": "Bonjour, je suis",
+    "name": "Fenley Menelas",
+    "role": "Ingénieur logiciel",
+    "intro": "Je conçois et développe des applications web et mobiles fiables pour startups et entreprises — en Haïti et partout dans le monde.",
+    "location": "Basé en Haïti · Travail à l'international (UTC−5)",
+    "ctaPrimary": "Démarrer un projet",
+    "ctaSecondary": "Voir mes projets",
+    "stats": [
+      { "value": "5+", "label": "Années d'expérience" },
+      { "value": "30+", "label": "Projets livrés" },
+      { "value": "24h", "label": "Délai de réponse" },
+      { "value": "3", "label": "Langues parlées" }
+    ]
+  },
+  "services": {
+    "heading": "Services",
+    "intro": "De l'idée au lancement — un développement clé en main pour les clients en Haïti et à l'étranger.",
+    "items": [
+      {
+        "title": "Applications web",
+        "description": "Applications web full-stack avec React, Next.js et Node.js — du MVP aux systèmes en production."
+      },
+      {
+        "title": "Applications mobiles",
+        "description": "Applications iOS et Android multiplateformes avec React Native et Expo, publiées sur les stores."
+      },
+      {
+        "title": "E-commerce & paiements",
+        "description": "Boutiques en ligne, gestion des commandes et intégrations de paiement (Stripe, MonCash, NatCash)."
+      },
+      {
+        "title": "Conseil & automatisation",
+        "description": "Conseil technique, intégrations d'API, tableaux de bord et automatisation des processus."
+      }
+    ]
+  },
+  "about": {
+    "heading": "À propos",
+    "paragraph1": "Je suis un ingénieur logiciel qui aide les entreprises à transformer leurs idées en produits. Je travaille de bout en bout — architecture, front-end, back-end, bases de données et déploiement — avec un goût pour un code simple, maintenable et livré à temps.",
+    "paragraph2": "J'ai travaillé avec des clients en Haïti, aux États-Unis et en Europe, à distance et sur site. Je communique en anglais, en français et en espagnol, et je sais travailler à travers les fuseaux horaires.",
+    "facts": [
+      { "label": "Localisation", "value": "Port-au-Prince, Haïti · Remote" },
+      { "label": "Disponibilité", "value": "Freelance, contrats & temps plein en télétravail" },
+      { "label": "Langues", "value": "Anglais · Français · Espagnol · Créole haïtien" }
+    ]
+  },
+  "skills": {
+    "heading": "Compétences",
+    "groups": [
+      {
+        "name": "Frontend",
+        "items": ["React", "Next.js", "TypeScript", "Tailwind CSS", "HTML & CSS"]
+      },
+      {
+        "name": "Backend",
+        "items": ["Node.js", "PostgreSQL", "Supabase", "API REST & GraphQL", "Authentification"]
+      },
+      {
+        "name": "Mobile & outils",
+        "items": ["React Native", "Expo", "Git", "Docker", "CI/CD", "AWS & Vercel"]
+      }
+    ]
+  },
+  "work": {
+    "heading": "Réalisations",
+    "intro": "Quelques projets qui montrent ma façon de travailler — remplacez-les par vos propres études de cas.",
+    "items": [
+      {
+        "title": "Gestion des ventes au détail",
+        "year": "2025",
+        "description": "Plateforme de point de vente et de stock avec synchronisation hors ligne pour enseignes multi-boutiques.",
+        "tags": ["Next.js", "React Native", "PostgreSQL"]
+      },
+      {
+        "title": "Marketplace e-commerce",
+        "year": "2024",
+        "description": "Boutique avec paiement, suivi de livraison et méthodes de paiement locales.",
+        "tags": ["Next.js", "Stripe", "MonCash"]
+      },
+      {
+        "title": "Application de collecte de données",
+        "year": "2024",
+        "description": "Application mobile hors ligne pour les équipes terrain, avec tableaux de bord pour les responsables de programme.",
+        "tags": ["React Native", "Node.js", "Supabase"]
+      },
+      {
+        "title": "Tableau de bord logistique",
+        "year": "2023",
+        "description": "Suivi de flotte en temps réel et tableau de dispatch pour une société de livraison.",
+        "tags": ["TypeScript", "WebSockets", "Maps API"]
+      }
+    ]
+  },
+  "experience": {
+    "heading": "Expérience",
+    "items": [
+      {
+        "role": "Ingénieur logiciel senior",
+        "company": "Freelance · Remote",
+        "period": "2022 — Aujourd'hui",
+        "description": "Développement de produits web et mobiles pour des clients en Haïti, aux États-Unis et en Europe — de la découverte au déploiement."
+      },
+      {
+        "role": "Ingénieur logiciel",
+        "company": "Nom de l'entreprise",
+        "period": "2020 — 2022",
+        "description": "Livraison de fonctionnalités client, d'API REST et de tableaux de bord pour une équipe produit en croissance."
+      },
+      {
+        "role": "Développeur junior",
+        "company": "Nom de l'entreprise",
+        "period": "2018 — 2020",
+        "description": "Maintenance d'applications web, correction de bugs et apprentissage du métier du code en production."
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Travaillons ensemble",
+    "intro": "Parlez-moi de votre projet — je réponds sous 24 heures. À distance dans le monde entier, en personne en Haïti.",
+    "availability": "Ouvert à de nouvelles opportunités",
+    "emailLabel": "E-mail",
+    "email": "hello@fenleymenelas.dev",
+    "phoneLabel": "Téléphone",
+    "phone": "+509 0000 0000",
+    "locationLabel": "Localisation",
+    "location": "Port-au-Prince, Haïti",
+    "ctaEmail": "M'écrire",
+    "ctaWhatsApp": "WhatsApp",
+    "ctaLinkedIn": "Voir LinkedIn"
+  },
+  "footer": {
+    "tagline": "Ingénieur logiciel pour les clients en Haïti et à l'étranger.",
+    "rights": "Tous droits réservés.",
+    "built": "Créé avec Next.js"
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "text": "La page que vous cherchez n'existe pas ou a été déplacée.",
+    "back": "Retour à l'accueil"
+  }
+}

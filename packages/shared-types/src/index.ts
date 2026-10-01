@@ -131,10 +131,13 @@ export interface Product extends SyncMeta {
   name: string;
   name_ht: string | null;
   category_id: string | null;
+  item_type: 'goods' | 'service'; // services never decrement stock
+  is_available: boolean; // 86-toggle: unavailable services hidden from POS
   unit: string; // 'pcs', 'kg', 'sack' etc
   cost_price: number; // last cost
   selling_price: number;
   stock_quantity: number;
+  current_amount_available: number;
   low_stock_threshold: number;
   image_url: string | null;
 }
@@ -152,6 +155,7 @@ export interface PriceHistory extends SyncMeta {
 export interface Customer extends SyncMeta {
   name: string;
   phone: string | null;
+  email?: string | null; // saved email for receipt-by-email (post-payment options)
   id_card_number: string | null; // Haitian NIF/CIN to distinguish same names, required for credit
   address: string | null;
   notes: string | null;
@@ -178,16 +182,35 @@ export interface Sale extends SyncMeta {
   amount_due: number; // for credit
   notes: string | null;
   cashier_id: string | null;
+  // Complimentary/promo: stock deducts normally, revenue is zero.
+  // Whole-sale gratis = zero-total cash only (never credit).
+  is_complimentary: boolean;
+  complimentary_reason: string | null;
+  approved_by: string | null; // manager+ who granted it
 }
 
 export interface SaleItem extends SyncMeta {
   sale_id: string;
   product_id: string;
   product_name: string; // snapshot at time of sale
-  quantity: number;
+  unit_id: string | null;
+  variant: string | null; // legacy mirror of unit condition (transition)
+  quantity: number; // quantity paid (source of truth)
+  quantity_delivered?: number; // quantity taken so far (staging: partial pickup)
+  quantity_remaining?: number; // computed: quantity - quantity_delivered
   unit_price: number;
   cost_price: number; // snapshot for profit calc
   line_total: number;
+  is_complimentary: boolean; // gratis line: deducts stock, zero revenue
+  approved_by: string | null;
+}
+
+// --- Partial pickup / delivery tracking (staging, additive only) ---
+export interface SalePickup extends SyncMeta {
+  sale_id: string;
+  sale_item_id: string;
+  quantity: number; // decimal-safe, must be > 0 and <= remaining
+  picked_up_by: string | null;
 }
 
 export type CreditStatus = 'pending' | 'partial' | 'paid' | 'overdue';
@@ -236,6 +259,138 @@ export interface StockMovement extends SyncMeta {
   created_by: string | null;
 }
 
+export interface StockBatch extends SyncMeta {
+  reference: string | null;
+  supplier: string | null; // legacy free text, kept for history
+  supplier_id: string | null; // FK -> global suppliers (new receives)
+  transport_cost: number;
+  notes: string | null;
+  total_items_cost: number;
+  total_cost: number;
+  received_at: string | null;
+  status: string; // 'pending' | 'delivered'
+  delivered_at: string | null;
+  created_by: string | null;
+}
+
+export interface Supplier extends Omit<SyncMeta, "store_id"> {
+  // Suppliers are GLOBAL (same business, all locations). store_id is legacy:
+  // old rows carry one, new rows write null and reads stop scoping by store.
+  store_id: string | null;
+  name: string;
+  phone: string | null;
+  country: string | null; // ISO code, HT preselected in the form
+  department: string | null; // Haitian dept code, or free text when "Other"
+  city: string | null;
+  address: string | null; // single line — no line 2 / postal code
+  payment_methods: string | null; // JSON array of ids: cash/bank/remittance
+  payment_terms: string | null;
+  bank_info: string | null; // legacy free-text: owner-only, never overwritten
+  notes: string | null;
+}
+
+// Repeatable supplier bank sub-records (shown when "bank" is checked).
+// Global like suppliers; currency is 'HTG' (gourde) | 'USD' (dollar).
+export interface SupplierBankAccount extends Omit<SyncMeta, "store_id"> {
+  store_id: string | null;
+  supplier_id: string;
+  bank_name: string;
+  currency: string;
+  account_number: string | null;
+  sort_order: number;
+}
+
+// --- Catalog x Supplier: units carry the variant dimensions ---
+export interface ProductUnit {
+  id: string;
+  product_id: string;
+  unit_name: string; // label: "box of 24", "single unit", "shot"
+  condition: string | null; // "cold", "room temperature", null = none
+  conversion_factor: number; // back to base unit; sub-unit shots deduct fractionally
+  device_id: string | null;
+  lamport_clock: number;
+  is_deleted: boolean;
+  version: number;
+  created_at: string;
+  updated_at: string;
+}
+
+// Global join: one row per (product, supplier, unit). Cost only — resell is
+// one-per-unit and lives with selling prices. No store_id (business-wide).
+export interface ProductSupplierCost {
+  id: string;
+  product_id: string;
+  supplier_id: string;
+  unit_id: string;
+  cost: number;
+  last_updated: string; // ISO
+  device_id: string | null;
+  lamport_clock: number;
+  is_deleted: boolean;
+  version: number;
+  created_at: string;
+  updated_at: string;
+}
+
+// Tables that sync WITHOUT store scoping (business-wide catalog data).
+export const GLOBAL_TABLES: readonly string[] = [
+  "suppliers",
+  "supplier_bank_accounts",
+  "product_units",
+  "product_supplier_costs",
+  "items",
+  "product_suppliers",
+  "batches",
+  "variants",
+  "variant_prices",
+  "bundles",
+  "bundle_prices",
+] as const;
+
+export type OrderStatus = 'requested' | 'approved' | 'ordered' | 'received' | 'cancelled';
+
+export interface Order extends SyncMeta {
+  item_name: string;
+  qty: number;
+  unit: string | null;
+  supplier_name: string | null;
+  note: string | null;
+  status: OrderStatus;
+  requested_by: string | null;
+  requested_by_name: string | null;
+  approved_by: string | null;
+}
+
+export interface EmployeeStore {
+  employee_id: string;
+  store_id: string;
+  created_at: string;
+}
+
+// --- Category polyhierarchy (DAG): multiple parents allowed ---
+export interface CategoryLink {
+  id: string;
+  child_id: string;
+  parent_id: string;
+  device_id: string | null;
+  lamport_clock: number;
+  is_deleted: boolean;
+  version: number;
+  created_at: string;
+  updated_at: string;
+}
+
+export interface ProductCategory {
+  id: string; // `${product_id}__${category_id}` when the writer has no ids
+  product_id: string;
+  category_id: string;
+  device_id: string | null;
+  lamport_clock: number;
+  is_deleted: boolean;
+  version: number;
+  created_at: string;
+  updated_at: string;
+}
 // --- Sync protocol ---
 export type SyncOperation = 'create' | 'update' | 'delete';
 
