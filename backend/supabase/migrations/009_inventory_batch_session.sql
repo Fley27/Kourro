@@ -52,21 +52,28 @@ create index if not exists idx_bundle_prices_bundle on bundle_prices(bundle_id);
 create trigger trg_bundle_prices_updated before update on bundle_prices for each row execute function set_updated_at();
 
 -- Existing rows: every product_bundles row becomes one bundle + one price row.
-insert into bundles (id, variant_id, min_quantity, active, created_at, updated_at)
-select pb.id, pb.variant_id, pb.min_quantity, true, coalesce(pb.created_at, now()), now()
-from product_bundles pb
-where pb.variant_id is not null
-  and not exists (select 1 from bundles b where b.id = pb.id)
-on conflict (id) do nothing;
+-- product_bundles is a legacy table (SQLite-only on the client); skip when it
+-- was never created on this database.
+do $$
+begin
+  if to_regclass('public.product_bundles') is not null then
+    insert into bundles (id, variant_id, min_quantity, active, created_at, updated_at)
+    select pb.id, pb.variant_id, pb.min_quantity, true, coalesce(pb.created_at, now()), now()
+    from product_bundles pb
+    where pb.variant_id is not null
+      and not exists (select 1 from bundles b where b.id = pb.id)
+    on conflict (id) do nothing;
 
-insert into bundle_prices (id, bundle_id, price, date, created_at, updated_at)
-select 'bpri-' || pb.id, pb.id, pb.bundle_price,
-       coalesce(pb.created_at::date, now()::date), coalesce(pb.created_at, now()), now()
-from product_bundles pb
-where pb.variant_id is not null
-  and pb.bundle_price is not null
-  and not exists (select 1 from bundle_prices bp where bp.bundle_id = pb.id)
-on conflict (id) do nothing;
+    insert into bundle_prices (id, bundle_id, price, date, created_at, updated_at)
+    select 'bpri-' || pb.id, pb.id, pb.bundle_price,
+           coalesce(pb.created_at::date, now()::date), coalesce(pb.created_at, now()), now()
+    from product_bundles pb
+    where pb.variant_id is not null
+      and pb.bundle_price is not null
+      and not exists (select 1 from bundle_prices bp where bp.bundle_id = pb.id)
+    on conflict (id) do nothing;
+  end if;
+end $$;
 
 -- Backfill item_id on rows written before this migration.
 update product_supplier_costs psc

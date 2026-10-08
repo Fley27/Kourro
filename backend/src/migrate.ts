@@ -12,6 +12,13 @@ if (!DATABASE_URL) {
 
 const sql = postgres(DATABASE_URL, { max: 1, connect_timeout: 5 });
 
+// There is no migration ledger, so every file runs every time: on a database
+// that already exists the "create" statements in 001..021 fail with duplicate
+// objects and used to abort the whole run, leaving nothing newer to apply.
+// Each file is one implicit transaction (all-or-nothing), so an ignorable
+// failure means the file was already applied — skip it and keep going.
+const ALREADY_APPLIED = new Set(["42710", "42P07", "42701", "42P06", "42723", "42P16"]);
+
 async function run() {
   const migrationsDir = path.resolve("supabase/migrations");
   const files = fs.readdirSync(migrationsDir).filter(f => f.endsWith(".sql")).sort();
@@ -19,8 +26,17 @@ async function run() {
     const full = path.join(migrationsDir, file);
     const content = fs.readFileSync(full, "utf8");
     console.log(`→ Applying ${file}...`);
-    await sql.unsafe(content);
-    console.log(`✓ ${file} done`);
+    try {
+      await sql.unsafe(content);
+      console.log(`✓ ${file} done`);
+    } catch (e: any) {
+      const code = e?.code;
+      if (code && ALREADY_APPLIED.has(code)) {
+        console.log(`  ↷ ${file} already applied (${code}), skipping`);
+        continue;
+      }
+      throw e;
+    }
   }
   await sql.end();
   console.log("All migrations applied.");

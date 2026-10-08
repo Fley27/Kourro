@@ -345,6 +345,8 @@ export const GLOBAL_TABLES: readonly string[] = [
   "variant_prices",
   "bundles",
   "bundle_prices",
+  "product_categories",
+  "category_links",
 ] as const;
 
 export type OrderStatus = 'requested' | 'approved' | 'ordered' | 'received' | 'cancelled';

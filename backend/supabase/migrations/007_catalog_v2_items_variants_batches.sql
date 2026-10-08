@@ -98,7 +98,7 @@ create index if not exists idx_variant_prices_variant on variant_prices(variant_
 create trigger trg_variant_prices_updated before update on variant_prices for each row execute function set_updated_at();
 
 -- ========== BUNDLES re-keyed unit → variant ==========
-alter table product_bundles add column if not exists variant_id text;
+alter table if exists product_bundles add column if not exists variant_id text;
 
 -- ========== PRODUCTS slimmed: cost basis now derives from batches ==========
 alter table products drop column if exists cost_price;

@@ -37,7 +37,7 @@ create table profiles (
   device_id text,
   lamport_clock integer not null default 0,
   is_deleted boolean not null default false,
-  version integer not default 1,
+  version integer not null default 1,
   created_at timestamptz not null default now(),
   updated_at timestamptz not null default now()
 );
