@@ -1,25 +1,75 @@
+# Dependencies
 node_modules/
-dist/
+
+# Expo
 .expo/
+dist/
+web-build/
 .expo-shared/
-*.log
-.DS_Store
+
+# Native build outputs (uncomment if using Expo prebuild / EAS and you don't want to commit native projects)
+# android/
+# ios/
+
+# Android
+android/build/
+android/app/build/
+android/*.iml
+*.apk
+*.aab
+*.keystore
+*.jks
+
+# iOS
+ios/build/
+ios/Pods/
+ios/*.xcworkspace
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Env files (keep .env.example tracked)
 .env
 .env.local
-.env.production
+.env.*.local
+!.env.example
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS / Editor
+.DS_Store
+*.pem
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# TypeScript / Metro / Jest
+*.tsbuildinfo
+.eslintcache
+.metro-health-check*
+jest_0/
 coverage/
-build/
-.next/
-out/
-.supabase/
-redis-data/
-*.db
-*.sqlite
-*.sqlite3
+test-results/
+
+# Yarn / npm
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+pnp.*
+.npm/
 
 # Local apps (untracked)
 /sales-site/
-/web-app/
-/admin-portal/
 /ios/
 /android/

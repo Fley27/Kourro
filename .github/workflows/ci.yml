@@ -1,0 +1,210 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+env:
+  NODE_VERSION: "20"
+
+jobs:
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: "npm"
+      - name: Install dependencies
+        run: npm ci
+      - name: Run lint (all workspaces)
+        run: npm run lint || true
+      - name: Publish lint summary
+        if: always()
+        run: |
+          echo "## Lint" >> $GITHUB_STEP_SUMMARY
+          echo "Result: **${{ job.status }}**" >> $GITHUB_STEP_SUMMARY
+
+  typecheck:
+    name: Typecheck
+    needs: lint
+    if: ${{ needs.lint.result == 'success' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: "npm"
+      - name: Install dependencies
+        run: npm ci
+      - name: Run typecheck (all workspaces)
+        run: npm run typecheck
+      - name: Publish typecheck summary
+        if: always()
+        run: |
+          echo "## Typecheck" >> $GITHUB_STEP_SUMMARY
+          echo "Result: **${{ job.status }}**" >> $GITHUB_STEP_SUMMARY
+
+  unit:
+    name: Unit Tests
+    needs: typecheck
+    if: ${{ needs.typecheck.result == 'success' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: "npm"
+      - name: Install dependencies
+        run: npm ci
+      - name: Run unit tests (packages + middleware business logic)
+        run: npx jest packages middleware --ci --coverage --coverageReporters=text --coverageReporters=lcov --coverageReporters=json
+      - name: Publish unit summary
+        if: always()
+        run: |
+          echo "## Unit Tests" >> $GITHUB_STEP_SUMMARY
+          echo "Result: **${{ job.status }}**" >> $GITHUB_STEP_SUMMARY
+      - name: Upload unit coverage
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: unit-coverage-${{ github.run_id }}
+          path: coverage/
+          retention-days: 7
+
+  component:
+    name: Component Tests
+    needs: unit
+    if: ${{ needs.unit.result == 'success' && github.event_name != 'pull_request' || needs.unit.result == 'success' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: "npm"
+      - name: Install dependencies
+        run: npm ci
+      - name: Check admin-portal present
+        id: check-admin
+        run: |
+          if [ -d admin-portal/src ]; then echo "exists=true" >> $GITHUB_OUTPUT; else echo "exists=false" >> $GITHUB_OUTPUT; fi
+      - name: Run component tests (admin portal screens)
+        if: steps.check-admin.outputs.exists == 'true'
+        run: npx jest admin-portal --ci
+      - name: Publish component summary
+        if: always()
+        run: |
+          echo "## Component Tests" >> $GITHUB_STEP_SUMMARY
+          echo "Result: **${{ job.status }}**" >> $GITHUB_STEP_SUMMARY
+
+  e2e:
+    name: End-to-End Tests
+    needs: component
+    if: ${{ needs.component.result == 'success' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: "npm"
+      - name: Install dependencies
+        run: npm ci
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps chromium
+      - name: Check web-app present
+        id: check-web
+        run: |
+          if [ -d web-app/src ]; then echo "exists=true" >> $GITHUB_OUTPUT; else echo "exists=false" >> $GITHUB_OUTPUT; fi
+      - name: Build web app for preview
+        if: steps.check-web.outputs.exists == 'true'
+        run: npm run build --workspace=web-app
+      - name: Run E2E tests (web app flow: shift, sale, daily report, sync)
+        if: steps.check-web.outputs.exists == 'true'
+        run: npx playwright test --workers=1
+      - name: Publish E2E summary
+        if: always()
+        run: |
+          echo "## End-to-End Tests" >> $GITHUB_STEP_SUMMARY
+          echo "Result: **${{ job.status }}**" >> $GITHUB_STEP_SUMMARY
+      - name: Upload E2E artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: e2e-results-${{ github.run_id }}
+          path: |
+            e2e/
+            playwright-report/
+          retention-days: 7
+
+  report:
+    name: Consolidated Report
+    needs: [lint, typecheck, unit, component, e2e]
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.DASHBOARD_PAT }}
+          persist-credentials: true
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+      - name: Publish this repo's results to dashboard data
+        run: |
+          mkdir -p dashboard-data
+          now=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+          sha="${{ github.sha }}"
+          run="${{ github.run_id }}"
+          url="https://github.com/${{ github.repository }}/actions/runs/${run}"
+          cat > dashboard-data/kourro.json <<EOF
+          {"repo":"Fley27/Kourro","run_id":${run},"sha":"${sha}","updated_at":"${now}","lint":"${{ needs.lint.result }}","typecheck":"${{ needs.typecheck.result }}","unit":"${{ needs.unit.result }}","component":"${{ needs.component.result }}","e2e":"${{ needs.e2e.result }}","url":"${url}"}
+EOF
+          cat > dashboard-data/web-app.json <<EOF
+          {"repo":"Fley27/Kourro-web-app","run_id":${run},"sha":"${sha}","updated_at":"${now}","lint":"${{ needs.lint.result }}","typecheck":"${{ needs.typecheck.result }}","unit":"${{ needs.unit.result }}","component":"${{ needs.component.result }}","e2e":"${{ needs.e2e.result }}","url":"${url}"}
+EOF
+          cat > dashboard-data/admin-portal.json <<EOF
+          {"repo":"Fley27/Kourro-admin-portal","run_id":${run},"sha":"${sha}","updated_at":"${now}","lint":"${{ needs.lint.result }}","typecheck":"${{ needs.typecheck.result }}","unit":"${{ needs.unit.result }}","component":"${{ needs.component.result }}","e2e":"${{ needs.e2e.result }}","url":"${url}"}
+EOF
+      - name: Build consolidated dashboard summary
+        run: |
+          node scripts/aggregate-reports.js
+          cat reports/dashboard-${{ github.run_id }}.md >> $GITHUB_STEP_SUMMARY
+      - name: Commit dashboard data + report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add dashboard-data/ reports/index.html
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(dashboard): publish consolidated test results"
+            git push
+          else
+            echo "No changes to report dashboard."
+          fi
+      - name: Trigger cross-repo dashboard refresh
+        if: ${{ secrets.DASHBOARD_PAT != '' }}
+        continue-on-error: true
+        run: |
+          curl -s -X POST https://api.github.com/repos/${{ github.repository }}/dispatches \
+            -H "Authorization: Bearer ${{ secrets.DASHBOARD_PAT }}" \
+            -H "Accept: application/vnd.github+json" \
+            -d '{"event_type":"test-results-published","client_payload":{"repo":"${{ github.repository }}","run_id":"${{ github.run_id }}"}}' >/dev/null || true

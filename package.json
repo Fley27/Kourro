@@ -8,7 +8,8 @@
     "backend",
     "middleware",
     "mobile-app",
-    "web-app"
+    "web-app",
+    "admin-portal"
   ],
   "scripts": {
     "postinstall": "node scripts/patch-expo-sqlite.js || true",
@@ -27,7 +28,9 @@
     "db:migrate": "npm run migrate --workspace=backend",
     "db:seed": "npm run seed --workspace=backend",
     "android": "expo run:android",
-    "ios": "expo run:ios"
+    "ios": "expo run:ios",
+    "test": "jest",
+    "test:ci": "jest --ci --coverage"
   },
   "engines": {
     "node": ">=20.0.0",
@@ -55,6 +58,18 @@
     "victory-vendor": "^37.3.6"
   },
   "devDependencies": {
-    "opentype.js": "^2.0.0"
+    "@babel/core": "^8.0.7",
+    "@babel/preset-env": "^8.0.7",
+    "@babel/preset-react": "^8.0.1",
+    "@babel/preset-typescript": "^8.0.7",
+    "@playwright/test": "^1.64.1",
+    "@testing-library/jest-dom": "^7.0.1",
+    "@testing-library/react": "^14.3.1",
+    "@testing-library/user-event": "^14.6.8",
+    "babel-jest": "^30.5.2",
+    "jest": "^30.5.2",
+    "jest-environment-jsdom": "^30.5.2",
+    "opentype.js": "^2.0.0",
+    "playwright": "^1.64.1"
   }
 }
