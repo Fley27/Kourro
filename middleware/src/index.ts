@@ -10,6 +10,9 @@ import productsRoutes from "./routes/products.js";
 import supplierCostRoutes from "./routes/supplier-costs.js";
 import customersRoutes from "./routes/customers.js";
 import analyticsRoutes from "./routes/analytics.js";
+import searchRoutes from "./routes/search.js";
+import staffRoutes from "./routes/staff.js";
+import payrollRoutes from "./routes/payroll.js";
 
 dotenv.config();
 
@@ -50,6 +53,9 @@ await app.register(productsRoutes, { prefix: "/api/products" });
 await app.register(supplierCostRoutes, { prefix: "/api/supplier-costs" });
 await app.register(customersRoutes, { prefix: "/api/customers" });
 await app.register(analyticsRoutes, { prefix: "/api/analytics" });
+await app.register(searchRoutes, { prefix: "/api/search" });
+await app.register(staffRoutes, { prefix: "/api/staff" });
+await app.register(payrollRoutes, { prefix: "/api/payroll" });
 
 // LAN P2P relay via WebSocket — devices on same store WiFi sync peer-to-peer through middleware when online,
 // but also usable as local hub when middleware runs on-store (e.g. Raspberry Pi / main register)

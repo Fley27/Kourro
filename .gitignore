@@ -20,7 +20,6 @@ redis-data/
 # Local apps (untracked)
 /sales-site/
 /web-app/
-/mobile-app/
 /admin-portal/
 /ios/
 /android/

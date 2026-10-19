@@ -101,6 +101,93 @@ export interface Subscription {
   updated_at: string;
 }
 
+// --- Subscription enforcement (migration 029) ---
+// ONE writability rule shared by mobile (local read-only UI), middleware (push
+// pre-check) and the Postgres trigger (authoritative). Reads are always
+// allowed; only writes are gated. The SQL mirror lives in 029 — a change here
+// must land there in the same release.
+
+/** Minimal shape needed to decide writability (the latest subscription row). */
+export interface SubscriptionLike {
+  status: string | null;
+  trial_ends_at?: string | null;
+  renews_at?: string | null;
+}
+
+/**
+ * True when the org may WRITE.
+ *  - no subscription row at all → false (unknown/legacy → read-only)
+ *  - 'trial'  → writable while trial_ends_at is null or in the future
+ *  - 'active' → writable while renews_at is null or in the future
+ *  - 'paused' / 'cancelled' → false
+ */
+export function isSubscriptionWritable(
+  sub: SubscriptionLike | null | undefined,
+  now: Date | number = Date.now()
+): boolean {
+  if (!sub) return false;
+  const ms = typeof now === "number" ? now : now.getTime();
+  const future = (v?: string | null): boolean => {
+    if (v == null || v === "") return true;
+    const t = Date.parse(v);
+    return isNaN(t) ? false : t > ms;
+  };
+  switch (sub.status) {
+    case "trial": return future(sub.trial_ends_at);
+    case "active": return future(sub.renews_at);
+    default: return false;
+  }
+}
+
+/** Server status a blocked push change comes back with. */
+export const SUBSCRIPTION_EXPIRED_STATUS = "error:subscription_expired";
+
+/** Tables that never gate on subscription status (infra / close-out bookkeeping). */
+export const SUBSCRIPTION_ALWAYS_WRITABLE: ReadonlySet<string> = new Set([
+  "notifications",
+  "daily_reports",
+]);
+
+/** Status values that mean "this record is being closed/retired", not advanced. */
+export const CLOSE_OUT_STATUSES: ReadonlySet<string> = new Set([
+  "closed", "cancelled", "canceled", "denied", "completed", "rejected", "done",
+]);
+
+/**
+ * Tables where an UPDATE moving a row INTO a terminal status stays allowed
+ * while the subscription is not writable — closing an open shift or cancelling
+ * an existing order must never be blocked, or rows/windows stay stranded.
+ */
+export const CLOSE_OUT_TABLES: ReadonlySet<string> = new Set([
+  "shifts",
+  "open_orders",
+  "open_order_lines",
+  "order_change_requests",
+  "open_order_events",
+  "suspended_sales",
+  "standby_hands",
+  "orders",
+  "proformats",
+]);
+
+/**
+ * True when a pending write must be REFUSED because the subscription is not
+ * writable. Close-out rule: only an UPDATE on a close-out table carrying a
+ * terminal `status` passes; inserts, deletes and everything else is a new
+ * business write.
+ */
+export function isSubscriptionBlockedWrite(
+  table: string,
+  operation: "create" | "update" | "delete",
+  record: any
+): boolean {
+  if (SUBSCRIPTION_ALWAYS_WRITABLE.has(table)) return false;
+  if (operation !== "update") return true;
+  if (!CLOSE_OUT_TABLES.has(table)) return true;
+  const status = (record as any)?.status;
+  return !(typeof status === "string" && CLOSE_OUT_STATUSES.has(status));
+}
+
 export interface User extends SyncMeta {
   email: string;
   full_name: string;
@@ -332,22 +419,126 @@ export interface ProductSupplierCost {
   updated_at: string;
 }
 
-// Tables that sync WITHOUT store scoping (business-wide catalog data).
-export const GLOBAL_TABLES: readonly string[] = [
+// --- Sync scope map ---------------------------------------------------------
+// A tenant is a business (organizations). Inside a business:
+//   store : sales/shifts/tabs, inventory, batches, price history, plus the
+//           product/category rows each store owns
+//   org   : suppliers, clients, their debts, and the business-wide catalog
+//           core (items/variants/prices/bundles/units/costs/links) —
+//           filtered by organization_id (or any of the org's stores)
+//   user  : notifications — per user, not per store
+//   self  : the caller's own profile row (id = auth uid)
+// Anything not listed here is store-scoped. The middleware stamps the
+// server-side column on push and filters on pull; clients can't override it.
+export type TableScope =
+  | { kind: "store"; column: "store_id" }
+  | { kind: "org"; column: "organization_id"; stampStoreId?: boolean }
+  | { kind: "org_wide"; column: "store_id" }
+  | { kind: "user"; column: "user_id" }
+  | { kind: "self"; column: "id" };
+
+export const TABLE_SCOPES: Readonly<Record<string, TableScope>> = {
+  // stampStoreId: the row keeps the writing store as provenance (NOT NULL in
+  // the cloud schema) alongside its business-wide organization_id.
+  customers: { kind: "org", column: "organization_id", stampStoreId: true },
+  suppliers: { kind: "org", column: "organization_id", stampStoreId: true },
+  supplier_bank_accounts: { kind: "org", column: "organization_id", stampStoreId: true },
+  // Business-wide catalog core (migration 024 added organization_id).
+  items: { kind: "org", column: "organization_id" },
+  variants: { kind: "org", column: "organization_id" },
+  variant_prices: { kind: "org", column: "organization_id" },
+  bundles: { kind: "org", column: "organization_id" },
+  bundle_prices: { kind: "org", column: "organization_id" },
+  product_units: { kind: "org", column: "organization_id" },
+  product_supplier_costs: { kind: "org", column: "organization_id" },
+  product_suppliers: { kind: "org", column: "organization_id" },
+  product_categories: { kind: "org", column: "organization_id" },
+  category_links: { kind: "org", column: "organization_id" },
+  // Debts are business-wide but still hang off a store row (who made the sale):
+  // stamped like a store row, visible across every store of the business.
+  credits: { kind: "org_wide", column: "store_id" },
+  credit_payments: { kind: "org_wide", column: "store_id" },
+  notifications: { kind: "user", column: "user_id" },
+  profiles: { kind: "self", column: "id" },
+  store_members: { kind: "store", column: "store_id" },
+  // Payroll (028): org-wide across every store — the period cycle is shared,
+  // salary and the locked payment ledger are business-wide facts, and deficit
+  // rows keep the report's store as stamped provenance only.
+  pay_periods: { kind: "org", column: "organization_id" },
+  salary_history: { kind: "org", column: "organization_id", stampStoreId: true },
+  salary_deficits: { kind: "org", column: "organization_id", stampStoreId: true },
+  salary_payments: { kind: "org", column: "organization_id", stampStoreId: true },
+};
+
+export function scopeOf(table: string): TableScope {
+  return TABLE_SCOPES[table] ?? { kind: "store", column: "store_id" };
+}
+
+// Org-scoped tables that ALSO carry a store_id column (legacy provenance).
+// The pull adds a `store_id.in.(…)` OR-leg for these only — the catalog core
+// (items/variants/prices/units/…) has no store_id, and referencing it makes
+// PostgREST 42703 the per-table query, which fails the entire pull.
+export const ORG_TABLES_WITH_STORE: ReadonlySet<string> = new Set([
+  "customers",
   "suppliers",
   "supplier_bank_accounts",
-  "product_units",
-  "product_supplier_costs",
-  "items",
-  "product_suppliers",
-  "batches",
-  "variants",
-  "variant_prices",
-  "bundles",
-  "bundle_prices",
-  "product_categories",
-  "category_links",
+]);
+
+// Tables the sync endpoints accept. Same shape as the SQLite schema, so a
+// rename here must land on the device in the same release.
+export const SYNC_TABLES = [
+  "products","product_stock","customers","sales","sale_items","credits","credit_payments","price_history","categories","cash_sessions","stock_movements","stock_batches","suppliers","supplier_bank_accounts","orders","employee_stores","product_units","product_supplier_costs","category_links","product_categories","items","product_suppliers","batches","variants","variant_prices","bundles","bundle_prices","open_orders","open_order_lines","order_change_requests","open_order_events","proformats","discounts","coupons","coupon_redemptions","promo_audit","sale_pickups","shifts","daily_reports","suspended_sales","suspended_sale_items","standby_hands","notifications","profiles","store_members","pay_periods","salary_history","salary_deficits","salary_payments",
 ] as const;
+
+// --- Initial download / 90-day rolling window ---
+// A fresh device (empty SQLite + successful login) pulls in phases instead of
+// one unbounded epoch pull. The window only bounds what a catching-up device
+// DOWNLOADS; local rows are never pruned by age — once on the device, data
+// stays permanently. Incremental pulls (since the cursor) are always unwindowed.
+export const WINDOW_DAYS = 90;
+// A device whose last successful pull is older than this is "stale": it runs
+// the open-items sweep in addition to the normal incremental pull.
+export const STALE_AFTER_DAYS = 3;
+
+// Operational reference data — always fully available, any age. These are
+// not history: the POS cannot sell without products/batches, the credit desk
+// cannot work without clients, the stockroom without suppliers.
+export const REFERENCE_TABLES = [
+  "products","product_stock","categories","product_categories","category_links",
+  "items","variants","variant_prices","product_units","product_suppliers",
+  "product_supplier_costs","bundles","bundle_prices",
+  "suppliers","supplier_bank_accounts","customers",
+  "batches","stock_batches",
+  "profiles","employee_stores","store_members",
+  "pay_periods","salary_history","salary_deficits","salary_payments",
+] as const;
+
+// Open / unfinished items — need action no matter how old, so a catching-up
+// device always receives them regardless of the window. Values are the
+// server-side predicates (translated by the middleware pull handler).
+// Companions (parent sale for a credit, lines for an open order…) are pulled
+// by the client via the `ids` param after the open rows arrive.
+export const OPEN_ITEM_PREDICATES: Record<string, OpenPredicate[]> = {
+  credits: [{ kind: "gt", column: "balance", value: 0 }],
+  // Partial pickups: lines with undelivered quantity, any age (PostgREST
+  // column-to-column compare). Their pickup history rides along windowed.
+  sale_items: [{ kind: "lt_cols", column: "quantity_delivered", other: "quantity" }],
+  suspended_sales: [{ kind: "eq", column: "status", value: "open" }],
+  open_orders: [{ kind: "in", column: "status", values: ["open", "ready", "settling"] }],
+  order_change_requests: [{ kind: "eq", column: "status", value: "pending" }],
+  orders: [{ kind: "in", column: "status", values: ["requested", "approved", "ordered"] }],
+  shifts: [{ kind: "eq", column: "status", value: "open" }],
+  daily_reports: [{ kind: "in", column: "status", values: ["pending", "submitted"] }],
+  notifications: [{ kind: "eq", column: "status", value: "pending" }],
+  standby_hands: [{ kind: "is_null", column: "carried_at", value: true }],
+};
+
+export type OpenPredicate =
+  | { kind: "eq"; column: string; value: string | number | boolean }
+  | { kind: "gt"; column: string; value: number }
+  | { kind: "in"; column: string; values: (string | number)[] }
+  | { kind: "is_null"; column: string; value: boolean }
+  | { kind: "lt_cols"; column: string; other: string };
 
 export type OrderStatus = 'requested' | 'approved' | 'ordered' | 'received' | 'cancelled';
 

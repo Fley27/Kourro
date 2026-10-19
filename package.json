@@ -8,8 +8,7 @@
     "backend",
     "middleware",
     "mobile-app",
-    "web-app",
-    "sales-site"
+    "web-app"
   ],
   "scripts": {
     "postinstall": "node scripts/patch-expo-sqlite.js || true",
@@ -18,9 +17,12 @@
     "dev:middleware": "npm run dev --workspace=middleware",
     "dev:web": "npm run dev --workspace=web-app",
     "dev:mobile": "npm run dev --workspace=mobile-app",
-    "build": "npm run build --workspaces --if-present",
+    "dev:sales": "npm run dev --prefix sales-site",
+    "build:sales": "npm run build --prefix sales-site",
+    "typecheck:sales": "npm run typecheck --prefix sales-site",
+    "build": "npm run build --workspaces --if-present && npm run build:sales",
     "lint": "npm run lint --workspaces --if-present",
-    "typecheck": "tsc --noEmit --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present && npm run typecheck:sales",
     "brand": "node scripts/generate-brand.mjs",
     "db:migrate": "npm run migrate --workspace=backend",
     "db:seed": "npm run seed --workspace=backend",
