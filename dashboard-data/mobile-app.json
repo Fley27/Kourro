@@ -1,12 +1,1 @@
-{
-  "repo": "Fley27/Kourro-mobile-app",
-  "run_id": null,
-  "sha": null,
-  "updated_at": "not yet run",
-  "lint": null,
-  "typecheck": null,
-  "unit": null,
-  "component": null,
-  "e2e": null,
-  "url": "https://github.com/Fley27/Kourro-mobile-app/actions"
-}
+  {"repo":"Fley27/Kourro-mobile-app","run_id":39416556960,"sha":"7f0bceadf50e71d117977ef4e42757864c2df773","updated_at":"2026-10-20T11:40:13Z","lint":"failure","typecheck":"skipped","unit":"skipped","component":"skipped","e2e":"skipped","url":"https://github.com/Fley27/Kourro-mobile-app/actions/runs/39416556960"}
