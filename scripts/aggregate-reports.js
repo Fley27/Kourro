@@ -7,6 +7,7 @@ const OUT_DIR = path.join(ROOT, "reports");
 const OUT_FILE = path.join(OUT_DIR, "index.html");
 
 const REPOS = [
+  { id: "shared", name: "Shared Package (Kourro-shared)", repo: "Fley27/Kourro-shared" },
   { id: "kourro", name: "Backend / Middleware / Packages (Kourro)", repo: "Fley27/Kourro" },
   { id: "mobile-app", name: "Mobile App (Kourro-mobile-app)", repo: "Fley27/Kourro-mobile-app" },
   { id: "web-app", name: "Web App (Kourro-web-app)", repo: "Fley27/Kourro-web-app" },
@@ -31,6 +32,13 @@ function loadData(id) {
   }
 }
 
+function badgeWithDash(status) {
+  if (status === "-") {
+    return `<span class="badge" style="background:#374151">n/a</span>`;
+  }
+  return badge(status);
+}
+
 function badge(status) {
   const color = STATUS_COLOR[status] ?? STATUS_COLOR.null;
   const label = status === null ? "not run" : status;
@@ -51,6 +59,7 @@ function row(repo, data) {
       <td>${badge(data?.unit)}</td>
       <td>${badge(data?.component)}</td>
       <td>${badge(data?.e2e)}</td>
+      <td>${data?.publish ? badgeWithDash(data?.publish) : "<span class=\"badge\" style=\"background:#374151\">n/a</span>"}</td>
       <td class="mono">${updated}</td>
       <td class="run">${run === "—" ? "—" : `<a href="${url}/runs/${run}" target="_blank" rel="noopener">run #${run}</a>`}</td>
     </tr>
@@ -116,6 +125,7 @@ function generate(dataByRepo) {
       <th>Unit</th>
       <th>Component</th>
       <th>E2E</th>
+      <th>Publish</th>
       <th>Updated</th>
       <th>Run</th>
     </tr></thead>

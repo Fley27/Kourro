@@ -5,11 +5,11 @@
 // `error:subscription_expired` instead of a raw trigger message, and the
 // client knows to keep those rows queued (no attempt burn) until renewal.
 //
-// Writability mirrors @retail/shared-types isSubscriptionWritable (same rule
+// Writability mirrors @fley27/shared-types isSubscriptionWritable (same rule
 // the device and the trigger apply). Redis caches the answer for 60s so a
 // register burst does not hammer the subscriptions table.
 import { supabase, redis } from "./index.js";
-import { isSubscriptionWritable } from "@retail/shared-types";
+import { isSubscriptionWritable } from "@fley27/shared-types";
 
 const CACHE_TTL_SECONDS = 60;
 const cacheKey = (orgId: string) => `sub:writable:${orgId}`;

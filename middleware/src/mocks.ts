@@ -2,7 +2,7 @@ export const MOCK_STORE_ID = "demo-store-id";
 
 // Dev mock catalog — single source: packages/mock-catalog (committed JSON).
 // Loaded from disk with graceful fallback so mock mode never crashes when
-// files are absent. Regenerate with: npm run generate --workspace=@retail/mock-catalog
+// files are absent. Regenerate with: npm run generate --workspace=@fley27/mock-catalog
 import { readFileSync } from "node:fs";
 
 function loadCatalogJson(name: string): any[] {

@@ -23,6 +23,8 @@ jobs:
           cache: "npm"
       - name: Install dependencies
         run: npm ci
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.PACKAGES_TOKEN }}
       - name: Run lint (all workspaces)
         run: npm run lint || true
       - name: Publish lint summary
@@ -46,6 +48,8 @@ jobs:
           cache: "npm"
       - name: Install dependencies
         run: npm ci
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.PACKAGES_TOKEN }}
       - name: Run typecheck (all workspaces)
         run: npm run typecheck
       - name: Publish typecheck summary
@@ -69,8 +73,10 @@ jobs:
           cache: "npm"
       - name: Install dependencies
         run: npm ci
-      - name: Run unit tests (packages + middleware business logic)
-        run: npx jest packages middleware --ci --coverage --coverageReporters=text --coverageReporters=lcov --coverageReporters=json
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.PACKAGES_TOKEN }}
+      - name: Run unit tests (middleware business logic)
+        run: npx jest middleware --ci --coverage --coverageReporters=text --coverageReporters=lcov --coverageReporters=json
       - name: Publish unit summary
         if: always()
         run: |
@@ -99,6 +105,8 @@ jobs:
           cache: "npm"
       - name: Install dependencies
         run: npm ci
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.PACKAGES_TOKEN }}
       - name: Check admin-portal present
         id: check-admin
         run: |
@@ -127,6 +135,8 @@ jobs:
           cache: "npm"
       - name: Install dependencies
         run: npm ci
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.PACKAGES_TOKEN }}
       - name: Install Playwright browsers
         run: npx playwright install --with-deps chromium
       - name: Check web-app present

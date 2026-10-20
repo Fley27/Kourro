@@ -12,14 +12,14 @@
   "dependencies": {
     "@fastify/cors": "^9.0.0",
     "@fastify/websocket": "^10.0.0",
-    "@retail/shared-types": "file:../packages/shared-types",
-    "@retail/sync-engine": "file:../packages/sync-engine",
     "@supabase/supabase-js": "^2.45.0",
     "dotenv": "^16.4.0",
     "fastify": "^4.28.0",
     "ioredis": "^5.4.0",
     "nodemailer": "^10.1.0",
-    "uuid": "^10.0.0"
+    "uuid": "^10.0.0",
+    "@fley27/shared-types": "^1.0.0",
+    "@fley27/sync-engine": "^1.0.0"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",

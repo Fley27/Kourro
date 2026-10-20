@@ -11,10 +11,10 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@retail/shared-types": "file:../packages/shared-types",
     "@supabase/supabase-js": "^2.45.0",
     "postgres": "^3.4.0",
-    "dotenv": "^16.4.0"
+    "dotenv": "^16.4.0",
+    "@fley27/shared-types": "^1.0.0"
   },
   "devDependencies": {
     "tsx": "^4.16.0",

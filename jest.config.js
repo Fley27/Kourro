@@ -7,9 +7,6 @@ module.exports = {
   ],
   moduleFileExtensions: ["ts", "tsx", "js", "jsx", "json"],
   moduleNameMapper: {
-    "^@retail/shared-types$": "<rootDir>/packages/shared-types/src/index.ts",
-    "^@retail/sync-engine$": "<rootDir>/packages/sync-engine/src/index.ts",
-    "^@retail/catalog-core$": "<rootDir>/packages/catalog-core/src/index.ts",
     "^(\\./index)\\.js$": "$1.ts",
     "^(\\./mailer)\\.js$": "$1.ts",
     "^(\\.\\/\\./index)\\.js$": "$1.ts",
@@ -26,9 +23,8 @@ module.exports = {
     "^.+\\.(ts|tsx)$": "babel-jest",
   },
   transformIgnorePatterns: ["node_modules/(?!(.*)\\.mjs$)"],
-  testPathIgnorePatterns: ["/node_modules/", "/dist/", "/android/", "/ios/", "/e2e/"],
+  testPathIgnorePatterns: ["/node_modules/", "/dist/", "/android/", "/ios/", "/e2e/", "/shared/"],
   collectCoverageFrom: [
-    "packages/**/src/**/*.ts",
     "middleware/src/**/*.ts",
     "admin-portal/src/**/*.{ts,tsx}",
   ],

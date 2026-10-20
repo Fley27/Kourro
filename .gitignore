@@ -75,3 +75,6 @@ pnp.*
 /android/
 /web-app/
 /mobile-app/
+
+# Shared package monorepo (own repo)
+/shared/

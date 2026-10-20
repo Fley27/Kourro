@@ -1,9 +1,9 @@
 import type { FastifyInstance } from "fastify";
 import { supabase, redis, isMockMode } from "../index.js";
 import { requireAuth, isManagerOrAbove, type AuthedContext } from "../auth.js";
-import type { SyncPushPayload, SyncChange, OpenPredicate } from "@retail/shared-types";
-import { SYNC_TABLES, OPEN_ITEM_PREDICATES, ORG_TABLES_WITH_STORE, scopeOf, type TableScope, isSubscriptionBlockedWrite, SUBSCRIPTION_EXPIRED_STATUS } from "@retail/shared-types";
-import { resolveLWW } from "@retail/sync-engine";
+import type { SyncPushPayload, SyncChange, OpenPredicate } from "@fley27/shared-types";
+import { SYNC_TABLES, OPEN_ITEM_PREDICATES, ORG_TABLES_WITH_STORE, scopeOf, type TableScope, isSubscriptionBlockedWrite, SUBSCRIPTION_EXPIRED_STATUS } from "@fley27/shared-types";
+import { resolveLWW } from "@fley27/sync-engine";
 import { closeExpiredPeriods } from "../payroll.js";
 import { isOrgWritable } from "../subscription.js";
 

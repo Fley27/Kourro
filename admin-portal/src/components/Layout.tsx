@@ -110,16 +110,16 @@ export default function Layout() {
         </div>
 
         <nav className="rail-nav" onClick={() => setMenuOpen(false)}>
-          <NavLink to="/" end className={({ isActive }) => `rail-link ${isActive ? "active" : ""}`}>
+          <NavLink to="/" end className={({ isActive }: { isActive: boolean }) => `rail-link ${isActive ? "active" : ""}`}>
             {ICONS.dashboard} Dashboard
           </NavLink>
-          <NavLink to="/businesses" className={({ isActive }) => `rail-link ${isActive ? "active" : ""}`}>
+          <NavLink to="/businesses" className={({ isActive }: { isActive: boolean }) => `rail-link ${isActive ? "active" : ""}`}>
             {ICONS.businesses} Businesses
           </NavLink>
-          <NavLink to="/activity" className={({ isActive }) => `rail-link ${isActive ? "active" : ""}`}>
+          <NavLink to="/activity" className={({ isActive }: { isActive: boolean }) => `rail-link ${isActive ? "active" : ""}`}>
             {ICONS.activity} Activity log
           </NavLink>
-          <NavLink to="/notifications" className={({ isActive }) => `rail-link ${isActive ? "active" : ""}`}>
+          <NavLink to="/notifications" className={({ isActive }: { isActive: boolean }) => `rail-link ${isActive ? "active" : ""}`}>
             {ICONS.bell} Notifications
             {unread > 0 ? <span className="count">{unread}</span> : null}
           </NavLink>
@@ -127,10 +127,10 @@ export default function Layout() {
           {isSuper ? (
             <>
               <div className="rail-label">Platform</div>
-              <NavLink to="/tiers" className={({ isActive }) => `rail-link ${isActive ? "active" : ""}`}>
+              <NavLink to="/tiers" className={({ isActive }: { isActive: boolean }) => `rail-link ${isActive ? "active" : ""}`}>
                 {ICONS.tiers} Subscription tiers
               </NavLink>
-              <NavLink to="/admins" className={({ isActive }) => `rail-link ${isActive ? "active" : ""}`}>
+              <NavLink to="/admins" className={({ isActive }: { isActive: boolean }) => `rail-link ${isActive ? "active" : ""}`}>
                 {ICONS.admins} Admin accounts
               </NavLink>
             </>
