@@ -168,7 +168,7 @@ jobs:
   report:
     name: Consolidated Report
     needs: [lint, typecheck, unit, component, e2e]
-    if: always()
+    if: always() && github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
