@@ -145,11 +145,27 @@ function generate(dataByRepo) {
 </html>`;
 }
 
+function markdown(dataByRepo) {
+  const lines = ["## Consolidated pipeline status", ""];
+  lines.push("| Repository | Commit | Lint | Typecheck | Unit | Component | E2E | Publish |");
+  lines.push("| --- | --- | --- | --- | --- | --- | --- | --- |");
+  for (const r of REPOS) {
+    const d = dataByRepo[r.id];
+    const st = (k) => (d && d[k] ? `\`${d[k]}\`` : "—");
+    lines.push(
+      `| ${r.name} | ${d ? String(d.sha ?? "—").slice(0, 7) : "—"} | ${st("lint")} | ${st("typecheck")} | ${st("unit")} | ${st("component")} | ${st("e2e")} | ${d?.publish ? st("publish") : "n/a"} |`
+    );
+  }
+  lines.push("", `Last generated: ${new Date().toISOString()}`);
+  return `${lines.join("\n")}\n`;
+}
+
 function main() {
   fs.mkdirSync(OUT_DIR, { recursive: true });
   const dataByRepo = {};
   for (const r of REPOS) dataByRepo[r.id] = loadData(r.id);
   fs.writeFileSync(OUT_FILE, generate(dataByRepo));
+  fs.writeFileSync(path.join(OUT_DIR, "dashboard.md"), markdown(dataByRepo));
   console.log(`Wrote ${OUT_FILE}`);
 }
 
