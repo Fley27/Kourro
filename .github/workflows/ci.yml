@@ -137,16 +137,17 @@ jobs:
         run: npm ci
         env:
           NODE_AUTH_TOKEN: ${{ secrets.PACKAGES_TOKEN }}
-      - name: Install Playwright browsers
-        run: npx playwright install --with-deps chromium
       - name: Check web-app present
         id: check-web
         run: |
-          if [ -d web-app/src ]; then echo "exists=true" >> $GITHUB_OUTPUT; else echo "exists=false" >> $GITHUB_OUTPUT; fi
+          if [ -d web-app/src ]; then echo "exists=true" >> "$GITHUB_OUTPUT"; else echo "exists=false" >> "$GITHUB_OUTPUT"; fi
+      - name: Install Playwright browsers
+        if: steps.check-web.outputs.exists == 'true'
+        run: npx playwright install --with-deps chromium
       - name: Build web app for preview
         if: steps.check-web.outputs.exists == 'true'
         run: npm run build --workspace=web-app
-      - name: Run E2E tests (web app flow: shift, sale, daily report, sync)
+      - name: "Run E2E tests (web app flow: shift, sale, daily report, sync)"
         if: steps.check-web.outputs.exists == 'true'
         run: npx playwright test --workers=1
       - name: Publish E2E summary
@@ -187,14 +188,8 @@ jobs:
           run="${{ github.run_id }}"
           url="https://github.com/${{ github.repository }}/actions/runs/${run}"
           cat > dashboard-data/kourro.json <<EOF
-          {"repo":"Fley27/Kourro","run_id":${run},"sha":"${sha}","updated_at":"${now}","lint":"${{ needs.lint.result }}","typecheck":"${{ needs.typecheck.result }}","unit":"${{ needs.unit.result }}","component":"${{ needs.component.result }}","e2e":"${{ needs.e2e.result }}","url":"${url}"}
-EOF
-          cat > dashboard-data/web-app.json <<EOF
-          {"repo":"Fley27/Kourro-web-app","run_id":${run},"sha":"${sha}","updated_at":"${now}","lint":"${{ needs.lint.result }}","typecheck":"${{ needs.typecheck.result }}","unit":"${{ needs.unit.result }}","component":"${{ needs.component.result }}","e2e":"${{ needs.e2e.result }}","url":"${url}"}
-EOF
-          cat > dashboard-data/admin-portal.json <<EOF
-          {"repo":"Fley27/Kourro-admin-portal","run_id":${run},"sha":"${sha}","updated_at":"${now}","lint":"${{ needs.lint.result }}","typecheck":"${{ needs.typecheck.result }}","unit":"${{ needs.unit.result }}","component":"${{ needs.component.result }}","e2e":"${{ needs.e2e.result }}","url":"${url}"}
-EOF
+            {"repo":"Fley27/Kourro","run_id":${run},"sha":"${sha}","updated_at":"${now}","lint":"${{ needs.lint.result }}","typecheck":"${{ needs.typecheck.result }}","unit":"${{ needs.unit.result }}","component":"${{ needs.component.result }}","e2e":"${{ needs.e2e.result }}","url":"${url}"}
+          EOF
       - name: Build consolidated dashboard summary
         run: |
           node scripts/aggregate-reports.js
@@ -211,7 +206,6 @@ EOF
             echo "No changes to report dashboard."
           fi
       - name: Trigger cross-repo dashboard refresh
-        if: ${{ secrets.DASHBOARD_PAT != '' }}
         continue-on-error: true
         run: |
           curl -s -X POST https://api.github.com/repos/${{ github.repository }}/dispatches \
