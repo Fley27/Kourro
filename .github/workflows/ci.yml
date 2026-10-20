@@ -25,8 +25,6 @@ jobs:
         run: npm install --legacy-peer-deps
         env:
           NODE_AUTH_TOKEN: ${{ secrets.PACKAGES_TOKEN }}
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.PACKAGES_TOKEN }}
       - name: Run lint (all workspaces)
         run: npm run lint || true
       - name: Publish lint summary
@@ -52,8 +50,6 @@ jobs:
         run: npm install --legacy-peer-deps
         env:
           NODE_AUTH_TOKEN: ${{ secrets.PACKAGES_TOKEN }}
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.PACKAGES_TOKEN }}
       - name: Run typecheck (all workspaces)
         run: npm run typecheck
       - name: Publish typecheck summary
@@ -77,8 +73,6 @@ jobs:
           cache: "npm"
       - name: Install dependencies
         run: npm install --legacy-peer-deps
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.PACKAGES_TOKEN }}
         env:
           NODE_AUTH_TOKEN: ${{ secrets.PACKAGES_TOKEN }}
       - name: Run unit tests (middleware business logic)
@@ -113,8 +107,6 @@ jobs:
         run: npm install --legacy-peer-deps
         env:
           NODE_AUTH_TOKEN: ${{ secrets.PACKAGES_TOKEN }}
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.PACKAGES_TOKEN }}
       - name: Check admin-portal present
         id: check-admin
         run: |
@@ -143,8 +135,6 @@ jobs:
           cache: "npm"
       - name: Install dependencies
         run: npm install --legacy-peer-deps
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.PACKAGES_TOKEN }}
         env:
           NODE_AUTH_TOKEN: ${{ secrets.PACKAGES_TOKEN }}
       - name: Check web-app present
