@@ -1,12 +1,1 @@
-{
-  "repo": "Fley27/Kourro-web-app",
-  "run_id": null,
-  "sha": null,
-  "updated_at": "not yet run",
-  "lint": null,
-  "typecheck": null,
-  "unit": null,
-  "component": null,
-  "e2e": null,
-  "url": "https://github.com/Fley27/Kourro-web-app/actions"
-}
+  {"repo":"Fley27/Kourro-web-app","run_id":39416539981,"sha":"b47a1183723b4322e71f8ee93a67a6e37423ed0f","updated_at":"2026-10-20T11:40:07Z","lint":"failure","typecheck":"skipped","unit":"skipped","component":"skipped","e2e":"skipped","url":"https://github.com/Fley27/Kourro-web-app/actions/runs/39416539981"}
