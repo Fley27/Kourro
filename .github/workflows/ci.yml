@@ -22,7 +22,7 @@ jobs:
           node-version: ${{ env.NODE_VERSION }}
           cache: "npm"
       - name: Install dependencies
-        run: npm ci
+        run: npm install --legacy-peer-deps
         env:
           NODE_AUTH_TOKEN: ${{ secrets.PACKAGES_TOKEN }}
       - name: Run lint (all workspaces)
@@ -47,7 +47,7 @@ jobs:
           node-version: ${{ env.NODE_VERSION }}
           cache: "npm"
       - name: Install dependencies
-        run: npm ci
+        run: npm install --legacy-peer-deps
         env:
           NODE_AUTH_TOKEN: ${{ secrets.PACKAGES_TOKEN }}
       - name: Run typecheck (all workspaces)
@@ -72,7 +72,7 @@ jobs:
           node-version: ${{ env.NODE_VERSION }}
           cache: "npm"
       - name: Install dependencies
-        run: npm ci
+        run: npm install --legacy-peer-deps
         env:
           NODE_AUTH_TOKEN: ${{ secrets.PACKAGES_TOKEN }}
       - name: Run unit tests (middleware business logic)
@@ -104,7 +104,7 @@ jobs:
           node-version: ${{ env.NODE_VERSION }}
           cache: "npm"
       - name: Install dependencies
-        run: npm ci
+        run: npm install --legacy-peer-deps
         env:
           NODE_AUTH_TOKEN: ${{ secrets.PACKAGES_TOKEN }}
       - name: Check admin-portal present
@@ -134,7 +134,7 @@ jobs:
           node-version: ${{ env.NODE_VERSION }}
           cache: "npm"
       - name: Install dependencies
-        run: npm ci
+        run: npm install --legacy-peer-deps
         env:
           NODE_AUTH_TOKEN: ${{ secrets.PACKAGES_TOKEN }}
       - name: Check web-app present
