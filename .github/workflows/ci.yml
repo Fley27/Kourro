@@ -10,8 +10,31 @@ env:
   NODE_VERSION: "20"
 
 jobs:
+  preamble:
+    name: Preamble
+    runs-on: ubuntu-latest
+    outputs:
+      dashboard_commit: ${{ steps.det.outputs.is }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Detect dashboard-only commit
+        id: det
+        run: |
+          msg=$(git log -1 --pretty=%s)
+          echo "subject: $msg"
+          if [[ "$msg" == chore\(dashboard\)* ]]; then
+            echo "is=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "is=false" >> "$GITHUB_OUTPUT"
+          fi
+
   lint:
     name: Lint
+    needs: preamble
+    if: needs.preamble.outputs.dashboard_commit != 'true'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -167,22 +190,18 @@ jobs:
 
   report:
     name: Consolidated Report
-    needs: [lint, typecheck, unit, component, e2e]
-    if: always() && github.actor != 'github-actions[bot]'
+    needs: [preamble, lint, typecheck, unit, component, e2e]
+    if: ${{ !failure() && !cancelled() && needs.preamble.outputs.dashboard_commit != 'true' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.DASHBOARD_PAT }}
-          persist-credentials: true
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: ${{ env.NODE_VERSION }}
-      - name: Publish this repo's results to dashboard data
+      - name: Install dependencies (for scripts deps)
+        run: npm install --legacy-peer-deps
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.PACKAGES_TOKEN }}
+      - name: Build consolidated dashboard summary
         run: |
-          mkdir -p dashboard-data
           now=$(date -u +%Y-%m-%dT%H:%M:%SZ)
           sha="${{ github.sha }}"
           run="${{ github.run_id }}"
@@ -190,21 +209,25 @@ jobs:
           cat > dashboard-data/kourro.json <<EOF
             {"repo":"Fley27/Kourro","run_id":${run},"sha":"${sha}","updated_at":"${now}","lint":"${{ needs.lint.result }}","typecheck":"${{ needs.typecheck.result }}","unit":"${{ needs.unit.result }}","component":"${{ needs.component.result }}","e2e":"${{ needs.e2e.result }}","url":"${url}"}
           EOF
-      - name: Build consolidated dashboard summary
-        run: |
           node scripts/aggregate-reports.js
           cat reports/dashboard.md >> $GITHUB_STEP_SUMMARY
-      - name: Commit dashboard data + report
+      - name: Commit dashboard via Contents API
+        env:
+          GH_TOKEN: ${{ secrets.DASHBOARD_PAT }}
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add dashboard-data/ reports/index.html
-          if ! git diff --cached --quiet; then
-            git commit -m "chore(dashboard): publish consolidated test results"
-            git push
-          else
-            echo "No changes to report dashboard."
-          fi
+          put () {
+            file="$1"
+            msg="$2"
+            echo "publishing $file"
+            local sha
+            sha="$(gh api "repos/${{ github.repository }}/contents/$file" --jq .sha 2>/dev/null || true)"
+            local args=(-X PUT -f message="$msg" -f branch=main -f content="$(base64 -w0 "$file")")
+            if [ -n "$sha" ]; then args+=(-f sha="$sha"); fi
+            gh api "repos/${{ github.repository }}/contents/$file" "${args[@]}" > /dev/null && echo "updated $file via API"
+          }
+          put dashboard-data/kourro.json "chore(dashboard): publish kourro results"
+          put reports/index.html "chore(dashboard): refresh consolidated report"
+          put reports/dashboard.md "chore(dashboard): refresh markdown summary"
       - name: Trigger cross-repo dashboard refresh
         continue-on-error: true
         run: |
